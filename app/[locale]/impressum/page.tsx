@@ -41,7 +41,7 @@ export default async function ImpressumPage({
   setRequestLocale(locale);
 
   return (
-    <Section>
+    <Section snap={false}>
       <article className="prose-page mx-auto max-w-[700px]">
         <h1 className="!text-4xl !font-bold !text-text-primary !tracking-tight !leading-tight">
           Impressum

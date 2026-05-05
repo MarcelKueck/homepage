@@ -33,6 +33,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* sticky nav clearance */
+  }
+
+  @media (min-width: 768px) {
+    html {
+      scroll-snap-type: y proximity;
+    }
   }
 
   body {
@@ -81,22 +88,62 @@
 
 @layer components {
   .display-headline {
-    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-size: clamp(2.25rem, 6vw, 5rem);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+
+  .section-headline {
+    font-size: clamp(1.875rem, 4.5vw, 3.5rem);
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: -0.02em;
   }
 
-  .section-headline {
-    font-size: clamp(2rem, 4.5vw, 3.5rem);
-    font-weight: 700;
-    line-height: 1.15;
-    letter-spacing: -0.02em;
+  .section-padding {
+    padding-top: clamp(3rem, 8vw, 7rem);
+    padding-bottom: clamp(3rem, 8vw, 7rem);
   }
 
-  .section-padding {
-    padding-top: clamp(4rem, 10vw, 8rem);
-    padding-bottom: clamp(4rem, 10vw, 8rem);
+  /* Section snap behaviour — desktop only. Mobile uses natural flow
+     because stacked sections often exceed viewport height. */
+  @media (min-width: 768px) {
+    .snap-section {
+      min-height: 100vh;
+      scroll-snap-align: start;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+    }
+    .snap-section-inner {
+      width: 100%;
+    }
+  }
+
+  .scroll-indicator {
+    position: absolute;
+    left: 50%;
+    bottom: clamp(1rem, 4vh, 2.5rem);
+    transform: translateX(-50%);
+    display: none;
+  }
+  @media (min-width: 768px) {
+    .scroll-indicator {
+      display: inline-flex;
+    }
+  }
+  @keyframes scroll-bounce {
+    0%, 100% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(8px);
+    }
+  }
+  .scroll-indicator-icon {
+    animation: scroll-bounce 2s ease-in-out infinite;
   }
 
   .prose-page {

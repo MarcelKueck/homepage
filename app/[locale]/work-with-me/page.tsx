@@ -58,8 +58,8 @@ function WorkContent() {
   return (
     <>
       {/* HERO */}
-      <Section ariaLabelledBy="work-headline">
-        <div className="flex max-w-3xl flex-col gap-6">
+      <Section id="work-hero" ariaLabelledBy="work-headline">
+        <div className="flex max-w-3xl flex-col gap-5 md:gap-6">
           <SectionLabel>{t("hero.label")}</SectionLabel>
           <Headline
             as="h1"
@@ -70,14 +70,15 @@ function WorkContent() {
             after={t("hero.headlineAfter")}
           />
           <p className="text-text-secondary">{t("hero.body")}</p>
-          <div className="flex flex-wrap items-center gap-3 pt-2">
-            <CopyEmailButton />
+          <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:flex-wrap sm:items-center">
+            <CopyEmailButton className="w-full sm:w-auto" />
             <Button
               as="a"
               href={CALENDAR_URL}
               variant="secondary"
               target="_blank"
               rel="noopener noreferrer"
+              className="w-full sm:w-auto"
             >
               {tc("bookCall")}
             </Button>
@@ -86,14 +87,14 @@ function WorkContent() {
       </Section>
 
       {/* SERVICES */}
-      <Section alt ariaLabelledBy="services-headline">
-        <div className="mb-12 flex flex-col gap-4">
+      <Section alt id="services" ariaLabelledBy="services-headline">
+        <div className="mb-8 flex flex-col gap-4 md:mb-12">
           <SectionLabel>{t("services.label")}</SectionLabel>
           <h2 id="services-headline" className="section-headline text-balance">
             {t("services.headline")}
           </h2>
         </div>
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
           {SERVICE_KEYS.map((key) => (
             <ServiceCard
               key={key}
@@ -107,8 +108,8 @@ function WorkContent() {
       </Section>
 
       {/* PROCESS */}
-      <Section ariaLabelledBy="process-headline">
-        <div className="mb-12 flex flex-col gap-4">
+      <Section id="process" ariaLabelledBy="process-headline">
+        <div className="mb-8 flex flex-col gap-4 md:mb-12">
           <SectionLabel>{t("process.label")}</SectionLabel>
           <Headline
             id="process-headline"
@@ -117,11 +118,11 @@ function WorkContent() {
             after={t("process.headlineAfter")}
           />
         </div>
-        <ol className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <ol className="grid gap-4 sm:gap-6 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, i) => (
             <li
               key={step.title}
-              className="flex flex-col gap-3 rounded-[24px] border border-border bg-bg-secondary p-7"
+              className="flex flex-col gap-3 rounded-[24px] border border-border bg-bg-secondary p-6 sm:p-7"
             >
               <span className="text-accent text-sm font-semibold">
                 {String(i + 1).padStart(2, "0")}
@@ -134,14 +135,14 @@ function WorkContent() {
       </Section>
 
       {/* CASE STUDIES */}
-      <Section alt ariaLabelledBy="cases-headline">
-        <div className="mb-12 flex flex-col gap-4">
+      <Section alt id="cases" ariaLabelledBy="cases-headline">
+        <div className="mb-8 flex flex-col gap-4 md:mb-12">
           <SectionLabel>{t("cases.label")}</SectionLabel>
           <h2 id="cases-headline" className="section-headline text-balance">
             {t("cases.headline")}
           </h2>
         </div>
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
           <article className="overflow-hidden rounded-[24px] border border-border bg-bg-primary">
             <div className="relative aspect-[16/10] w-full overflow-hidden">
               {/* TODO: Replace with real photo (Motion Sports screenshot) */}
@@ -178,19 +179,20 @@ function WorkContent() {
       </Section>
 
       {/* FINAL CTA */}
-      <Section ariaLabelledBy="work-cta-headline">
+      <Section id="work-contact" ariaLabelledBy="work-cta-headline">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 text-center">
           <h2 id="work-cta-headline" className="display-headline text-balance">
             {tc("workWithMe")}
           </h2>
-          <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
-            <CopyEmailButton />
+          <div className="flex w-full flex-col items-stretch justify-center gap-3 pt-2 sm:w-auto sm:flex-row sm:flex-wrap sm:items-center">
+            <CopyEmailButton className="w-full sm:w-auto" />
             <Button
               as="a"
               href={CALENDAR_URL}
               variant="secondary"
               target="_blank"
               rel="noopener noreferrer"
+              className="w-full sm:w-auto"
             >
               {tc("bookCall")}
             </Button>

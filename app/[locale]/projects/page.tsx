@@ -81,8 +81,8 @@ function ProjectsContent() {
 
   return (
     <>
-      <Section ariaLabelledBy="projects-headline">
-        <div className="flex max-w-3xl flex-col gap-6">
+      <Section id="projects-hero" ariaLabelledBy="projects-headline">
+        <div className="flex max-w-3xl flex-col gap-5 md:gap-6">
           <SectionLabel>{t("label")}</SectionLabel>
           <Headline
             as="h1"
@@ -102,8 +102,8 @@ function ProjectsContent() {
         </div>
       </Section>
 
-      <Section className="!pt-0">
-        <div className="grid gap-8 md:grid-cols-2">
+      <Section snap={false} className="!pt-0">
+        <div className="grid gap-6 sm:gap-8 md:grid-cols-2">
           {PROJECT_KEYS.map((key) => {
             const title = t(`items.${key}.title`);
             const desc = t(`items.${key}.description`);

@@ -8,6 +8,8 @@ export function Section({
   className = "",
   containerClassName = "",
   ariaLabelledBy,
+  id,
+  snap = true,
 }: {
   children: ReactNode;
   alt?: boolean;
@@ -15,13 +17,18 @@ export function Section({
   className?: string;
   containerClassName?: string;
   ariaLabelledBy?: string;
+  id?: string;
+  snap?: boolean;
 }) {
   return (
     <Tag
+      id={id}
       aria-labelledby={ariaLabelledBy}
-      className={`section-padding ${alt ? "bg-bg-secondary" : ""} ${className}`}
+      className={`section-padding ${snap ? "snap-section" : ""} ${alt ? "bg-bg-secondary" : ""} ${className}`}
     >
-      <Container className={containerClassName}>{children}</Container>
+      <Container className={`snap-section-inner ${containerClassName}`}>
+        {children}
+      </Container>
     </Tag>
   );
 }

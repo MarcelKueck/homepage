@@ -11,6 +11,7 @@ import { Button } from "@/components/Button";
 import { CopyEmailButton } from "@/components/CopyEmailButton";
 import { PhotoGridItem } from "@/components/PhotoGridItem";
 import { SocialCard } from "@/components/SocialCard";
+import { ScrollIndicator } from "@/components/ScrollIndicator";
 import { CALENDAR_URL, SOCIAL_LINKS, SITE_URL } from "@/lib/links";
 
 const PHOTOS = [
@@ -51,11 +52,11 @@ function HomeContent() {
       <PersonJsonLd />
 
       {/* HERO */}
-      <Section as="section" ariaLabelledBy="hero-headline">
-        <div className="grid items-center gap-10 md:grid-cols-2 md:gap-14 lg:gap-20">
+      <Section as="section" id="hero" ariaLabelledBy="hero-headline">
+        <div className="grid items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-14 lg:gap-20">
           <div className="order-2 md:order-1">
             {/* TODO: Replace with real photo */}
-            <div className="relative mx-auto aspect-square w-full max-w-[520px] overflow-hidden rounded-[24px] bg-bg-secondary">
+            <div className="relative mx-auto aspect-square w-full max-w-[420px] overflow-hidden rounded-[24px] bg-bg-secondary md:max-w-[520px]">
               <Image
                 src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=600&h=600&fit=crop"
                 alt={t("hero.imageAlt")}
@@ -67,7 +68,7 @@ function HomeContent() {
             </div>
           </div>
 
-          <div className="order-1 flex flex-col gap-6 md:order-2">
+          <div className="order-1 flex flex-col gap-5 md:order-2 md:gap-6">
             <SectionLabel>{t("hero.label")}</SectionLabel>
             <Headline
               as="h1"
@@ -78,11 +79,11 @@ function HomeContent() {
               after={t("hero.headlineAfter")}
             />
             <p className="max-w-prose text-text-secondary">{t("hero.body")}</p>
-            <div className="flex flex-wrap items-center gap-3 pt-2">
-              <Button as="link" href="/work-with-me" variant="primary">
+            <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:flex-wrap sm:items-center">
+              <Button as="link" href="/work-with-me" variant="primary" className="w-full sm:w-auto">
                 {tc("workWithMe")}
               </Button>
-              <Button as="link" href="/projects" variant="secondary">
+              <Button as="link" href="/projects" variant="secondary" className="w-full sm:w-auto">
                 {tc("seeProjects")}
               </Button>
             </div>
@@ -96,10 +97,11 @@ function HomeContent() {
             </a>
           </div>
         </div>
+        <ScrollIndicator href="#featured" label="Scroll to next section" />
       </Section>
 
       {/* FEATURED PROJECT */}
-      <Section alt ariaLabelledBy="featured-headline">
+      <Section alt id="featured" ariaLabelledBy="featured-headline">
         <div className="grid items-center gap-10 md:grid-cols-2 md:gap-14 lg:gap-20">
           <div className="flex flex-col gap-6">
             <SectionLabel>{t("featured.label")}</SectionLabel>
@@ -132,7 +134,7 @@ function HomeContent() {
       </Section>
 
       {/* ABOUT */}
-      <Section ariaLabelledBy="about-headline">
+      <Section id="about" ariaLabelledBy="about-headline">
         <div className="grid items-center gap-10 md:grid-cols-2 md:gap-14 lg:gap-20">
           <div>
             {/* TODO: Replace with real photo */}
@@ -166,10 +168,10 @@ function HomeContent() {
       </Section>
 
       {/* WORKED WITH */}
-      <Section alt>
+      <Section alt id="worked-with">
         <div className="flex flex-col items-center gap-8 text-center">
           <SectionLabel>{t("workedWith.label")}</SectionLabel>
-          <ul className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4 text-base font-semibold text-text-secondary opacity-60 sm:gap-x-14 sm:text-lg">
+          <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm font-semibold text-text-secondary opacity-60 sm:gap-x-14 sm:text-lg">
             {workedItems.map((item) => (
               <li key={item}>{item}</li>
             ))}
@@ -178,7 +180,7 @@ function HomeContent() {
       </Section>
 
       {/* PHOTO GRID */}
-      <Section ariaLabelledBy="photo-grid-label">
+      <Section id="photos" ariaLabelledBy="photo-grid-label">
         <h2 id="photo-grid-label" className="sr-only">
           Life in photos
         </h2>
@@ -190,7 +192,7 @@ function HomeContent() {
       </Section>
 
       {/* SOCIAL */}
-      <Section alt ariaLabelledBy="social-headline">
+      <Section alt id="social" ariaLabelledBy="social-headline">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-5">
             <SectionLabel>{t("social.label")}</SectionLabel>
@@ -211,7 +213,7 @@ function HomeContent() {
       </Section>
 
       {/* FINAL CTA */}
-      <Section ariaLabelledBy="cta-headline">
+      <Section id="contact" ariaLabelledBy="cta-headline">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 text-center">
           <Headline
             id="cta-headline"
@@ -221,14 +223,15 @@ function HomeContent() {
             after={t("finalCta.headlineAfter")}
           />
           <p className="max-w-prose text-text-secondary">{t("finalCta.body")}</p>
-          <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
-            <CopyEmailButton />
+          <div className="flex w-full flex-col items-stretch justify-center gap-3 pt-2 sm:w-auto sm:flex-row sm:flex-wrap sm:items-center">
+            <CopyEmailButton className="w-full sm:w-auto" />
             <Button
               as="a"
               href={CALENDAR_URL}
               variant="secondary"
               target="_blank"
               rel="noopener noreferrer"
+              className="w-full sm:w-auto"
             >
               {tc("bookCall")}
             </Button>
