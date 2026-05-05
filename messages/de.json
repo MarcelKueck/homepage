@@ -1,0 +1,217 @@
+{
+  "nav": {
+    "home": "Start",
+    "projects": "Projekte",
+    "buildLog": "Build Log",
+    "workWithMe": "Zusammenarbeiten",
+    "menu": "Menü",
+    "close": "Menü schließen",
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "footer": {
+    "tagline": "Marcel Kueck — Freelance KI- & Automatisierungs-Engineer · München · © 2026",
+    "impressum": "Impressum",
+    "privacy": "Datenschutz",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "common": {
+    "copyEmail": "hello@marcelkueck.dev",
+    "copied": "Kopiert!",
+    "bookCall": "Termin buchen",
+    "bookDiscoveryCall": "📅 Erstgespräch buchen →",
+    "workWithMe": "Zusammenarbeiten",
+    "seeProjects": "Projekte ansehen",
+    "caseStudyComingSoon": "Case Study folgt",
+    "viewOnGithub": "Auf GitHub ansehen →",
+    "visitSite": "Zur Website →",
+    "getInTouch": "Kontakt aufnehmen →"
+  },
+  "home": {
+    "metaTitle": "Marcel Kueck — Automatisierung & KI-Engineer · München",
+    "metaDescription": "Freiberuflich für KI-Agenten, Workflow-Automatisierung und individuelle Integrationen — für den deutschen Mittelstand und internationale Kunden, gebaut für den Produktivbetrieb.",
+    "hero": {
+      "label": "AUTOMATISIERUNG & KI-ENGINEER. FORSCHER. UNTERNEHMER. (AUS MÜNCHEN.)",
+      "headlineBefore": "Automatisierung & KI für Unternehmen, die ",
+      "headlineAccent": "liefern",
+      "headlineAfter": " wollen.",
+      "body": "Marcel Kueck ist freiberuflicher Engineer und entwickelt KI-Agenten, Workflow-Automatisierung und individuelle Integrationen für den deutschen Mittelstand und internationale Kunden. Mit Hintergrund in Informatik an der TU München, Software-Engineering bei Siemens, Robotik-Forschung und zwei gegründeten SaaS-Unternehmen hilft er Unternehmen, repetitive Aufgaben in produktiv funktionierende Systeme zu verwandeln.",
+      "imageAlt": "Marcel Kueck"
+    },
+    "featured": {
+      "label": "AKTUELLES PROJEKT",
+      "headlineBefore": "Ein KI-Agent für den ",
+      "headlineAccent": "gesamten Kundenlebenszyklus.",
+      "headlineAfter": "",
+      "body": "Für Motion Sports, einen deutschen Online-Händler, entwickle ich einen integrierten KI-Assistenten, der Beratung, Bestellsupport, Retouren und After-Sales abwickelt — direkt im bestehenden Online-Shop. Der Agent ist an Warenwirtschaft, Bestelldaten und Kundenhistorie angebunden und übergibt an Menschen, wenn nötig. Ziel: Kundenservice vom Kostenfaktor zum Umsatztreiber machen.",
+      "imageAlt": "Motion Sports KI-Agent Dashboard"
+    },
+    "about": {
+      "label": "ÜBER MARCEL",
+      "headlineBefore": "Von der Robotik-Forschung zur KI für ",
+      "headlineAccent": "echte Unternehmen.",
+      "headlineAfter": "",
+      "p1": "Ich habe Informatik an der TU München mit Schwerpunkt KI und Robotik studiert. Während des Studiums habe ich zwei Jahre als Backend-Engineer bei Siemens gearbeitet, danach vier Jahre bei Devanthro an Embodied AI, Robotik-Steuerung und 3D-Modellierung — zunächst als Research Engineer, später als Founders Associate. Nebenbei habe ich zwei SaaS-Startups gegründet: ShareYourSpace und Rechnungs-API.",
+      "p2": "Heute teile ich meine Zeit zwischen Forschung bei Devanthro an der OpenArm-Plattform, einem dreimonatigen Forschungsaufenthalt am Department of Materials der University of Oxford (sensorintegrierte Bioreaktoren für künstliche Muskeln, bei Prof. Pierre Alexis Mouthuy) und freiberuflichem Engineering für Unternehmen, die echte Automatisierung umsetzen wollen. Meine Lieblingsarbeit: einen Prozess, den ein Mensch 50-mal am Tag manuell erledigt, durch ein System ersetzen, das einfach läuft.",
+      "imageAlt": "Marcel Kueck Porträt"
+    },
+    "workedWith": {
+      "label": "ERFAHRUNG MIT",
+      "items": ["TU München", "Siemens", "Devanthro", "University of Oxford", "Motion Sports"]
+    },
+    "photoGrid": {
+      "captions": [
+        "Leiterplatte",
+        "3D-Drucker Hardware",
+        "Roboterarm",
+        "Code auf Bildschirm",
+        "Werkstatt-Werkzeuge",
+        "Labor und Forschung",
+        "Team-Zusammenarbeit",
+        "Whiteboard-Planung"
+      ]
+    },
+    "social": {
+      "label": "BLEIBEN WIR IN KONTAKT",
+      "headlineBefore": "Vernetzen wir uns auf ",
+      "headlineAccent": "Social Media.",
+      "headlineAfter": ""
+    },
+    "finalCta": {
+      "headlineBefore": "Bereit, etwas ",
+      "headlineAccent": "Echtes",
+      "headlineAfter": " zu bauen?",
+      "body": "Schreib mir direkt — lass uns besprechen, was du umsetzen möchtest."
+    }
+  },
+  "projects": {
+    "metaTitle": "Projekte — Marcel Kueck",
+    "metaDescription": "Eine Auswahl von Projekten aus KI, Automatisierung, Robotik und Hardware — Kundenarbeit, gegründete SaaS-Produkte, Forschung und Side Projects.",
+    "label": "PROJEKTE",
+    "headlineBefore": "Was ich ",
+    "headlineAccent": "gebaut habe.",
+    "headlineAfter": "",
+    "intro": "Eine Auswahl meiner Projekte aus den Bereichen KI, Automatisierung, Robotik und Hardware — eine Mischung aus Kundenprojekten, gegründeten Produkten, Forschung und Side Projects. Wo möglich, Open Source.",
+    "freelanceLink": "Auf der Suche nach freiberuflicher Unterstützung? Zusammenarbeiten →",
+    "items": {
+      "motionSports": {
+        "title": "Motion Sports KI-Agent",
+        "description": "Integrierter KI-Assistent für einen deutschen Online-Händler. Übernimmt Beratung, Bestellungen, Retouren und After-Sales direkt im Shop — angebunden an Warenwirtschaft, Bestellungen und Kundenhistorie.",
+        "tags": ["KI-Agenten", "E-Commerce", "Python", "LangGraph"],
+        "ctaLabel": "Case Study folgt"
+      },
+      "rechnungsApi": {
+        "title": "Rechnungs-API",
+        "description": "SaaS-API für automatisierte Rechnungserstellung, Validierung und ZUGFeRD/XRechnung-Konformität. Als Gründer aufgebaut und betrieben.",
+        "tags": ["SaaS", "API", "Rechnungen", "Gegründet"],
+        "ctaLabel": "Zur Website →"
+      },
+      "shareYourSpace": {
+        "title": "ShareYourSpace",
+        "description": "Marktplatz-Plattform, die Unternehmen mit flexiblen Coworking- und Meeting-Räumen verbindet. Mitgegründet und Product Engineering verantwortet.",
+        "tags": ["Marktplatz", "Full Stack", "Gegründet"],
+        "ctaLabel": "Zur Website →"
+      },
+      "openArm": {
+        "title": "OpenArm Platform",
+        "description": "Offene Robotik-Plattform für Embodied-AI-Forschung. Arbeite aktuell bei Devanthro an Bewegungssteuerung und Integration mit Foundation Models.",
+        "tags": ["Robotik", "Embodied AI", "Forschung"],
+        "ctaLabel": "Auf GitHub ansehen →"
+      },
+      "coffeeRoaster": {
+        "title": "Smart Coffee Roaster",
+        "description": "IoT-gesteuerter Kaffeeröster mit Profilaufzeichnung und Wiedergabe. Closed-Loop-Temperatursteuerung via Raspberry Pi, eigene Firmware und kleines Web-UI zur Profilverwaltung.",
+        "tags": ["IoT", "Hardware", "Python", "Side Project"],
+        "ctaLabel": "Auf GitHub ansehen →"
+      },
+      "leRobot": {
+        "title": "LE Robot + 3D-Druck-Rig",
+        "description": "Hardware-Sandbox aus einem günstigen Roboterarm und einem individuellen 3D-Druck-Setup. Wird für Experimente mit Imitation Learning, RL und Hardware-Integration genutzt.",
+        "tags": ["Robotik", "Hardware", "RL", "Side Project"],
+        "ctaLabel": "Auf GitHub ansehen →"
+      }
+    }
+  },
+  "work": {
+    "metaTitle": "Zusammenarbeit — Marcel Kueck",
+    "metaDescription": "Freiberufliche KI- und Automatisierungs-Engagements — Audits, KI-Agenten-Implementierung, Workflow-Automatisierung, individuelle KI-Integrationen.",
+    "hero": {
+      "label": "ZUSAMMENARBEIT",
+      "headlineBefore": "Automatisierung, die ",
+      "headlineAccent": "funktioniert.",
+      "headlineAfter": "",
+      "body": "Ich arbeite mit mittelständischen Unternehmen, Agenturen und ambitionierten Teams, die KI und Automatisierung einsetzen wollen, um wirklich etwas zu bewegen — keine Slide-Decks. Die Zusammenarbeit reicht von kurzen Audits bis zu mehrmonatigen Projekten."
+    },
+    "services": {
+      "label": "LEISTUNGEN",
+      "headline": "Was ich baue",
+      "items": {
+        "audit": {
+          "title": "KI-Automatisierungs-Audit",
+          "body": "1–2 Tage tiefer Einblick in Ihre Abläufe. Sie erhalten eine schriftliche Roadmap mit Automatisierungspotenzialen, priorisiert nach ROI und Aufwand, sowie einen klaren nächsten Schritt.",
+          "pricing": "Festpreis · 1–2 Tage"
+        },
+        "agent": {
+          "title": "KI-Agenten-Implementierung",
+          "body": "Maßgeschneiderte KI-Agenten für Kundensupport, Sales-Qualifizierung, interne Copilots oder Operations. Produktionsreif, überwacht, mit klarer Übergabedokumentation.",
+          "pricing": "Projektbezogen · typisch 4–10 Wochen"
+        },
+        "workflow": {
+          "title": "Workflow-Automatisierung",
+          "body": "End-to-End-Prozessautomatisierung mit Make, Zapier, n8n und individuellem Code. CRM, E-Commerce, Dokumentenverarbeitung und interne Tools — verbunden und im Betrieb.",
+          "pricing": "Projektbezogen · typisch 2–6 Wochen"
+        },
+        "integration": {
+          "title": "Individuelle KI-Integration",
+          "body": "Maßgeschneiderte Integrationen zwischen Ihren Geschäftssystemen und KI-Modellen — RAG über Ihre Dokumente, interne Suche, individuelle Analytics. Wenn Standardlösungen nicht reichen.",
+          "pricing": "Projektbezogen · individuell skopiert"
+        }
+      }
+    },
+    "process": {
+      "label": "SO LÄUFT'S AB",
+      "headlineBefore": "Von der Idee zum ",
+      "headlineAccent": "laufenden System.",
+      "headlineAfter": "",
+      "steps": [
+        { "title": "Erstgespräch", "body": "30 Minuten, kostenlos. Wir besprechen, was Sie erreichen möchten." },
+        { "title": "Audit", "body": "1–2 Tage bezahlter Deep Dive. Sie erhalten eine schriftliche Roadmap." },
+        { "title": "Umsetzung", "body": "Iterative Umsetzung mit wöchentlichen Demos. Sie sehen jede Woche Fortschritt." },
+        { "title": "Übergabe", "body": "Dokumentiert, überwacht, im Besitz Ihres Teams. Optionaler Wartungsvertrag für laufenden Support." }
+      ]
+    },
+    "cases": {
+      "label": "CASE STUDIES",
+      "headline": "Ausgewählte Kundenarbeit",
+      "motionSports": {
+        "client": "Motion Sports",
+        "badge": "In Arbeit",
+        "description": "Aufbau eines integrierten KI-Assistenten für Beratung, Bestellsupport, Retouren und After-Sales direkt im bestehenden Online-Shop."
+      },
+      "placeholder": {
+        "title": "Weitere Case Studies folgen. Könnte Ihre die nächste sein?"
+      }
+    }
+  },
+  "buildLog": {
+    "metaTitle": "Build Log — Marcel Kueck",
+    "metaDescription": "Notizen aus der Werkstatt — KI-Automatisierungsprojekte, Forschung aus Oxford, Hardware-Experimente, Erkenntnisse aus Kundenprojekten.",
+    "headlineBefore": "Das ",
+    "headlineAccent": "Build Log.",
+    "headlineAfter": "",
+    "body": "Im Build Log dokumentiere ich, was ich gerade baue und lerne — KI-Automatisierungsprojekte, Forschungsnotizen aus Oxford, Hardware-Experimente, Erkenntnisse aus Kundenprojekten. Monatlich.",
+    "cta": "Auf Substack lesen →"
+  },
+  "impressum": {
+    "metaTitle": "Impressum — Marcel Kueck",
+    "metaDescription": "Rechtliche Hinweise und Kontaktinformationen gemäß § 5 TMG.",
+    "title": "Impressum",
+    "intro": "Angaben gemäß § 5 TMG"
+  },
+  "privacy": {
+    "metaTitle": "Datenschutz — Marcel Kueck",
+    "metaDescription": "Wie marcelkueck.dev mit personenbezogenen Daten, Cookies, Analytics und Ihren DSGVO-Rechten umgeht.",
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Letzte Aktualisierung: 2026"
+  }
+}
