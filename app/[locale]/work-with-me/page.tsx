@@ -179,7 +179,7 @@ function WorkContent() {
       </Section>
 
       {/* FINAL CTA */}
-      <Section snap={false} id="work-contact" ariaLabelledBy="work-cta-headline">
+      <Section lastBeforeFooter id="work-contact" ariaLabelledBy="work-cta-headline">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 text-center">
           <h2 id="work-cta-headline" className="display-headline text-balance">
             {tc("workWithMe")}

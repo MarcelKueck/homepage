@@ -13,12 +13,16 @@ import { PhotoGridItem } from "@/components/PhotoGridItem";
 import { SocialCard } from "@/components/SocialCard";
 import { CALENDAR_URL, SOCIAL_LINKS, SITE_URL } from "@/lib/links";
 
+// Freelance clients only. TUM / Siemens / Oxford were employers or
+// universities, so they belong in the about-section prose, not in a
+// "Worked with" logo strip. Add new clients here as they sign on, then
+// re-enable the WORKED-WITH section block below (recommend 5+ logos
+// before re-enabling so the strip looks balanced).
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const WORKED_WITH: Array<{ name: string; domain: string }> = [
-  { name: "TU Munich", domain: "tum.de" },
-  { name: "Siemens", domain: "siemens.com" },
-  { name: "Devanthro", domain: "devanthro.com" },
-  { name: "University of Oxford", domain: "ox.ac.uk" },
   { name: "Motion Sports", domain: "motionsports.de" },
+  { name: "heyhey management", domain: "weareheyhey.com" },
+  { name: "Devanthro (OpenArm)", domain: "devanthro.com" },
 ];
 
 const PHOTOS = [
@@ -139,7 +143,7 @@ function HomeContent() {
       </Section>
 
       {/* ABOUT */}
-      <Section id="about" ariaLabelledBy="about-headline" nextSection="#worked-with">
+      <Section id="about" ariaLabelledBy="about-headline" nextSection="#photos">
         <div className="grid items-center gap-10 md:grid-cols-2 md:gap-14 lg:gap-20">
           <div>
             {/* TODO: Replace with real photo */}
@@ -172,11 +176,15 @@ function HomeContent() {
         </div>
       </Section>
 
-      {/* WORKED WITH */}
+      {/* WORKED-WITH STRIP — intentionally hidden until Marcel has a
+          balanced (5+) freelance client roster. Re-enable by removing
+          this comment block; the WORKED_WITH constant above is already
+          set up with Motion Sports / heyhey / Devanthro entries.
+          When re-enabled, also add nextSection="#worked-with" to the
+          ABOUT section above (currently points to #photos).
       <Section alt id="worked-with" nextSection="#photos">
         <div className="flex flex-col items-center gap-10 text-center">
           <SectionLabel>{t("workedWith.label")}</SectionLabel>
-          {/* TODO: Swap Google favicon URLs for high-resolution SVG logos in /public/logos/. */}
           <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-6 sm:gap-x-14">
             {WORKED_WITH.map(({ name, domain }) => (
               <li key={name} className="flex items-center justify-center" title={name}>
@@ -193,6 +201,7 @@ function HomeContent() {
           </ul>
         </div>
       </Section>
+      */}
 
       {/* PHOTO GRID */}
       <Section id="photos" ariaLabelledBy="photo-grid-label" nextSection="#social">
@@ -227,8 +236,9 @@ function HomeContent() {
         </div>
       </Section>
 
-      {/* FINAL CTA — snap disabled so the footer is reachable below it */}
-      <Section snap={false} id="contact" ariaLabelledBy="cta-headline">
+      {/* FINAL CTA — snaps in like the others, but reserves footer height
+          via lastBeforeFooter so the footer remains visible in the same view. */}
+      <Section lastBeforeFooter id="contact" ariaLabelledBy="cta-headline">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 text-center">
           <Headline
             id="cta-headline"

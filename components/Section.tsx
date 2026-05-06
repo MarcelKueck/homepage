@@ -11,6 +11,7 @@ export function Section({
   ariaLabelledBy,
   id,
   snap = true,
+  lastBeforeFooter = false,
   nextSection,
   nextSectionLabel = "Scroll to next section",
 }: {
@@ -22,15 +23,20 @@ export function Section({
   ariaLabelledBy?: string;
   id?: string;
   snap?: boolean;
+  /** Reserves footer height in the snap viewport so both are co-visible. */
+  lastBeforeFooter?: boolean;
   /** Hash of the next section, e.g. "#featured" — renders the bouncing chevron when set. */
   nextSection?: string;
   nextSectionLabel?: string;
 }) {
+  const snapClasses = snap
+    ? `snap-section${lastBeforeFooter ? " snap-section--with-footer" : ""}`
+    : "";
   return (
     <Tag
       id={id}
       aria-labelledby={ariaLabelledBy}
-      className={`section-padding ${snap ? "snap-section" : ""} ${alt ? "bg-bg-secondary" : ""} ${className}`}
+      className={`section-padding ${snapClasses} ${alt ? "bg-bg-secondary" : ""} ${className}`}
     >
       <Container className={`snap-section-inner ${containerClassName}`}>
         {children}

@@ -38,7 +38,7 @@
 
   @media (min-width: 768px) {
     html {
-      scroll-snap-type: y mandatory;
+      scroll-snap-type: y proximity;
     }
   }
 
@@ -107,15 +107,23 @@
   }
 
   /* Section snap behaviour — desktop only. Mobile uses natural flow
-     because stacked sections often exceed viewport height. */
+     because stacked sections often exceed viewport height. The min-height
+     calc accounts for the 5rem sticky nav (matches scroll-padding-top),
+     so each snapped section fits exactly within the visible area. */
   @media (min-width: 768px) {
     .snap-section {
-      min-height: 100vh;
+      min-height: calc(100vh - 5rem);
       scroll-snap-align: start;
+      scroll-snap-stop: always;
       display: flex;
       flex-direction: column;
       justify-content: center;
       position: relative;
+    }
+    /* Reserve room for the footer (~7rem) so the last snapped section
+       and the footer are co-visible in a single viewport. */
+    .snap-section--with-footer {
+      min-height: calc(100vh - 5rem - 7rem);
     }
     .snap-section-inner {
       width: 100%;
