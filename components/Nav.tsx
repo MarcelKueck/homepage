@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { Container } from "./Container";
 import { LocaleToggle } from "./LocaleToggle";
@@ -38,8 +39,15 @@ export function Nav() {
     >
       <Container>
         <nav aria-label="Primary" className="flex h-16 items-center justify-between md:h-20">
-          <Link href="/" className="text-base font-semibold tracking-tight">
-            marcel.developer
+          <Link href="/" className="flex items-center" aria-label="marcel.developer – home">
+            <Image
+              src="/freelancer_logo.svg"
+              alt="marcel.developer"
+              width={280}
+              height={64}
+              priority
+              className="h-16 w-auto"
+            />
           </Link>
 
           <div className="hidden items-center gap-8 md:flex">
