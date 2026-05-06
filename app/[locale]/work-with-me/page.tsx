@@ -58,7 +58,7 @@ function WorkContent() {
   return (
     <>
       {/* HERO */}
-      <Section id="work-hero" ariaLabelledBy="work-headline">
+      <Section id="work-hero" ariaLabelledBy="work-headline" nextSection="#services">
         <div className="flex max-w-3xl flex-col gap-5 md:gap-6">
           <SectionLabel>{t("hero.label")}</SectionLabel>
           <Headline
@@ -87,7 +87,7 @@ function WorkContent() {
       </Section>
 
       {/* SERVICES */}
-      <Section alt id="services" ariaLabelledBy="services-headline">
+      <Section alt id="services" ariaLabelledBy="services-headline" nextSection="#process">
         <div className="mb-8 flex flex-col gap-4 md:mb-12">
           <SectionLabel>{t("services.label")}</SectionLabel>
           <h2 id="services-headline" className="section-headline text-balance">
@@ -108,7 +108,7 @@ function WorkContent() {
       </Section>
 
       {/* PROCESS */}
-      <Section id="process" ariaLabelledBy="process-headline">
+      <Section id="process" ariaLabelledBy="process-headline" nextSection="#cases">
         <div className="mb-8 flex flex-col gap-4 md:mb-12">
           <SectionLabel>{t("process.label")}</SectionLabel>
           <Headline
@@ -135,7 +135,7 @@ function WorkContent() {
       </Section>
 
       {/* CASE STUDIES */}
-      <Section alt id="cases" ariaLabelledBy="cases-headline">
+      <Section alt id="cases" ariaLabelledBy="cases-headline" nextSection="#work-contact">
         <div className="mb-8 flex flex-col gap-4 md:mb-12">
           <SectionLabel>{t("cases.label")}</SectionLabel>
           <h2 id="cases-headline" className="section-headline text-balance">
@@ -179,7 +179,7 @@ function WorkContent() {
       </Section>
 
       {/* FINAL CTA */}
-      <Section id="work-contact" ariaLabelledBy="work-cta-headline">
+      <Section snap={false} id="work-contact" ariaLabelledBy="work-cta-headline">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 text-center">
           <h2 id="work-cta-headline" className="display-headline text-balance">
             {tc("workWithMe")}

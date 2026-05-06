@@ -11,8 +11,15 @@ import { Button } from "@/components/Button";
 import { CopyEmailButton } from "@/components/CopyEmailButton";
 import { PhotoGridItem } from "@/components/PhotoGridItem";
 import { SocialCard } from "@/components/SocialCard";
-import { ScrollIndicator } from "@/components/ScrollIndicator";
 import { CALENDAR_URL, SOCIAL_LINKS, SITE_URL } from "@/lib/links";
+
+const WORKED_WITH: Array<{ name: string; domain: string }> = [
+  { name: "TU Munich", domain: "tum.de" },
+  { name: "Siemens", domain: "siemens.com" },
+  { name: "Devanthro", domain: "devanthro.com" },
+  { name: "University of Oxford", domain: "ox.ac.uk" },
+  { name: "Motion Sports", domain: "motionsports.de" },
+];
 
 const PHOTOS = [
   // TODO: Replace with real photo
@@ -45,30 +52,29 @@ function HomeContent() {
   const t = useTranslations("home");
   const tc = useTranslations("common");
   const captions = t.raw("photoGrid.captions") as string[];
-  const workedItems = t.raw("workedWith.items") as string[];
 
   return (
     <>
       <PersonJsonLd />
 
       {/* HERO */}
-      <Section as="section" id="hero" ariaLabelledBy="hero-headline">
-        <div className="grid items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-14 lg:gap-20">
-          <div className="order-2 md:order-1">
+      <Section as="section" id="hero" ariaLabelledBy="hero-headline" nextSection="#featured">
+        <div className="grid items-center gap-8 sm:gap-10 md:grid-cols-12 md:gap-12 lg:gap-16">
+          <div className="md:col-span-5">
             {/* TODO: Replace with real photo */}
-            <div className="relative mx-auto aspect-square w-full max-w-[420px] overflow-hidden rounded-[24px] bg-bg-secondary md:max-w-[520px]">
+            <div className="relative mx-auto aspect-square w-full max-w-[360px] overflow-hidden rounded-[24px] bg-bg-secondary md:max-w-[440px]">
               <Image
                 src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=600&h=600&fit=crop"
                 alt={t("hero.imageAlt")}
                 fill
                 priority
-                sizes="(min-width: 768px) 50vw, 100vw"
+                sizes="(min-width: 768px) 40vw, 80vw"
                 className="object-cover"
               />
             </div>
           </div>
 
-          <div className="order-1 flex flex-col gap-5 md:order-2 md:gap-6">
+          <div className="flex flex-col gap-5 md:col-span-7 md:gap-6">
             <SectionLabel>{t("hero.label")}</SectionLabel>
             <Headline
               as="h1"
@@ -97,13 +103,12 @@ function HomeContent() {
             </a>
           </div>
         </div>
-        <ScrollIndicator href="#featured" label="Scroll to next section" />
       </Section>
 
       {/* FEATURED PROJECT */}
-      <Section alt id="featured" ariaLabelledBy="featured-headline">
-        <div className="grid items-center gap-10 md:grid-cols-2 md:gap-14 lg:gap-20">
-          <div className="flex flex-col gap-6">
+      <Section alt id="featured" ariaLabelledBy="featured-headline" nextSection="#about">
+        <div className="grid items-center gap-8 sm:gap-10 md:grid-cols-2 md:gap-14 lg:gap-20">
+          <div className="order-2 flex flex-col gap-5 md:order-1 md:gap-6">
             <SectionLabel>{t("featured.label")}</SectionLabel>
             <Headline
               id="featured-headline"
@@ -118,7 +123,7 @@ function HomeContent() {
               </span>
             </div>
           </div>
-          <div>
+          <div className="order-1 md:order-2">
             {/* TODO: Replace with real photo (Motion Sports screenshot) */}
             <div className="relative mx-auto aspect-[4/3] w-full max-w-[600px] overflow-hidden rounded-[24px] bg-bg-tertiary">
               <Image
@@ -134,7 +139,7 @@ function HomeContent() {
       </Section>
 
       {/* ABOUT */}
-      <Section id="about" ariaLabelledBy="about-headline">
+      <Section id="about" ariaLabelledBy="about-headline" nextSection="#worked-with">
         <div className="grid items-center gap-10 md:grid-cols-2 md:gap-14 lg:gap-20">
           <div>
             {/* TODO: Replace with real photo */}
@@ -168,19 +173,29 @@ function HomeContent() {
       </Section>
 
       {/* WORKED WITH */}
-      <Section alt id="worked-with">
-        <div className="flex flex-col items-center gap-8 text-center">
+      <Section alt id="worked-with" nextSection="#photos">
+        <div className="flex flex-col items-center gap-10 text-center">
           <SectionLabel>{t("workedWith.label")}</SectionLabel>
-          <ul className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm font-semibold text-text-secondary opacity-60 sm:gap-x-14 sm:text-lg">
-            {workedItems.map((item) => (
-              <li key={item}>{item}</li>
+          {/* TODO: Swap Google favicon URLs for high-resolution SVG logos in /public/logos/. */}
+          <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-6 sm:gap-x-14">
+            {WORKED_WITH.map(({ name, domain }) => (
+              <li key={name} className="flex items-center justify-center" title={name}>
+                <Image
+                  src={`https://www.google.com/s2/favicons?domain=${domain}&sz=128`}
+                  alt={name}
+                  width={48}
+                  height={48}
+                  unoptimized
+                  className="h-10 w-10 object-contain opacity-70 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0 sm:h-12 sm:w-12"
+                />
+              </li>
             ))}
           </ul>
         </div>
       </Section>
 
       {/* PHOTO GRID */}
-      <Section id="photos" ariaLabelledBy="photo-grid-label">
+      <Section id="photos" ariaLabelledBy="photo-grid-label" nextSection="#social">
         <h2 id="photo-grid-label" className="sr-only">
           Life in photos
         </h2>
@@ -192,7 +207,7 @@ function HomeContent() {
       </Section>
 
       {/* SOCIAL */}
-      <Section alt id="social" ariaLabelledBy="social-headline">
+      <Section alt id="social" ariaLabelledBy="social-headline" nextSection="#contact">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-5">
             <SectionLabel>{t("social.label")}</SectionLabel>
@@ -212,8 +227,8 @@ function HomeContent() {
         </div>
       </Section>
 
-      {/* FINAL CTA */}
-      <Section id="contact" ariaLabelledBy="cta-headline">
+      {/* FINAL CTA — snap disabled so the footer is reachable below it */}
+      <Section snap={false} id="contact" ariaLabelledBy="cta-headline">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 text-center">
           <Headline
             id="cta-headline"

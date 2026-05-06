@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "images.unsplash.com" },
+      // Google's favicon service — used as a placeholder logo source for the
+      // "Worked with" strip. TODO: replace with high-resolution SVG logos.
+      { protocol: "https", hostname: "www.google.com" },
     ],
   },
 };

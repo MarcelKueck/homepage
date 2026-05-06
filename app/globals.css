@@ -38,7 +38,7 @@
 
   @media (min-width: 768px) {
     html {
-      scroll-snap-type: y proximity;
+      scroll-snap-type: y mandatory;
     }
   }
 
@@ -125,25 +125,35 @@
   .scroll-indicator {
     position: absolute;
     left: 50%;
-    bottom: clamp(1rem, 4vh, 2.5rem);
+    bottom: 1.5rem;
     transform: translateX(-50%);
     display: none;
+    color: var(--color-text-tertiary);
+    transition: color 0.2s ease;
+  }
+  .scroll-indicator:hover {
+    color: var(--color-text-primary);
   }
   @media (min-width: 768px) {
     .scroll-indicator {
       display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
     }
   }
   @keyframes scroll-bounce {
     0%, 100% {
-      transform: translateX(-50%) translateY(0);
+      transform: translateY(0);
+      opacity: 0.6;
     }
     50% {
-      transform: translateX(-50%) translateY(8px);
+      transform: translateY(6px);
+      opacity: 1;
     }
   }
   .scroll-indicator-icon {
-    animation: scroll-bounce 2s ease-in-out infinite;
+    animation: scroll-bounce 1.8s ease-in-out infinite;
   }
 
   .prose-page {
