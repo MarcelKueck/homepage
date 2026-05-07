@@ -41,12 +41,12 @@ export function Nav() {
         <nav aria-label="Primary" className="flex h-16 items-center justify-between md:h-20">
           <Link href="/" className="flex items-center" aria-label="marcel.developer – home">
             <Image
-              src="/freelancer_logo.svg"
+              src="/freelancer_logo_white_text.svg"
               alt="marcel.developer"
-              width={280}
-              height={64}
+              width={840}
+              height={192}
               priority
-              className="h-16 w-auto"
+              className="h-48 w-auto"
             />
           </Link>
 
