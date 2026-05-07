@@ -41,7 +41,7 @@ export function Nav() {
         <nav aria-label="Primary" className="flex h-16 items-center justify-between md:h-20">
           <Link href="/" className="flex items-center" aria-label="marcel.developer – home">
             <Image
-              src="/freelancer_logo_white_text.svg"
+              src="/logo_white.svg"
               alt="marcel.developer"
               width={840}
               height={192}
