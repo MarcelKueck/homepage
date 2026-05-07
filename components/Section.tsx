@@ -36,7 +36,7 @@ export function Section({
     <Tag
       id={id}
       aria-labelledby={ariaLabelledBy}
-      className={`section-padding ${snapClasses} ${alt ? "bg-bg-secondary" : ""} ${className}`}
+      className={`section-padding ${snapClasses} ${className}`}
     >
       <Container className={`snap-section-inner ${containerClassName}`}>
         {children}
