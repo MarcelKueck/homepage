@@ -20,6 +20,7 @@ export const PROJECT_LINKS = {
   coffeeRoaster: "https://github.com/marcelkueck",
   // TODO: replace with real LE Robot GitHub URL
   leRobot: "https://github.com/marcelkueck",
+  svEsting: "https://github.com/MarcelKueck/sv-esting-turnen",
 };
 
 export const EMAIL = "hello@marcelkueck.dev";

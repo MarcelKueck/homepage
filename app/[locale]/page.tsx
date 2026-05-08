@@ -23,6 +23,7 @@ const WORKED_WITH: Array<{ name: string; domain: string }> = [
   { name: "Motion Sports", domain: "motionsports.de" },
   { name: "heyhey management", domain: "weareheyhey.com" },
   { name: "Devanthro (OpenArm)", domain: "devanthro.com" },
+  { name: "SV Esting", domain: "sv-esting.de" },
 ];
 
 const PHOTOS = [

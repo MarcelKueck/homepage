@@ -129,6 +129,12 @@
         "description": "Hardware-Sandbox aus einem günstigen Roboterarm und einem individuellen 3D-Druck-Setup. Wird für Experimente mit Imitation Learning, RL und Hardware-Integration genutzt.",
         "tags": ["Robotik", "Hardware", "RL", "Side Project"],
         "ctaLabel": "Auf GitHub ansehen →"
+      },
+      "svEsting": {
+        "title": "SV Esting — Turnen App",
+        "description": "Full-Stack-Webanwendung für die Turnabteilung des SV Esting. Verwaltet Gruppenorganisation, Trainingsplanung und Mitgliederkommunikation für ca. 200 aktive Nutzer.",
+        "tags": ["Full Stack", "Web App", "Sport", "Kundenprojekt"],
+        "ctaLabel": "Auf GitHub ansehen →"
       }
     }
   },

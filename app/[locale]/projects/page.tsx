@@ -50,6 +50,7 @@ const PROJECT_KEYS = [
   "openArm",
   "coffeeRoaster",
   "leRobot",
+  "svEsting",
 ] as const;
 
 const IMAGES: Record<(typeof PROJECT_KEYS)[number], string> = {
@@ -65,6 +66,8 @@ const IMAGES: Record<(typeof PROJECT_KEYS)[number], string> = {
   coffeeRoaster: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=500&fit=crop",
   // TODO: Replace with real photo
   leRobot: "https://images.unsplash.com/photo-1567361808960-dec9cb578182?w=800&h=500&fit=crop",
+  // TODO: Replace with real photo
+  svEsting: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&h=500&fit=crop",
 };
 
 const CTA_HREFS: Record<(typeof PROJECT_KEYS)[number], string | undefined> = {
@@ -74,6 +77,7 @@ const CTA_HREFS: Record<(typeof PROJECT_KEYS)[number], string | undefined> = {
   openArm: PROJECT_LINKS.openArm,
   coffeeRoaster: PROJECT_LINKS.coffeeRoaster,
   leRobot: PROJECT_LINKS.leRobot,
+  svEsting: PROJECT_LINKS.svEsting,
 };
 
 function ProjectsContent() {

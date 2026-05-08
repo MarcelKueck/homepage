@@ -129,6 +129,12 @@
         "description": "Hardware sandbox combining a low-cost robotic arm with a custom 3D printing setup. Used for experimenting with imitation learning, RL, and hardware integration.",
         "tags": ["Robotics", "Hardware", "RL", "Side Project"],
         "ctaLabel": "View on GitHub →"
+      },
+      "svEsting": {
+        "title": "SV Esting — Turnen App",
+        "description": "Full-stack web app for the gymnastics department of SV Esting. Handles group organisation, training management, and member communication for ~200 active users.",
+        "tags": ["Full Stack", "Web App", "Sports", "Client Work"],
+        "ctaLabel": "View on GitHub →"
       }
     }
   },
