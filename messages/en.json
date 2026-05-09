@@ -29,11 +29,11 @@
   },
   "home": {
     "metaTitle": "Marcel Kueck — Automation & AI Engineer · Munich",
-    "metaDescription": "Freelance AI agents, workflow automation, and custom integrations for the German Mittelstand and international clients — built to ship in production.",
+    "metaDescription": "Freelance AI agents, workflow automation, and custom integrations for the German Mittelstand and international clients — built for production.",
     "hero": {
-      "label": "AUTOMATION & AI ENGINEER. RESEARCHER. ENTREPRENEUR. (BASED IN MUNICH.)",
-      "headlineBefore": "Automation & AI for businesses that want to ",
-      "headlineAccent": "ship",
+      "label": "AUTOMATION & AI ENGINEER | RESEARCHER | ENTREPRENEUR",
+      "headlineBefore": "AI & automation, engineered for ",
+      "headlineAccent": "your business",
       "headlineAfter": ".",
       "body": "Marcel Kueck is a freelance engineer building AI agents, workflow automation, and custom integrations for the German Mittelstand and international clients. With a background in computer science from TU Munich, production engineering at Siemens, robotics research at Devanthro and the University of Oxford, and two founded SaaS companies, he helps businesses turn repetitive work into automated systems that actually run in production.",
       "imageAlt": "Marcel Kueck"
@@ -52,7 +52,7 @@
       "headlineAccent": "real businesses.",
       "headlineAfter": "",
       "p1": "I studied computer science at TU Munich, then spent two years as a backend engineer at Siemens and four years at Devanthro on embodied AI and robotics — first as research engineer, later as founders associate. I also co-founded two SaaS startups: ShareYourSpace and Rechnungs-API.",
-      "p2": "Today I split my time between research at Devanthro on the OpenArm platform, an upcoming three-month research stay at the University of Oxford, and freelance engineering for businesses that want to ship real automation. My favorite kind of work: taking a process someone runs 50 times a day and replacing it with a system that just runs.",
+      "p2": "Today I split my time between research at Devanthro on the OpenArm platform, an upcoming three-month research stay at the University of Oxford, and freelance engineering for businesses that want to deploy real automation. My favorite kind of work: taking a process someone runs 50 times a day and replacing it with a system that just runs.",
       "imageAlt": "Marcel Kueck portrait"
     },
     "workedWith": {
@@ -81,7 +81,7 @@
       "headlineBefore": "Ready to build something ",
       "headlineAccent": "real?",
       "headlineAfter": "",
-      "body": "Reach out directly and let's talk through what you're trying to ship."
+      "body": "Reach out directly and let's talk through what you want to build."
     }
   },
   "projects": {
@@ -140,11 +140,11 @@
   },
   "work": {
     "metaTitle": "Work with me — Marcel Kueck",
-    "metaDescription": "Freelance AI and automation engagements — audits, AI agent implementation, workflow automation, custom AI integrations. Built to ship.",
+    "metaDescription": "Freelance AI and automation engagements — audits, AI agent implementation, workflow automation, custom AI integrations. Engineered for your business.",
     "hero": {
       "label": "WORK WITH MARCEL",
       "headlineBefore": "Automation that ",
-      "headlineAccent": "ships.",
+      "headlineAccent": "works.",
       "headlineAfter": "",
       "body": "I work with mid-market businesses, agencies, and ambitious teams who want to deploy AI and automation that actually moves the needle — not slide decks. Engagements run from short audits to multi-month builds."
     },
