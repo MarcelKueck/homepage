@@ -58,7 +58,7 @@ function WorkContent() {
   return (
     <>
       {/* HERO */}
-      <Section id="work-hero" ariaLabelledBy="work-headline" nextSection="#services">
+      <Section id="work-hero" ariaLabelledBy="work-headline" nextSection="#services" className="snap-section-hero">
         <div className="flex max-w-3xl flex-col gap-5 md:gap-6">
           <SectionLabel>{t("hero.label")}</SectionLabel>
           <Headline
@@ -88,13 +88,13 @@ function WorkContent() {
 
       {/* SERVICES */}
       <Section alt id="services" ariaLabelledBy="services-headline" nextSection="#process">
-        <div className="mb-8 flex flex-col gap-4 md:mb-12">
+        <div className="mb-5 flex flex-col gap-3 md:mb-7">
           <SectionLabel>{t("services.label")}</SectionLabel>
           <h2 id="services-headline" className="section-headline text-balance">
             {t("services.headline")}
           </h2>
         </div>
-        <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
+        <div className="grid gap-3 md:grid-cols-2">
           {SERVICE_KEYS.map((key) => (
             <ServiceCard
               key={key}
@@ -109,7 +109,7 @@ function WorkContent() {
 
       {/* PROCESS */}
       <Section id="process" ariaLabelledBy="process-headline" nextSection="#cases">
-        <div className="mb-8 flex flex-col gap-4 md:mb-12">
+        <div className="mb-5 flex flex-col gap-3 md:mb-8">
           <SectionLabel>{t("process.label")}</SectionLabel>
           <Headline
             id="process-headline"
@@ -136,15 +136,15 @@ function WorkContent() {
 
       {/* CASE STUDIES */}
       <Section alt id="cases" ariaLabelledBy="cases-headline" nextSection="#work-contact">
-        <div className="mb-8 flex flex-col gap-4 md:mb-12">
+        <div className="mb-5 flex flex-col gap-3 md:mb-7">
           <SectionLabel>{t("cases.label")}</SectionLabel>
           <h2 id="cases-headline" className="section-headline text-balance">
             {t("cases.headline")}
           </h2>
         </div>
-        <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
+        <div className="grid gap-3 md:grid-cols-2">
           <article className="overflow-hidden rounded-[24px] border border-border bg-bg-primary">
-            <div className="relative aspect-[16/10] w-full overflow-hidden">
+            <div className="relative aspect-16/7 w-full overflow-hidden">
               {/* TODO: Replace with real photo (Motion Sports screenshot) */}
               <Image
                 src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
@@ -154,7 +154,7 @@ function WorkContent() {
                 className="object-cover"
               />
             </div>
-            <div className="flex flex-col gap-4 p-7 sm:p-8">
+            <div className="flex flex-col gap-3 p-5 sm:p-6">
               <div className="flex items-center justify-between">
                 <h3 className="text-2xl font-semibold text-text-primary">
                   {t("cases.motionSports.client")}
@@ -168,7 +168,7 @@ function WorkContent() {
           </article>
 
           <article className="flex flex-col items-start justify-center gap-5 rounded-[24px] border border-dashed border-border bg-bg-primary p-10">
-            <h3 className="section-headline !text-2xl text-text-primary">
+            <h3 className="section-headline text-2xl! text-text-primary">
               {t("cases.placeholder.title")}
             </h3>
             <Button as="a" href={`mailto:hello@marcelkueck.dev`} variant="secondary">

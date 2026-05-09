@@ -154,22 +154,22 @@
       "items": {
         "audit": {
           "title": "AI Automation Audit",
-          "body": "1–2 day deep dive into your operations. You leave with a written roadmap of automation opportunities, prioritized by ROI and effort, plus a clear next step.",
+          "body": "A focused 1–2 day deep dive that delivers a written roadmap of automation opportunities, prioritized by ROI.",
           "pricing": "Fixed price · 1–2 days"
         },
         "agent": {
           "title": "AI Agent Implementation",
-          "body": "Custom-built AI agents for customer support, sales qualification, internal copilots, or operations. Production-grade, monitored, with clear handover documentation.",
+          "body": "Production-grade AI agents for customer support, sales qualification, internal copilots, or operations.",
           "pricing": "Project-based · typically 4–10 weeks"
         },
         "workflow": {
           "title": "Workflow Automation",
-          "body": "End-to-end process automation using Make, Zapier, n8n, and custom code. CRM, e-commerce, document processing, and internal tools — connected and running.",
+          "body": "End-to-end process automation using Make, Zapier, n8n, and custom code — connected and running.",
           "pricing": "Project-based · typically 2–6 weeks"
         },
         "integration": {
           "title": "Custom AI Integration",
-          "body": "Bespoke integrations between your business systems and AI models — RAG over your documents, internal search, custom analytics. When off-the-shelf isn't enough.",
+          "body": "Bespoke integrations between your business systems and AI models — RAG, internal search, custom analytics.",
           "pricing": "Project-based · scoped per engagement"
         }
       }

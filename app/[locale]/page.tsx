@@ -98,14 +98,7 @@ function HomeContent() {
                 {tc("seeProjects")}
               </Button>
             </div>
-            <a
-              href={CALENDAR_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex w-fit items-center gap-1 rounded-full px-2 py-1 text-sm text-text-secondary transition-colors hover:text-text-primary"
-            >
-              {tc("bookDiscoveryCall")}
-            </a>
+
           </div>
         </div>
       </Section>

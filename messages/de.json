@@ -154,22 +154,22 @@
       "items": {
         "audit": {
           "title": "KI-Automatisierungs-Audit",
-          "body": "1–2 Tage tiefer Einblick in Ihre Abläufe. Sie erhalten eine schriftliche Roadmap mit Automatisierungspotenzialen, priorisiert nach ROI und Aufwand, sowie einen klaren nächsten Schritt.",
+          "body": "1–2 Tage tiefer Einblick in Ihre Abläufe mit einer schriftlichen Roadmap der Automatisierungspotenziale, priorisiert nach ROI.",
           "pricing": "Festpreis · 1–2 Tage"
         },
         "agent": {
           "title": "KI-Agenten-Implementierung",
-          "body": "Maßgeschneiderte KI-Agenten für Kundensupport, Sales-Qualifizierung, interne Copilots oder Operations. Produktionsreif, überwacht, mit klarer Übergabedokumentation.",
+          "body": "Produktionsreife KI-Agenten für Kundensupport, Sales-Qualifizierung, interne Copilots oder Operations.",
           "pricing": "Projektbezogen · typisch 4–10 Wochen"
         },
         "workflow": {
           "title": "Workflow-Automatisierung",
-          "body": "End-to-End-Prozessautomatisierung mit Make, Zapier, n8n und individuellem Code. CRM, E-Commerce, Dokumentenverarbeitung und interne Tools — verbunden und im Betrieb.",
+          "body": "End-to-End-Prozessautomatisierung mit Make, Zapier, n8n und individuellem Code — verbunden und im Betrieb.",
           "pricing": "Projektbezogen · typisch 2–6 Wochen"
         },
         "integration": {
           "title": "Individuelle KI-Integration",
-          "body": "Maßgeschneiderte Integrationen zwischen Ihren Geschäftssystemen und KI-Modellen — RAG über Ihre Dokumente, interne Suche, individuelle Analytics. Wenn Standardlösungen nicht reichen.",
+          "body": "Maßgeschneiderte Integrationen zwischen Ihren Geschäftssystemen und KI-Modellen — RAG, interne Suche, individuelle Analytics.",
           "pricing": "Projektbezogen · individuell skopiert"
         }
       }
