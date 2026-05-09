@@ -9,7 +9,7 @@
     "skipToContent": "Skip to content"
   },
   "footer": {
-    "tagline": "Marcel Kueck — Freelance AI & Automation Engineer · Munich, Germany · © 2026",
+    "tagline": "Marcel Kueck — Freelance AI Engineer · Munich, Germany · © 2026",
     "impressum": "Impressum",
     "privacy": "Datenschutz",
     "github": "GitHub",
@@ -28,15 +28,15 @@
     "getInTouch": "Get in touch →"
   },
   "home": {
-    "metaTitle": "Marcel Kueck — Automation & AI Engineer · Munich",
-    "metaDescription": "Freelance AI agents, workflow automation, and custom integrations for the German Mittelstand and international clients — built for production.",
+    "metaTitle": "Marcel Kueck — AI Engineer · Munich",
+    "metaDescription": "AI agents, workflow automation, and custom integrations for mid-market businesses across Germany and internationally — built for production.",
     "hero": {
-      "label": "AUTOMATION & AI ENGINEER | RESEARCHER | ENTREPRENEUR",
+      "label": "AI ENGINEER · RESEARCHER · ENTREPRENEUR",
       "headlineBefore": "AI & automation, engineered for ",
       "headlineAccent": "your business",
       "headlineAfter": ".",
-      "body": "Marcel Kueck is a freelance engineer building AI agents, workflow automation, and custom integrations for the German Mittelstand and international clients. With a background in computer science from TU Munich, production engineering at Siemens, robotics research at Devanthro and the University of Oxford, and two founded SaaS companies, he helps businesses turn repetitive work into automated systems that actually run in production.",
-      "imageAlt": "Marcel Kueck"
+      "body": "I work with mid market businesses across Germany and internationally to build production grade AI agents, workflow automation, and custom integrations. Background: computer science at TU Munich, engineering at Siemens, two founded SaaS companies (ShareYourSpace and Rechnungs-API), and active research at Devanthro and the University of Oxford.",
+      "imageAlt": "Marcel Kueck, AI engineer based in Munich"
     },
     "featured": {
       "label": "FEATURED PROJECT",

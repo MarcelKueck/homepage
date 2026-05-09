@@ -9,7 +9,7 @@
     "skipToContent": "Zum Inhalt springen"
   },
   "footer": {
-    "tagline": "Marcel Kueck — Freelance KI- & Automatisierungs-Engineer · München · © 2026",
+    "tagline": "Marcel Kueck — Freelance KI-Entwickler · München · © 2026",
     "impressum": "Impressum",
     "privacy": "Datenschutz",
     "github": "GitHub",
@@ -28,14 +28,14 @@
     "getInTouch": "Kontakt aufnehmen →"
   },
   "home": {
-    "metaTitle": "Marcel Kueck — Automatisierung & KI-Engineer · München",
-    "metaDescription": "Freiberuflich für KI-Agenten, Workflow-Automatisierung und individuelle Integrationen — für den deutschen Mittelstand und internationale Kunden, gebaut für den Produktivbetrieb.",
+    "metaTitle": "Marcel Kueck — AI Engineer · München",
+    "metaDescription": "KI-Agenten, Workflow-Automatisierung und individuelle Integrationen für mittelständische Unternehmen in Deutschland und international — produktionsreif entwickelt.",
     "hero": {
-      "label": "AUTOMATISIERUNG & KI-Entwickler | FORSCHER | UNTERNEHMER",
-      "headlineBefore": "KI & Automatisierung, entwickelt für ",
+      "label": "AI ENGINEER · FORSCHER · UNTERNEHMER",
+      "headlineBefore": "KI & Automatisierung, für ",
       "headlineAccent": "Ihr Unternehmen",
-      "headlineAfter": ".",
-      "body": "Marcel Kueck ist freiberuflicher Engineer und entwickelt KI-Agenten, Workflow-Automatisierung und individuelle Integrationen für den deutschen Mittelstand und internationale Kunden. Mit Hintergrund in Informatik an der TU München, Software-Engineering bei Siemens, Robotik-Forschung bei Devanthro und der University of Oxford sowie zwei gegründeten SaaS-Unternehmen hilft er Unternehmen, repetitive Aufgaben in produktiv funktionierende Systeme zu verwandeln.",
+      "headlineAfter": " entwickelt.",
+      "body": "Ich arbeite mit mittelständischen Unternehmen in Deutschland und international an produktionsreifen KI-Agenten, Workflow-Automatisierungen und individuellen Integrationen. Hintergrund: Informatik an der TU München, Engineering bei Siemens, zwei gegründete SaaS-Unternehmen (ShareYourSpace und Rechnungs-API) sowie aktive Forschung bei Devanthro und der University of Oxford.",
       "imageAlt": "Marcel Kueck"
     },
     "featured": {
@@ -51,8 +51,8 @@
       "headlineBefore": "Von der Robotik-Forschung zur KI für ",
       "headlineAccent": "echte Unternehmen.",
       "headlineAfter": "",
-      "p1": "Informatik-Studium an der TU München, dann zwei Jahre als Backend-Engineer bei Siemens und vier Jahre bei Devanthro an Embodied AI und Robotik — zunächst als Research Engineer, später als Founders Associate. Nebenbei gründete ich zwei SaaS-Startups: ShareYourSpace und Rechnungs-API.",
-      "p2": "Heute teile ich meine Zeit zwischen Forschung bei Devanthro an der OpenArm-Plattform, einem dreimonatigen Forschungsaufenthalt an der University of Oxford und freiberuflichem Engineering für Unternehmen, die echte Automatisierung umsetzen wollen. Lieblingsarbeit: einen Prozess, den jemand täglich 50-mal manuell erledigt, durch ein System ersetzen, das einfach läuft.",
+      "p1": "Informatik-Studium an der TU München, dann zwei Jahre als Backend-Entwickler bei Siemens und vier Jahre bei Devanthro an Embodied AI und Robotik — zunächst als Forschungs-Entwickler, später als Founders Associate. Nebenbei gründete ich zwei SaaS-Startups: ShareYourSpace und Rechnungs-API.",
+      "p2": "Heute teile ich meine Zeit zwischen Forschung bei Devanthro an der OpenArm-Plattform, einem dreimonatigen Forschungsaufenthalt an der University of Oxford und freiberuflicher Entwicklungsarbeit für Unternehmen, die echte Automatisierung umsetzen wollen. Lieblingsarbeit: einen Prozess, den jemand täglich 50-mal manuell erledigt, durch ein System ersetzen, das einfach läuft.",
       "imageAlt": "Marcel Kueck Porträt"
     },
     "workedWith": {
@@ -108,7 +108,7 @@
       },
       "shareYourSpace": {
         "title": "ShareYourSpace",
-        "description": "Marktplatz-Plattform, die Unternehmen mit flexiblen Coworking- und Meeting-Räumen verbindet. Mitgegründet und Product Engineering verantwortet.",
+        "description": "Marktplatz-Plattform, die Unternehmen mit flexiblen Coworking- und Meeting-Räumen verbindet. Mitgegründet und Produktentwicklung verantwortet.",
         "tags": ["Marktplatz", "Full Stack", "Gegründet"],
         "ctaLabel": "Zur Website →"
       },
