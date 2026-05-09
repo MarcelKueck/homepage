@@ -63,7 +63,7 @@ function HomeContent() {
       <PersonJsonLd />
 
       {/* HERO */}
-      <Section as="section" id="hero" ariaLabelledBy="hero-headline" nextSection="#featured">
+      <Section as="section" id="hero" ariaLabelledBy="hero-headline" nextSection="#featured" className="snap-section-hero">
         <div className="grid items-center gap-8 sm:gap-10 md:grid-cols-12 md:gap-12 lg:gap-16">
           <div className="md:col-span-5">
             {/* TODO: Replace with real photo */}
@@ -145,20 +145,20 @@ function HomeContent() {
 
       {/* ABOUT */}
       <Section id="about" ariaLabelledBy="about-headline" nextSection="#photos">
-        <div className="grid items-center gap-10 md:grid-cols-2 md:gap-14 lg:gap-20">
+        <div className="grid items-center gap-8 md:grid-cols-2 md:gap-10 lg:gap-14">
           <div>
             {/* TODO: Replace with real photo */}
-            <div className="relative mx-auto aspect-square w-full max-w-[520px] overflow-hidden rounded-[24px] bg-bg-secondary">
+            <div className="relative mx-auto aspect-square w-full max-w-[420px] overflow-hidden rounded-[24px] bg-bg-secondary">
               <Image
                 src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&h=600&fit=crop"
                 alt={t("about.imageAlt")}
                 fill
-                sizes="(min-width: 768px) 50vw, 100vw"
+                sizes="(min-width: 768px) 40vw, 80vw"
                 className="object-cover"
               />
             </div>
           </div>
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-3">
             <SectionLabel>{t("about.label")}</SectionLabel>
             <Headline
               id="about-headline"

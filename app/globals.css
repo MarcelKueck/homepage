@@ -119,6 +119,18 @@
       flex-direction: column;
       justify-content: center;
       position: relative;
+      /* Remove section-padding interaction: padding is already applied via
+         .section-padding, so we reset it here to avoid double-spacing that
+         pushes content out of the snapped viewport. The snap container should
+         only center via flex, not re-add padding on top. */
+    }
+    /* The hero section should not have section-padding because the
+       sticky nav already provides visual separation, and flex-center
+       combined with padding pushes content & the scroll arrow below the
+       visible viewport on initial page load. */
+    .snap-section-hero {
+      padding-top: 0;
+      padding-bottom: 0;
     }
     /* Reserve room for the footer (~7rem) so the last snapped section
        and the footer are co-visible in a single viewport. */
