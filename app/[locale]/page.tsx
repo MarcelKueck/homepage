@@ -66,15 +66,15 @@ function HomeContent() {
       <Section as="section" id="hero" ariaLabelledBy="hero-headline" nextSection="#featured" className="snap-section-hero">
         <div className="grid items-center gap-8 sm:gap-10 md:grid-cols-12 md:gap-12 lg:gap-16">
           <div className="md:col-span-5">
-            {/* TODO: Replace with real photo */}
-            <div className="relative mx-auto aspect-square w-full max-w-[360px] overflow-hidden rounded-[24px] bg-bg-secondary md:max-w-[440px]">
+            <div className="mx-auto w-full max-w-[360px] rounded-[24px] overflow-hidden md:max-w-[440px]">
               <Image
-                src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=600&h=600&fit=crop"
+                src="/hero2_colour.jpg"
                 alt={t("hero.imageAlt")}
-                fill
+                width={440}
+                height={660}
                 priority
                 sizes="(min-width: 768px) 40vw, 80vw"
-                className="object-cover"
+                className="w-full h-auto object-contain"
               />
             </div>
           </div>

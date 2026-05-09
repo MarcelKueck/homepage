@@ -48,11 +48,12 @@
     },
     "about": {
       "label": "ÜBER MARCEL",
-      "headlineBefore": "Von der Robotik-Forschung zur KI für ",
-      "headlineAccent": "echte Unternehmen.",
-      "headlineAfter": "",
-      "p1": "Informatik-Studium an der TU München, dann zwei Jahre als Backend-Entwickler bei Siemens und vier Jahre bei Devanthro an Embodied AI und Robotik — zunächst als Forschungs-Entwickler, später als Founders Associate. Nebenbei gründete ich zwei SaaS-Startups: ShareYourSpace und Rechnungs-API.",
-      "p2": "Heute teile ich meine Zeit zwischen Forschung bei Devanthro an der OpenArm-Plattform, einem dreimonatigen Forschungsaufenthalt an der University of Oxford und freiberuflicher Entwicklungsarbeit für Unternehmen, die echte Automatisierung umsetzen wollen. Lieblingsarbeit: einen Prozess, den jemand täglich 50-mal manuell erledigt, durch ein System ersetzen, das einfach läuft.",
+      "headlineBefore": "Die ",
+      "headlineAccent": "Kurzfassung",
+      "headlineAfter": ".",
+      "p1": "Ich habe Informatik an der TU München studiert und parallel zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Anschließend vier Jahre bei Devanthro zu Embodied AI und Robotik-Steuerung — zunächst als Research Engineer, später als Founders Associate. In dieser Zeit habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace (ein Coworking-Marktplatz) und Rechnungs-API (eine API für Rechnungsautomatisierung).",
+      "p2": "Heute arbeite ich als freiberuflicher AI Engineer. Parallel forsche ich weiterhin bei Devanthro an der OpenArm-Plattform und beginne in den kommenden Wochen einen dreimonatigen Forschungsaufenthalt an der University of Oxford bei Prof. Pierre Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
+      "p3": "Außerhalb der Arbeit baue ich Hardware aus Spaß — smarte Kaffeeröster, 3D-Drucker, Roboterarme.",
       "imageAlt": "Marcel Kueck Porträt"
     },
     "workedWith": {

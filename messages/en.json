@@ -48,11 +48,12 @@
     },
     "about": {
       "label": "ABOUT MARCEL",
-      "headlineBefore": "From robotics research to AI for ",
-      "headlineAccent": "real businesses.",
-      "headlineAfter": "",
-      "p1": "I studied computer science at TU Munich, then spent two years as a backend engineer at Siemens and four years at Devanthro on embodied AI and robotics — first as research engineer, later as founders associate. I also co-founded two SaaS startups: ShareYourSpace and Rechnungs-API.",
-      "p2": "Today I split my time between research at Devanthro on the OpenArm platform, an upcoming three-month research stay at the University of Oxford, and freelance engineering for businesses that want to deploy real automation. My favorite kind of work: taking a process someone runs 50 times a day and replacing it with a system that just runs.",
+      "headlineBefore": "The ",
+      "headlineAccent": "short version",
+      "headlineAfter": ".",
+      "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After my studies, four years at Devanthro on embodied AI and robotics control — first as research engineer, later as founders associate. During that time I co-founded two SaaS companies: ShareYourSpace (a coworking marketplace) and Rechnungs-API (an invoice automation API).",
+      "p2": "Today I work as a freelance AI engineer. In parallel, I continue research at Devanthro on the OpenArm platform and start a three-month research stay at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles in the coming weeks.",
+      "p3": "Outside of work, I build hardware for fun — smart coffee roasters, 3D printers, robotic arms.",
       "imageAlt": "Marcel Kueck portrait"
     },
     "workedWith": {
