@@ -33,17 +33,12 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
-    scroll-padding-top: 4rem; /* mobile sticky nav clearance (h-16) */
-    /* Snap on mobile too. `proximity` (not `mandatory`) keeps native
-       momentum scroll feeling natural on touch devices and lets sections
-       that exceed viewport (e.g. photo grid on small phones) scroll
-       freely; the next section snaps when the user nears it. */
-    scroll-snap-type: y proximity;
+    scroll-padding-top: 5rem; /* sticky nav clearance */
   }
 
   @media (min-width: 768px) {
     html {
-      scroll-padding-top: 5rem; /* desktop sticky nav clearance (md:h-20) */
+      scroll-snap-type: y proximity;
     }
   }
 
@@ -93,76 +88,66 @@
 
 @layer components {
   .display-headline {
-    font-size: clamp(2.25rem, 7.5vw, 4rem);
+    font-size: clamp(1.9rem, 4.8vw, 4rem);
     font-weight: 700;
     line-height: 1.05;
     letter-spacing: -0.02em;
   }
 
   .section-headline {
-    font-size: clamp(2rem, 6.5vw, 3.5rem);
+    font-size: clamp(1.875rem, 4.5vw, 3.5rem);
     font-weight: 700;
     line-height: 1.1;
     letter-spacing: -0.02em;
   }
 
   .section-padding {
-    padding-top: clamp(2.5rem, 8vw, 7rem);
-    padding-bottom: clamp(2.5rem, 8vw, 7rem);
+    padding-top: clamp(3rem, 8vw, 7rem);
+    padding-bottom: clamp(3rem, 8vw, 7rem);
   }
 
-  /* Section snap behaviour — applies to mobile and desktop.
-     Mobile uses 100dvh (dynamic viewport) so the iOS/Android browser
-     chrome bar doesn't push content out of the snapped frame. Desktop
-     uses 100vh (fine because there is no collapsing chrome). On mobile
-     we deliberately omit `scroll-snap-stop: always` because forcing a
-     stop on every section fights with native touch momentum and feels
-     jittery; `proximity` snap (set on <html>) gives a gentle "click into
-     place" only when the user comes to rest near a boundary. */
-  .snap-section {
-    min-height: calc(100dvh - 4rem);
-    scroll-snap-align: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-  }
-  /* Hero needs no padding: the sticky nav already separates it
-     visually, and centering via flex + padding pushes content (and the
-     bouncing chevron) below the fold on first paint. */
-  .snap-section-hero {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  /* Reserve footer height in the snap viewport so the last section and
-     the footer are co-visible. Mobile footer is taller (links wrap),
-     hence the larger reservation. */
-  .snap-section--with-footer {
-    min-height: calc(100dvh - 4rem - 13rem);
-  }
-  .snap-section-inner {
-    width: 100%;
-  }
-
+  /* Section snap behaviour — desktop only. Mobile uses natural flow
+     because stacked sections often exceed viewport height. The min-height
+     calc accounts for the 5rem sticky nav (matches scroll-padding-top),
+     so each snapped section fits exactly within the visible area. */
   @media (min-width: 768px) {
     .snap-section {
       min-height: calc(100vh - 5rem);
+      scroll-snap-align: start;
       scroll-snap-stop: always;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      /* Remove section-padding interaction: padding is already applied via
+         .section-padding, so we reset it here to avoid double-spacing that
+         pushes content out of the snapped viewport. The snap container should
+         only center via flex, not re-add padding on top. */
     }
+    /* The hero section should not have section-padding because the
+       sticky nav already provides visual separation, and flex-center
+       combined with padding pushes content & the scroll arrow below the
+       visible viewport on initial page load. */
+    .snap-section-hero {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    /* Reserve room for the footer (~7rem) so the last snapped section
+       and the footer are co-visible in a single viewport. */
     .snap-section--with-footer {
       min-height: calc(100vh - 5rem - 7rem);
+    }
+    .snap-section-inner {
+      width: 100%;
     }
   }
 
   .scroll-indicator {
     position: absolute;
     left: 50%;
-    bottom: 1rem;
+    bottom: 1.5rem;
     transform: translateX(-50%);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem;
+    display: none;
     color: var(--color-text-tertiary);
     transition: color 0.2s ease;
   }
@@ -171,7 +156,10 @@
   }
   @media (min-width: 768px) {
     .scroll-indicator {
-      bottom: 1.5rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
     }
   }
   @keyframes scroll-bounce {

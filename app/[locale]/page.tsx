@@ -64,22 +64,22 @@ function HomeContent() {
 
       {/* HERO */}
       <Section as="section" id="hero" ariaLabelledBy="hero-headline" nextSection="#featured" className="snap-section-hero">
-        <div className="grid items-center gap-5 sm:gap-8 md:grid-cols-12 md:gap-12 lg:gap-16">
+        <div className="grid items-center gap-8 sm:gap-10 md:grid-cols-12 md:gap-12 lg:gap-16">
           <div className="md:col-span-5">
-            <div className="mx-auto w-full max-w-[200px] rounded-[20px] overflow-hidden sm:max-w-[300px] sm:rounded-[24px] md:max-w-[440px]">
+            <div className="mx-auto w-full max-w-[360px] rounded-[24px] overflow-hidden md:max-w-[440px]">
               <Image
                 src="/hero2_colour.jpg"
                 alt={t("hero.imageAlt")}
                 width={440}
                 height={660}
                 priority
-                sizes="(min-width: 768px) 40vw, (min-width: 640px) 45vw, 55vw"
+                sizes="(min-width: 768px) 40vw, 80vw"
                 className="w-full h-auto object-contain"
               />
             </div>
           </div>
 
-          <div className="flex flex-col gap-4 md:col-span-7 md:gap-6">
+          <div className="flex flex-col gap-5 md:col-span-7 md:gap-6">
             <SectionLabel>{t("hero.label")}</SectionLabel>
             <Headline
               as="h1"
@@ -90,7 +90,7 @@ function HomeContent() {
               after={t("hero.headlineAfter")}
             />
             <p className="max-w-prose text-text-secondary">{t("hero.body")}</p>
-            <div className="flex flex-col gap-3 pt-1 sm:flex-row sm:flex-wrap sm:items-center sm:pt-2">
+            <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:flex-wrap sm:items-center">
               <Button as="link" href="/work-with-me" variant="primary" className="w-full sm:w-auto">
                 {tc("workWithMe")}
               </Button>
@@ -138,15 +138,15 @@ function HomeContent() {
 
       {/* ABOUT */}
       <Section id="about" ariaLabelledBy="about-headline" nextSection="#photos">
-        <div className="grid items-center gap-5 sm:gap-8 md:grid-cols-2 md:gap-10 lg:gap-14">
+        <div className="grid items-center gap-8 md:grid-cols-2 md:gap-10 lg:gap-14">
           <div>
-            <div className="mx-auto w-full max-w-[220px] overflow-hidden rounded-[20px] sm:max-w-[320px] sm:rounded-[24px] md:max-w-[420px]">
+            <div className="mx-auto w-full max-w-[420px] overflow-hidden rounded-[24px]">
               <Image
                 src="/hero_colour.jpg"
                 alt={t("about.imageAlt")}
                 width={420}
                 height={560}
-                sizes="(min-width: 768px) 40vw, (min-width: 640px) 45vw, 60vw"
+                sizes="(min-width: 768px) 40vw, 80vw"
                 className="w-full h-auto object-contain"
               />
             </div>
