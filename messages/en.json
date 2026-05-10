@@ -9,7 +9,7 @@
     "skipToContent": "Skip to content"
   },
   "footer": {
-    "tagline": "Marcel Kueck · Freelance AI Engineer · Munich, Germany · © 2026",
+    "tagline": "Marcel Kück · Freelance AI Engineer · Munich, Germany · © 2026",
     "impressum": "Impressum",
     "privacy": "Datenschutz",
     "github": "GitHub",
@@ -28,7 +28,7 @@
     "getInTouch": "Get in touch →"
   },
   "home": {
-    "metaTitle": "Marcel Kueck — AI Engineer · Munich",
+    "metaTitle": "Marcel Kück — AI Engineer · Munich",
     "metaDescription": "AI agents, workflow automation, and custom integrations for mid-market businesses across Germany and internationally. Built for production.",
     "hero": {
       "label": "AI ENGINEER · RESEARCHER · ENTREPRENEUR",
@@ -36,7 +36,7 @@
       "headlineAccent": "your business",
       "headlineAfter": ".",
       "body": "I work with mid market businesses across Germany and internationally to build production grade AI agents, workflow automation, and custom integrations. Background: Computer Science at TU Munich, Software Engineering at Siemens, two founded SaaS companies, and active research at Devanthro and the University of Oxford.",
-      "imageAlt": "Marcel Kueck, AI engineer based in Munich"
+      "imageAlt": "Marcel Kück, AI engineer based in Munich"
     },
     "featured": {
       "label": "FEATURED PROJECT",
@@ -54,7 +54,7 @@
       "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace (a coworking marketplace) and Rechnungs-API (an invoice automation API).",
       "p2": "Today I work as a freelance AI engineer. In parallel, I continue research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
       "p3": "Outside of work, I build things for fun: hardware like smart coffee roasters and robotic arms, things made with 3D printers, but also software projects like smart home solutions and my own machine learning and robotics framework written in Rust.",
-      "imageAlt": "Marcel Kueck portrait"
+      "imageAlt": "Marcel Kück portrait"
     },
     "workedWith": {
       "label": "WORKED WITH",
@@ -86,7 +86,7 @@
     }
   },
   "projects": {
-    "metaTitle": "Projects — Marcel Kueck",
+    "metaTitle": "Projects — Marcel Kück",
     "metaDescription": "A selection of AI, automation, robotics, and hardware projects: client work, founded SaaS products, research, and side projects.",
     "label": "PROGRAMMING PROJECTS",
     "headlineBefore": "Things I've ",
@@ -140,7 +140,7 @@
     }
   },
   "work": {
-    "metaTitle": "Work with me — Marcel Kueck",
+    "metaTitle": "Work with me — Marcel Kück",
     "metaDescription": "Freelance AI and automation engagements: audits, AI agent implementation, workflow automation, custom AI integrations. Engineered for your business.",
     "hero": {
       "label": "WORK WITH MARCEL",
@@ -201,7 +201,7 @@
     }
   },
   "buildLog": {
-    "metaTitle": "Build Log — Marcel Kueck",
+    "metaTitle": "Build Log — Marcel Kück",
     "metaDescription": "Notes from the workshop: AI automation projects, research from Oxford, hardware experiments, lessons from client work.",
     "headlineBefore": "The ",
     "headlineAccent": "Build Log.",
@@ -210,13 +210,25 @@
     "cta": "Read on Substack →"
   },
   "impressum": {
-    "metaTitle": "Impressum — Marcel Kueck",
+    "metaTitle": "Impressum — Marcel Kück",
     "metaDescription": "Legal notice and contact information according to § 5 TMG.",
     "title": "Impressum",
-    "intro": "Information according to § 5 TMG"
+    "addressHeading": "Information according to § 5 TMG",
+    "contactHeading": "Contact",
+    "contactEmailLabel": "Email",
+    "contactPhoneLabel": "Phone",
+    "vatHeading": "VAT ID (Umsatzsteuer-Identifikationsnummer)",
+    "vatText": "VAT ID not yet issued.",
+    "responsibleHeading": "Responsible for content (§ 55 Abs. 2 RStV)",
+    "responsibleText": "Marcel Kück (address as above)",
+    "designationHeading": "Professional designation",
+    "designationText": "Freelancer pursuant to § 18 EStG (independent activity in the field of software engineering)",
+    "disputeHeading": "Dispute resolution",
+    "disputeText1": "The European Commission provides an online dispute resolution (ODR) platform:",
+    "disputeText2": "I am not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
   },
   "privacy": {
-    "metaTitle": "Privacy — Marcel Kueck",
+    "metaTitle": "Privacy — Marcel Kück",
     "metaDescription": "How marcelkueck.dev handles personal data, cookies, analytics, and your GDPR rights.",
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: 2026"

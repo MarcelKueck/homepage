@@ -6,11 +6,11 @@ export const runtime = "edge";
 const COPY: Record<string, { headline: string; sub: string }> = {
   en: {
     headline: "Automation & AI for businesses that want to ship.",
-    sub: "Marcel Kueck — Freelance Automation & AI Engineer · Munich",
+    sub: "Marcel Kück — Freelance Automation & AI Engineer · Munich",
   },
   de: {
     headline: "Automatisierung & KI für Unternehmen, die liefern wollen.",
-    sub: "Marcel Kueck — Freiberuflicher Automatisierungs- & KI-Engineer · München",
+    sub: "Marcel Kück — Freiberuflicher Automatisierungs- & KI-Engineer · München",
   },
 };
 

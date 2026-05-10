@@ -32,7 +32,7 @@ export function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/marcelkueck/"
+                href="https://www.linkedin.com/in/marcel-kueck/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-colors hover:text-text-primary"

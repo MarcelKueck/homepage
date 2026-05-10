@@ -266,7 +266,7 @@ function PersonJsonLd() {
   const data = {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Marcel Kueck",
+    name: "Marcel Kück",
     jobTitle: "Freelance Automation & AI Engineer",
     url: SITE_URL,
     email: "mailto:hello@marcelkueck.dev",

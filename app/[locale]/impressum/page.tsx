@@ -1,6 +1,3 @@
-// TODO: Marcel must fill in placeholders (street, ZIP, phone, VAT ID)
-// before this page is published.
-
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
@@ -39,52 +36,46 @@ export default async function ImpressumPage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "impressum" });
 
   return (
     <Section snap={false}>
       <article className="prose-page mx-auto max-w-[700px]">
         <h1 className="!text-4xl !font-bold !text-text-primary !tracking-tight !leading-tight">
-          Impressum
+          {t("title")}
         </h1>
 
-        <h2>Angaben gemäß § 5 TMG / Information according to § 5 TMG</h2>
+        <h2>{t("addressHeading")}</h2>
         <p>
-          Marcel Kueck
+          Marcel Kück
           <br />
-          [PLACEHOLDER: Street + house number]
+          Hermann-Löns-Straße 22A
           <br />
-          [PLACEHOLDER: ZIP] Munich
+          82194 Gröbenzell
           <br />
           Germany
         </p>
 
-        <h2>Contact / Kontakt</h2>
+        <h2>{t("contactHeading")}</h2>
         <p>
-          Email:{" "}
+          {t("contactEmailLabel")}:{" "}
           <a href="mailto:hello@marcelkueck.dev">hello@marcelkueck.dev</a>
           <br />
-          Phone: [PLACEHOLDER: business phone number]
+          {t("contactPhoneLabel")}: +49 155 10365957
         </p>
 
-        <h2>Umsatzsteuer-Identifikationsnummer / VAT ID</h2>
-        <p>[PLACEHOLDER: USt-IdNr — Not yet applicable until issued]</p>
+        <h2>{t("vatHeading")}</h2>
+        <p>{t("vatText")}</p>
 
-        <h2>
-          Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV / Responsible for
-          content
-        </h2>
-        <p>Marcel Kueck (address as above)</p>
+        <h2>{t("responsibleHeading")}</h2>
+        <p>{t("responsibleText")}</p>
 
-        <h2>Berufsbezeichnung / Professional designation</h2>
+        <h2>{t("designationHeading")}</h2>
+        <p>{t("designationText")}</p>
+
+        <h2>{t("disputeHeading")}</h2>
         <p>
-          Freiberufler nach § 18 EStG (Selbstständige Tätigkeit im Bereich
-          Software-Engineering)
-        </p>
-
-        <h2>Streitschlichtung / Dispute resolution</h2>
-        <p>
-          Die Europäische Kommission stellt eine Plattform zur
-          Online-Streitbeilegung (OS) bereit:{" "}
+          {t("disputeText1")}{" "}
           <a
             href="https://ec.europa.eu/consumers/odr"
             target="_blank"
@@ -94,10 +85,7 @@ export default async function ImpressumPage({
           </a>
           .
         </p>
-        <p>
-          Ich bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
-          vor einer Verbraucherschlichtungsstelle teilzunehmen.
-        </p>
+        <p>{t("disputeText2")}</p>
       </article>
     </Section>
   );

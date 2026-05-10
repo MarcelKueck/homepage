@@ -40,7 +40,7 @@ export async function generateMetadata({
     metadataBase: new URL(SITE_URL),
     title: {
       default: t("metaTitle"),
-      template: "%s — Marcel Kueck",
+      template: "%s — Marcel Kück",
     },
     description: t("metaDescription"),
     alternates: {
@@ -54,7 +54,7 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       url: `${SITE_URL}/${locale}`,
-      siteName: "Marcel Kueck",
+      siteName: "Marcel Kück",
       title: t("metaTitle"),
       description: t("metaDescription"),
       locale: locale === "de" ? "de_DE" : "en_US",
@@ -63,7 +63,7 @@ export async function generateMetadata({
           url: `/api/og?locale=${locale}`,
           width: 1200,
           height: 630,
-          alt: "Marcel Kueck — Automation & AI Engineer",
+          alt: "Marcel Kück — Automation & AI Engineer",
         },
       ],
     },

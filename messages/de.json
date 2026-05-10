@@ -9,7 +9,7 @@
     "skipToContent": "Zum Inhalt springen"
   },
   "footer": {
-    "tagline": "Marcel Kueck · Freelance KI-Entwickler · München · © 2026",
+    "tagline": "Marcel Kück · Freelance KI-Entwickler · München · © 2026",
     "impressum": "Impressum",
     "privacy": "Datenschutz",
     "github": "GitHub",
@@ -28,7 +28,7 @@
     "getInTouch": "Kontakt aufnehmen →"
   },
   "home": {
-    "metaTitle": "Marcel Kueck — AI Engineer · München",
+    "metaTitle": "Marcel Kück — AI Engineer · München",
     "metaDescription": "KI-Agenten, Workflow-Automatisierung und individuelle Integrationen für mittelständische Unternehmen in Deutschland und international. Produktionsreif entwickelt.",
     "hero": {
       "label": "KI ENTWICKLER · FORSCHER · UNTERNEHMER",
@@ -36,7 +36,7 @@
       "headlineAccent": "Ihr Unternehmen",
       "headlineAfter": ".",
       "body": "Ich arbeite mit mittelständischen Unternehmen in Deutschland und international an produktionsreifen KI-Agenten, Workflow-Automatisierungen und individuellen Integrationen. Hintergrund: Informatik an der TU München, Software Entwicklung bei Siemens, zwei gegründete SaaS-Unternehmen, sowie aktive Forschung bei Devanthro und der University of Oxford.",
-      "imageAlt": "Marcel Kueck"
+      "imageAlt": "Marcel Kück"
     },
     "featured": {
       "label": "AKTUELLES PROJEKT",
@@ -54,7 +54,7 @@
       "p1": "Ich habe Informatik an der TU München studiert und parallel zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Nach dem Studium folgten zwei Jahre bei Devanthro zu Embodied AI und Robotik-Steuerung, zunächst als Research Engineer, dann als Founders Associate. Anschließend habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace (ein Coworking-Marktplatz) und Rechnungs-API (eine API für Rechnungsautomatisierung).",
       "p2": "Heute arbeite ich als freiberuflicher AI Engineer. Parallel forsche ich weiterhin bei Devanthro an der OpenArm-Plattform und an der University of Oxford bei Prof. Pierre Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
       "p3": "Außerhalb der Arbeit bastle ich aus Spaß: Hardware wie smarte Kaffeeröster und Roboterarme, Dinge die ich mit dem 3D-Drucker baue, aber auch Software-Projekte wie Smart-Home-Lösungen und ein eigenes Machine-Learning- und Robotik-Framework, das ich in Rust entwickle.",
-      "imageAlt": "Marcel Kueck Porträt"
+      "imageAlt": "Marcel Kück Porträt"
     },
     "workedWith": {
       "label": "ERFAHRUNG MIT",
@@ -86,7 +86,7 @@
     }
   },
   "projects": {
-    "metaTitle": "Projekte — Marcel Kueck",
+    "metaTitle": "Projekte — Marcel Kück",
     "metaDescription": "Eine Auswahl von Projekten aus KI, Automatisierung, Robotik und Hardware: Kundenarbeit, gegründete SaaS-Produkte, Forschung und Side Projects.",
     "label": "PROJEKTE",
     "headlineBefore": "Was ich ",
@@ -140,7 +140,7 @@
     }
   },
   "work": {
-    "metaTitle": "Zusammenarbeit — Marcel Kueck",
+    "metaTitle": "Zusammenarbeit — Marcel Kück",
     "metaDescription": "Freiberufliche KI- und Automatisierungs-Engagements: Audits, KI-Agenten-Implementierung, Workflow-Automatisierung, individuelle KI-Integrationen. Entwickelt für Ihr Unternehmen.",
     "hero": {
       "label": "ZUSAMMENARBEIT",
@@ -201,7 +201,7 @@
     }
   },
   "buildLog": {
-    "metaTitle": "Build Log — Marcel Kueck",
+    "metaTitle": "Build Log — Marcel Kück",
     "metaDescription": "Notizen aus der Werkstatt: KI-Automatisierungsprojekte, Forschung aus Oxford, Hardware-Experimente, Erkenntnisse aus Kundenprojekten.",
     "headlineBefore": "Das ",
     "headlineAccent": "Build Log.",
@@ -210,13 +210,25 @@
     "cta": "Auf Substack lesen →"
   },
   "impressum": {
-    "metaTitle": "Impressum — Marcel Kueck",
+    "metaTitle": "Impressum — Marcel Kück",
     "metaDescription": "Rechtliche Hinweise und Kontaktinformationen gemäß § 5 TMG.",
     "title": "Impressum",
-    "intro": "Angaben gemäß § 5 TMG"
+    "addressHeading": "Angaben gemäß § 5 TMG",
+    "contactHeading": "Kontakt",
+    "contactEmailLabel": "E-Mail",
+    "contactPhoneLabel": "Telefon",
+    "vatHeading": "Umsatzsteuer-Identifikationsnummer",
+    "vatText": "Umsatzsteuer-Identifikationsnummer noch nicht erteilt.",
+    "responsibleHeading": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+    "responsibleText": "Marcel Kück (Adresse wie oben)",
+    "designationHeading": "Berufsbezeichnung",
+    "designationText": "Freiberufler nach § 18 EStG (Selbstständige Tätigkeit im Bereich Software-Engineering)",
+    "disputeHeading": "Streitschlichtung",
+    "disputeText1": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:",
+    "disputeText2": "Ich bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
   },
   "privacy": {
-    "metaTitle": "Datenschutz — Marcel Kueck",
+    "metaTitle": "Datenschutz — Marcel Kück",
     "metaDescription": "Wie marcelkueck.dev mit personenbezogenen Daten, Cookies, Analytics und Ihren DSGVO-Rechten umgeht.",
     "title": "Datenschutzerklärung",
     "lastUpdated": "Letzte Aktualisierung: 2026"

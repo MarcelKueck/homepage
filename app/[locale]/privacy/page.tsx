@@ -52,7 +52,7 @@ function PrivacyEn() {
 
         <h2>1. Data controller</h2>
         <p>
-          The data controller for this website is Marcel Kueck. For full contact
+          The data controller for this website is Marcel Kück. For full contact
           details, see the{" "}
           <Link href="/impressum">Impressum</Link>.
         </p>
@@ -137,7 +137,7 @@ function PrivacyDe() {
 
         <h2>1. Verantwortlicher</h2>
         <p>
-          Verantwortlicher für diese Website ist Marcel Kueck. Vollständige
+          Verantwortlicher für diese Website ist Marcel Kück. Vollständige
           Kontaktdaten finden Sie im{" "}
           <Link href="/impressum">Impressum</Link>.
         </p>
