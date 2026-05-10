@@ -1,11 +1,10 @@
-// TODO: replace with real Google Calendar scheduler URL
-export const CALENDAR_URL = "https://calendar.app.google/MARCEL_PLACEHOLDER";
+export const CALENDAR_URL = "https://calendar.app.google/vBxkUuNecCeAGjX67";
 
 export const SOCIAL_LINKS = {
   // TODO: confirm handle
   github: "https://github.com/marcelkueck",
   // TODO: confirm handle
-  linkedin: "https://www.linkedin.com/in/marcelkueck/",
+  linkedin: "https://www.linkedin.com/in/marcel-kueck/",
   // TODO: confirm
   x: "https://x.com/marcelkueck",
   substack: "https://marcelkueck.substack.com",

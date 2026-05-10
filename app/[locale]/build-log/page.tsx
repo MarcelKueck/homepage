@@ -46,10 +46,6 @@ function BuildLogContent() {
   const t = useTranslations("buildLog");
   return (
     <>
-      {/* Client-side redirect via meta refresh ensures the user ends up on Substack
-          while still allowing search engines and reduced-motion users to read
-          the fallback card. */}
-      <meta httpEquiv="refresh" content={`0; url=${SOCIAL_LINKS.substack}`} />
       <Section ariaLabelledBy="buildlog-headline">
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 rounded-[24px] border border-border bg-bg-secondary p-10 text-center sm:p-14">
           <Headline

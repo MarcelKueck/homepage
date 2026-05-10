@@ -75,7 +75,7 @@ When real images arrive, replace the URLs and remove the `// TODO:` comments. Th
 
 External links live in `lib/links.ts`:
 
-- `CALENDAR_URL` — Google Calendar scheduler URL (placeholder until Marcel issues a real one)
+- `CALENDAR_URL` — Google Calendar scheduler URL
 - `SOCIAL_LINKS.github` / `linkedin` / `x` — confirm handles match real accounts
 - `PROJECT_LINKS.openArm` / `coffeeRoaster` / `leRobot` — set real GitHub URLs
 
@@ -92,7 +92,7 @@ All page copy is in `messages/en.json` and `messages/de.json`. Both languages ar
 
 Run `grep -rn "TODO:" app components lib messages` to see them all. Categories:
 
-- `// TODO: replace with real Google Calendar scheduler URL` — `lib/links.ts`
+
 - `// TODO: confirm handle` — social URLs in `lib/links.ts`
 - `// TODO: replace with real <project> GitHub URL` — `lib/links.ts`
 - `// TODO: Replace with real photo` — every `<Image>` placeholder
