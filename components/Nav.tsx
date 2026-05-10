@@ -29,6 +29,28 @@ export function Nav() {
     };
   }, [open]);
 
+  // Auto-close the mobile menu if the viewport crosses to the desktop
+  // breakpoint (e.g. rotation, resizing) — otherwise the panel stays
+  // open underneath the desktop nav and re-locks body scroll.
+  useEffect(() => {
+    const mql = window.matchMedia("(min-width: 768px)");
+    function onChange(e: MediaQueryListEvent) {
+      if (e.matches) setOpen(false);
+    }
+    mql.addEventListener("change", onChange);
+    return () => mql.removeEventListener("change", onChange);
+  }, []);
+
+  // Close the mobile menu on Escape.
+  useEffect(() => {
+    if (!open) return;
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setOpen(false);
+    }
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open]);
+
   return (
     <header
       className={`sticky top-0 z-40 transition-colors duration-300 ${
@@ -46,7 +68,7 @@ export function Nav() {
               width={840}
               height={192}
               priority
-              className="h-48 w-auto"
+              className="h-24 w-auto sm:h-32 md:h-48"
             />
           </Link>
 
