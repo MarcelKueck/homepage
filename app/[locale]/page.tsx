@@ -161,6 +161,7 @@ function HomeContent() {
             />
             <p className="max-w-prose text-text-secondary">{t("about.p1")}</p>
             <p className="max-w-prose text-text-secondary">{t("about.p2")}</p>
+            <p className="max-w-prose text-text-secondary">{t("about.p3")}</p>
             <div className="pt-2">
               <Button as="link" href="/work-with-me" variant="primary">
                 {tc("workWithMe")}

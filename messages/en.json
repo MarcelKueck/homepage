@@ -9,7 +9,7 @@
     "skipToContent": "Skip to content"
   },
   "footer": {
-    "tagline": "Marcel Kueck — Freelance AI Engineer · Munich, Germany · © 2026",
+    "tagline": "Marcel Kueck · Freelance AI Engineer · Munich, Germany · © 2026",
     "impressum": "Impressum",
     "privacy": "Datenschutz",
     "github": "GitHub",
@@ -29,13 +29,13 @@
   },
   "home": {
     "metaTitle": "Marcel Kueck — AI Engineer · Munich",
-    "metaDescription": "AI agents, workflow automation, and custom integrations for mid-market businesses across Germany and internationally — built for production.",
+    "metaDescription": "AI agents, workflow automation, and custom integrations for mid-market businesses across Germany and internationally. Built for production.",
     "hero": {
       "label": "AI ENGINEER · RESEARCHER · ENTREPRENEUR",
       "headlineBefore": "AI & automation, engineered for ",
       "headlineAccent": "your business",
       "headlineAfter": ".",
-      "body": "I work with mid market businesses across Germany and internationally to build production grade AI agents, workflow automation, and custom integrations. Background: computer science at TU Munich, engineering at Siemens, two founded SaaS companies (ShareYourSpace and Rechnungs-API), and active research at Devanthro and the University of Oxford.",
+      "body": "I work with mid market businesses across Germany and internationally to build production grade AI agents, workflow automation, and custom integrations. Background: Computer Science at TU Munich, Software Engineering at Siemens, two founded SaaS companies, and active research at Devanthro and the University of Oxford.",
       "imageAlt": "Marcel Kueck, AI engineer based in Munich"
     },
     "featured": {
@@ -43,7 +43,7 @@
       "headlineBefore": "An AI agent for the ",
       "headlineAccent": "full customer lifecycle.",
       "headlineAfter": "",
-      "body": "For Motion Sports, a German online retailer, I'm building an integrated AI assistant that handles consultation, order support, returns, and after-sales — all inside their existing online shop. The agent connects to inventory, order data, and customer history, and escalates to humans when it should. Goal: turn customer service from a cost center into a revenue driver.",
+      "body": "For Motion Sports, a German online retailer, I'm building an integrated AI assistant that handles consultation, order support, returns, and after-sales, all inside their existing online shop. The agent connects to inventory, order data, and customer history, and escalates to humans when it should. Goal: turn customer service from a cost center into a revenue driver.",
       "imageAlt": "Motion Sports AI agent dashboard"
     },
     "about": {
@@ -51,9 +51,9 @@
       "headlineBefore": "The ",
       "headlineAccent": "short version",
       "headlineAfter": ".",
-      "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After my studies, four years at Devanthro on embodied AI and robotics control — first as research engineer, later as founders associate. During that time I co-founded two SaaS companies: ShareYourSpace (a coworking marketplace) and Rechnungs-API (an invoice automation API).",
-      "p2": "Today I work as a freelance AI engineer. In parallel, I continue research at Devanthro on the OpenArm platform and start a three-month research stay at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles in the coming weeks.",
-      "p3": "Outside of work, I build hardware for fun — smart coffee roasters, 3D printers, robotic arms.",
+      "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace (a coworking marketplace) and Rechnungs-API (an invoice automation API).",
+      "p2": "Today I work as a freelance AI engineer. In parallel, I continue research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
+      "p3": "Outside of work, I build things for fun: hardware like smart coffee roasters and robotic arms, things made with 3D printers, but also software projects like smart home solutions and my own machine learning and robotics framework written in Rust.",
       "imageAlt": "Marcel Kueck portrait"
     },
     "workedWith": {
@@ -87,12 +87,12 @@
   },
   "projects": {
     "metaTitle": "Projects — Marcel Kueck",
-    "metaDescription": "A selection of AI, automation, robotics, and hardware projects — client work, founded SaaS products, research, and side projects.",
+    "metaDescription": "A selection of AI, automation, robotics, and hardware projects: client work, founded SaaS products, research, and side projects.",
     "label": "PROGRAMMING PROJECTS",
     "headlineBefore": "Things I've ",
     "headlineAccent": "built.",
     "headlineAfter": "",
-    "intro": "A selection of projects I've built across AI, automation, robotics, and hardware — a mix of client work, founded products, research, and side projects. Open source where possible.",
+    "intro": "A selection of projects I've built across AI, automation, robotics, and hardware. A mix of client work, founded products, research, and side projects. Open source where possible.",
     "freelanceLink": "Looking for freelance work? Work with me →",
     "items": {
       "motionSports": {
@@ -141,13 +141,13 @@
   },
   "work": {
     "metaTitle": "Work with me — Marcel Kueck",
-    "metaDescription": "Freelance AI and automation engagements — audits, AI agent implementation, workflow automation, custom AI integrations. Engineered for your business.",
+    "metaDescription": "Freelance AI and automation engagements: audits, AI agent implementation, workflow automation, custom AI integrations. Engineered for your business.",
     "hero": {
       "label": "WORK WITH MARCEL",
       "headlineBefore": "Automation that ",
       "headlineAccent": "works.",
       "headlineAfter": "",
-      "body": "I work with mid-market businesses, agencies, and ambitious teams who want to deploy AI and automation that actually moves the needle — not slide decks. Engagements run from short audits to multi-month builds."
+      "body": "I work with mid-market businesses, agencies, and ambitious teams who want to deploy AI and automation that actually moves the needle. Not slide decks. Engagements run from short audits to multi-month builds."
     },
     "services": {
       "label": "SERVICES",
@@ -165,12 +165,12 @@
         },
         "workflow": {
           "title": "Workflow Automation",
-          "body": "End-to-end process automation using Make, Zapier, n8n, and custom code — connected and running.",
+          "body": "End-to-end process automation using Make, Zapier, n8n, and custom code. Connected and running.",
           "pricing": "Project-based · typically 2–6 weeks"
         },
         "integration": {
           "title": "Custom AI Integration",
-          "body": "Bespoke integrations between your business systems and AI models — RAG, internal search, custom analytics.",
+          "body": "Bespoke integrations between your business systems and AI models: RAG, internal search, custom analytics.",
           "pricing": "Project-based · scoped per engagement"
         }
       }
@@ -202,11 +202,11 @@
   },
   "buildLog": {
     "metaTitle": "Build Log — Marcel Kueck",
-    "metaDescription": "Notes from the workshop — AI automation projects, research from Oxford, hardware experiments, lessons from client work.",
+    "metaDescription": "Notes from the workshop: AI automation projects, research from Oxford, hardware experiments, lessons from client work.",
     "headlineBefore": "The ",
     "headlineAccent": "Build Log.",
     "headlineAfter": "",
-    "body": "The Build Log is where I document what I'm building and learning — AI automation projects, research notes from Oxford, hardware experiments, lessons from client work. Monthly cadence.",
+    "body": "The Build Log is where I document what I'm building and learning: AI automation projects, research notes from Oxford, hardware experiments, lessons from client work. Monthly cadence.",
     "cta": "Read on Substack →"
   },
   "impressum": {

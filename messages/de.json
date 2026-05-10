@@ -9,7 +9,7 @@
     "skipToContent": "Zum Inhalt springen"
   },
   "footer": {
-    "tagline": "Marcel Kueck — Freelance KI-Entwickler · München · © 2026",
+    "tagline": "Marcel Kueck · Freelance KI-Entwickler · München · © 2026",
     "impressum": "Impressum",
     "privacy": "Datenschutz",
     "github": "GitHub",
@@ -29,13 +29,13 @@
   },
   "home": {
     "metaTitle": "Marcel Kueck — AI Engineer · München",
-    "metaDescription": "KI-Agenten, Workflow-Automatisierung und individuelle Integrationen für mittelständische Unternehmen in Deutschland und international — produktionsreif entwickelt.",
+    "metaDescription": "KI-Agenten, Workflow-Automatisierung und individuelle Integrationen für mittelständische Unternehmen in Deutschland und international. Produktionsreif entwickelt.",
     "hero": {
-      "label": "AI ENGINEER · FORSCHER · UNTERNEHMER",
-      "headlineBefore": "KI & Automatisierung, für ",
+      "label": "KI ENTWICKLER · FORSCHER · UNTERNEHMER",
+      "headlineBefore": "KI & Automatisierung, entwickelt für ",
       "headlineAccent": "Ihr Unternehmen",
-      "headlineAfter": " entwickelt.",
-      "body": "Ich arbeite mit mittelständischen Unternehmen in Deutschland und international an produktionsreifen KI-Agenten, Workflow-Automatisierungen und individuellen Integrationen. Hintergrund: Informatik an der TU München, Engineering bei Siemens, zwei gegründete SaaS-Unternehmen (ShareYourSpace und Rechnungs-API) sowie aktive Forschung bei Devanthro und der University of Oxford.",
+      "headlineAfter": ".",
+      "body": "Ich arbeite mit mittelständischen Unternehmen in Deutschland und international an produktionsreifen KI-Agenten, Workflow-Automatisierungen und individuellen Integrationen. Hintergrund: Informatik an der TU München, Software Entwicklung bei Siemens, zwei gegründete SaaS-Unternehmen, sowie aktive Forschung bei Devanthro und der University of Oxford.",
       "imageAlt": "Marcel Kueck"
     },
     "featured": {
@@ -43,7 +43,7 @@
       "headlineBefore": "Ein KI-Agent für den ",
       "headlineAccent": "gesamten Kundenlebenszyklus.",
       "headlineAfter": "",
-      "body": "Für Motion Sports, einen deutschen Online-Händler, entwickle ich einen integrierten KI-Assistenten, der Beratung, Bestellsupport, Retouren und After-Sales abwickelt — direkt im bestehenden Online-Shop. Der Agent ist an Warenwirtschaft, Bestelldaten und Kundenhistorie angebunden und übergibt an Menschen, wenn nötig. Ziel: Kundenservice vom Kostenfaktor zum Umsatztreiber machen.",
+      "body": "Für Motion Sports, einen deutschen Online-Händler, entwickle ich einen integrierten KI-Assistenten, der Beratung, Bestellsupport, Retouren und After-Sales abwickelt, alles direkt im bestehenden Online-Shop. Der Agent ist an Warenwirtschaft, Bestelldaten und Kundenhistorie angebunden und übergibt an Menschen, wenn nötig. Ziel: Kundenservice vom Kostenfaktor zum Umsatztreiber machen.",
       "imageAlt": "Motion Sports KI-Agent Dashboard"
     },
     "about": {
@@ -51,9 +51,9 @@
       "headlineBefore": "Die ",
       "headlineAccent": "Kurzfassung",
       "headlineAfter": ".",
-      "p1": "Ich habe Informatik an der TU München studiert und parallel zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Anschließend vier Jahre bei Devanthro zu Embodied AI und Robotik-Steuerung — zunächst als Research Engineer, später als Founders Associate. In dieser Zeit habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace (ein Coworking-Marktplatz) und Rechnungs-API (eine API für Rechnungsautomatisierung).",
-      "p2": "Heute arbeite ich als freiberuflicher AI Engineer. Parallel forsche ich weiterhin bei Devanthro an der OpenArm-Plattform und beginne in den kommenden Wochen einen dreimonatigen Forschungsaufenthalt an der University of Oxford bei Prof. Pierre Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
-      "p3": "Außerhalb der Arbeit baue ich Hardware aus Spaß — smarte Kaffeeröster, 3D-Drucker, Roboterarme.",
+      "p1": "Ich habe Informatik an der TU München studiert und parallel zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Nach dem Studium folgten zwei Jahre bei Devanthro zu Embodied AI und Robotik-Steuerung, zunächst als Research Engineer, dann als Founders Associate. Anschließend habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace (ein Coworking-Marktplatz) und Rechnungs-API (eine API für Rechnungsautomatisierung).",
+      "p2": "Heute arbeite ich als freiberuflicher AI Engineer. Parallel forsche ich weiterhin bei Devanthro an der OpenArm-Plattform und an der University of Oxford bei Prof. Pierre Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
+      "p3": "Außerhalb der Arbeit bastle ich aus Spaß: Hardware wie smarte Kaffeeröster und Roboterarme, Dinge die ich mit dem 3D-Drucker baue, aber auch Software-Projekte wie Smart-Home-Lösungen und ein eigenes Machine-Learning- und Robotik-Framework, das ich in Rust entwickle.",
       "imageAlt": "Marcel Kueck Porträt"
     },
     "workedWith": {
@@ -82,22 +82,22 @@
       "headlineBefore": "Bereit, etwas ",
       "headlineAccent": "Echtes",
       "headlineAfter": " zu bauen?",
-      "body": "Schreib mir direkt — lass uns besprechen, was du umsetzen möchtest."
+      "body": "Schreib mir direkt und lass uns besprechen, was du umsetzen möchtest."
     }
   },
   "projects": {
     "metaTitle": "Projekte — Marcel Kueck",
-    "metaDescription": "Eine Auswahl von Projekten aus KI, Automatisierung, Robotik und Hardware — Kundenarbeit, gegründete SaaS-Produkte, Forschung und Side Projects.",
+    "metaDescription": "Eine Auswahl von Projekten aus KI, Automatisierung, Robotik und Hardware: Kundenarbeit, gegründete SaaS-Produkte, Forschung und Side Projects.",
     "label": "PROJEKTE",
     "headlineBefore": "Was ich ",
     "headlineAccent": "gebaut habe.",
     "headlineAfter": "",
-    "intro": "Eine Auswahl meiner Projekte aus den Bereichen KI, Automatisierung, Robotik und Hardware — eine Mischung aus Kundenprojekten, gegründeten Produkten, Forschung und Side Projects. Wo möglich, Open Source.",
+    "intro": "Eine Auswahl meiner Projekte aus den Bereichen KI, Automatisierung, Robotik und Hardware. Eine Mischung aus Kundenprojekten, gegründeten Produkten, Forschung und Side Projects. Wo möglich, Open Source.",
     "freelanceLink": "Auf der Suche nach freiberuflicher Unterstützung? Zusammenarbeiten →",
     "items": {
       "motionSports": {
         "title": "Motion Sports KI-Agent",
-        "description": "Integrierter KI-Assistent für einen deutschen Online-Händler. Übernimmt Beratung, Bestellungen, Retouren und After-Sales direkt im Shop — angebunden an Warenwirtschaft, Bestellungen und Kundenhistorie.",
+        "description": "Integrierter KI-Assistent für einen deutschen Online-Händler. Übernimmt Beratung, Bestellungen, Retouren und After-Sales direkt im Shop, angebunden an Warenwirtschaft, Bestellungen und Kundenhistorie.",
         "tags": ["KI-Agenten", "E-Commerce", "Python", "LangGraph"],
         "ctaLabel": "Case Study folgt"
       },
@@ -141,13 +141,13 @@
   },
   "work": {
     "metaTitle": "Zusammenarbeit — Marcel Kueck",
-    "metaDescription": "Freiberufliche KI- und Automatisierungs-Engagements — Audits, KI-Agenten-Implementierung, Workflow-Automatisierung, individuelle KI-Integrationen. Entwickelt für Ihr Unternehmen.",
+    "metaDescription": "Freiberufliche KI- und Automatisierungs-Engagements: Audits, KI-Agenten-Implementierung, Workflow-Automatisierung, individuelle KI-Integrationen. Entwickelt für Ihr Unternehmen.",
     "hero": {
       "label": "ZUSAMMENARBEIT",
       "headlineBefore": "Automatisierung, die ",
       "headlineAccent": "funktioniert.",
       "headlineAfter": "",
-      "body": "Ich arbeite mit mittelständischen Unternehmen, Agenturen und ambitionierten Teams, die KI und Automatisierung einsetzen wollen, um wirklich etwas zu bewegen — keine Slide-Decks. Die Zusammenarbeit reicht von kurzen Audits bis zu mehrmonatigen Projekten."
+      "body": "Ich arbeite mit mittelständischen Unternehmen, Agenturen und ambitionierten Teams, die KI und Automatisierung einsetzen wollen, um wirklich etwas zu bewegen. Keine Slide-Decks. Die Zusammenarbeit reicht von kurzen Audits bis zu mehrmonatigen Projekten."
     },
     "services": {
       "label": "LEISTUNGEN",
@@ -165,12 +165,12 @@
         },
         "workflow": {
           "title": "Workflow-Automatisierung",
-          "body": "End-to-End-Prozessautomatisierung mit Make, Zapier, n8n und individuellem Code — verbunden und im Betrieb.",
+          "body": "End-to-End-Prozessautomatisierung mit Make, Zapier, n8n und individuellem Code. Verbunden und im Betrieb.",
           "pricing": "Projektbezogen · typisch 2–6 Wochen"
         },
         "integration": {
           "title": "Individuelle KI-Integration",
-          "body": "Maßgeschneiderte Integrationen zwischen Ihren Geschäftssystemen und KI-Modellen — RAG, interne Suche, individuelle Analytics.",
+          "body": "Maßgeschneiderte Integrationen zwischen Ihren Geschäftssystemen und KI-Modellen: RAG, interne Suche, individuelle Analytics.",
           "pricing": "Projektbezogen · individuell skopiert"
         }
       }
@@ -202,11 +202,11 @@
   },
   "buildLog": {
     "metaTitle": "Build Log — Marcel Kueck",
-    "metaDescription": "Notizen aus der Werkstatt — KI-Automatisierungsprojekte, Forschung aus Oxford, Hardware-Experimente, Erkenntnisse aus Kundenprojekten.",
+    "metaDescription": "Notizen aus der Werkstatt: KI-Automatisierungsprojekte, Forschung aus Oxford, Hardware-Experimente, Erkenntnisse aus Kundenprojekten.",
     "headlineBefore": "Das ",
     "headlineAccent": "Build Log.",
     "headlineAfter": "",
-    "body": "Im Build Log dokumentiere ich, was ich gerade baue und lerne — KI-Automatisierungsprojekte, Forschungsnotizen aus Oxford, Hardware-Experimente, Erkenntnisse aus Kundenprojekten. Monatlich.",
+    "body": "Im Build Log dokumentiere ich, was ich gerade baue und lerne: KI-Automatisierungsprojekte, Forschungsnotizen aus Oxford, Hardware-Experimente, Erkenntnisse aus Kundenprojekten. Monatlich.",
     "cta": "Auf Substack lesen →"
   },
   "impressum": {
