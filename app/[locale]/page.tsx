@@ -140,14 +140,14 @@ function HomeContent() {
       <Section id="about" ariaLabelledBy="about-headline" nextSection="#photos">
         <div className="grid items-center gap-8 md:grid-cols-2 md:gap-10 lg:gap-14">
           <div>
-            {/* TODO: Replace with real photo */}
-            <div className="relative mx-auto aspect-square w-full max-w-[420px] overflow-hidden rounded-[24px] bg-bg-secondary">
+            <div className="mx-auto w-full max-w-[420px] overflow-hidden rounded-[24px]">
               <Image
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&h=600&fit=crop"
+                src="/hero_colour.jpg"
                 alt={t("about.imageAlt")}
-                fill
+                width={420}
+                height={560}
                 sizes="(min-width: 768px) 40vw, 80vw"
-                className="object-cover"
+                className="w-full h-auto object-contain"
               />
             </div>
           </div>
