@@ -4,10 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { routing } from "@/i18n/routing";
 import { Section } from "@/components/Section";
-import { SectionLabel } from "@/components/SectionLabel";
-import { Headline } from "@/components/Headline";
 import { ProjectCard } from "@/components/ProjectCard";
-import { Link } from "@/i18n/routing";
 import { PROJECT_LINKS, SITE_URL } from "@/lib/links";
 
 type Params = { locale: (typeof routing.locales)[number] };
@@ -85,28 +82,7 @@ function ProjectsContent() {
 
   return (
     <>
-      <Section id="projects-hero" ariaLabelledBy="projects-headline">
-        <div className="flex max-w-3xl flex-col gap-5 md:gap-6">
-          <SectionLabel>{t("label")}</SectionLabel>
-          <Headline
-            as="h1"
-            id="projects-headline"
-            className="display-headline text-balance"
-            before={t("headlineBefore")}
-            accent={t("headlineAccent")}
-            after={t("headlineAfter")}
-          />
-          <p className="text-text-secondary">{t("intro")}</p>
-          <Link
-            href="/work-with-me"
-            className="inline-flex w-fit items-center text-sm font-semibold text-accent hover:text-accent-hover"
-          >
-            {t("freelanceLink")}
-          </Link>
-        </div>
-      </Section>
-
-      <Section snap={false} className="!pt-0">
+      <Section snap={false}>
         <div className="grid gap-6 sm:gap-8 md:grid-cols-2">
           {PROJECT_KEYS.map((key) => {
             const title = t(`items.${key}.title`);
