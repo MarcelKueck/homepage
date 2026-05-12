@@ -9,7 +9,6 @@ export function PhotoGridItem({
 }) {
   return (
     <div className="relative aspect-square w-full overflow-hidden rounded-3xl bg-bg-secondary">
-      {/* TODO: Replace with real photo */}
       <Image
         src={src}
         alt={alt}

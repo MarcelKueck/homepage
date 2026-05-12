@@ -51,20 +51,13 @@ const PROJECT_KEYS = [
 ] as const;
 
 const IMAGES: Record<(typeof PROJECT_KEYS)[number], string> = {
-  // TODO: Replace with real photo
-  motionSports: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop",
-  // TODO: Replace with real photo
-  rechnungsApi: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop",
-  // TODO: Replace with real photo
-  shareYourSpace: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=500&fit=crop",
-  // TODO: Replace with real photo
-  openArm: "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&h=500&fit=crop",
-  // TODO: Replace with real photo
-  coffeeRoaster: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=500&fit=crop",
-  // TODO: Replace with real photo
-  leRobot: "https://images.unsplash.com/photo-1567361808960-dec9cb578182?w=800&h=500&fit=crop",
-  // TODO: Replace with real photo
-  svEsting: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&h=500&fit=crop",
+  motionSports: "/projects/motion-sports.jpg",
+  rechnungsApi: "/projects/rechnungs-api.jpg",
+  shareYourSpace: "/projects/share-your-space.jpg",
+  openArm: "/projects/open-arm.jpg",
+  coffeeRoaster: "/projects/coffee-roaster.jpg",
+  leRobot: "/projects/le-robot.jpg",
+  svEsting: "/projects/sv-esting.jpg",
 };
 
 const CTA_HREFS: Record<(typeof PROJECT_KEYS)[number], string | undefined> = {

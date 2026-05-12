@@ -53,7 +53,7 @@
       "headlineAfter": ".",
       "p1": "Ich habe Informatik an der TU München studiert und parallel zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Nach dem Studium folgten zwei Jahre bei Devanthro zu Embodied AI und Robotik-Steuerung, zunächst als Research Engineer, dann als Founders Associate. Anschließend habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace (ein Coworking-Marktplatz) und Rechnungs-API (eine API für Rechnungsautomatisierung).",
       "p2": "Heute arbeite ich als freiberuflicher AI Engineer. Parallel forsche ich weiterhin bei Devanthro an der OpenArm-Plattform und an der University of Oxford bei Prof. Pierre Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
-      "p3": "Außerhalb der Arbeit bastle ich aus Spaß: Hardware wie smarte Kaffeeröster und Roboterarme, Dinge die ich mit dem 3D-Drucker baue, aber auch Software-Projekte wie Smart-Home-Lösungen und ein eigenes Machine-Learning- und Robotik-Framework, das ich in Rust entwickle.",
+      "p3": "Außerhalb der Arbeit bastle ich aus Spaß: Hardware wie ein selbst gebauter smarter Kaffeeröster (aus dem auch eine Hobby-Röstmarke wurde, Marie Lou Coffee), Roboterarme, 3D-gedruckte Konstruktionen, und auf der Software-Seite Smart-Home-Lösungen sowie ein eigenes Machine-Learning- und Robotik-Framework, das ich in Rust entwickle.",
       "imageAlt": "Marcel Kück Porträt"
     },
     "workedWith": {
@@ -121,7 +121,7 @@
       },
       "coffeeRoaster": {
         "title": "Smart Coffee Roaster",
-        "description": "IoT-gesteuerter Kaffeeröster mit Profilaufzeichnung und Wiedergabe. Closed-Loop-Temperatursteuerung via Raspberry Pi, eigene Firmware und kleines Web-UI zur Profilverwaltung.",
+        "description": "IoT-gesteuerter Kaffeeröster mit Profilaufzeichnung und Wiedergabe. Closed-Loop-Temperatursteuerung via Raspberry Pi, eigene Firmware und kleines Web-UI zur Profilverwaltung. Auch der Ursprung von Marie Lou Coffee (marieloucoffee.com).",
         "tags": ["IoT", "Hardware", "Python", "Side Project"],
         "ctaLabel": "Auf GitHub ansehen →"
       },

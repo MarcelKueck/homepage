@@ -13,12 +13,9 @@ export const SOCIAL_LINKS = {
 export const PROJECT_LINKS = {
   rechnungsApi: "https://rechnungs-api.de",
   shareYourSpace: "https://shareyourspace.com",
-  // TODO: replace with real OpenArm GitHub URL
-  openArm: "https://github.com/marcelkueck",
-  // TODO: replace with real Coffee Roaster GitHub URL
-  coffeeRoaster: "https://github.com/marcelkueck",
-  // TODO: replace with real LE Robot GitHub URL
-  leRobot: "https://github.com/marcelkueck",
+  openArm: "https://github.com/enactic/openarm",
+  coffeeRoaster: "https://github.com/MarcelKueck/la_marcello",
+  leRobot: "https://github.com/huggingface/lerobot",
   svEsting: "https://github.com/MarcelKueck/sv-esting-turnen",
 };
 

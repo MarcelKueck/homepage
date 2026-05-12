@@ -145,9 +145,8 @@ function WorkContent() {
         <div className="grid gap-3 md:grid-cols-2">
           <article className="overflow-hidden rounded-[24px] border border-border bg-bg-primary">
             <div className="relative aspect-16/7 w-full overflow-hidden">
-              {/* TODO: Replace with real photo (Motion Sports screenshot) */}
               <Image
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+                src="/projects/motion-sports.jpg"
                 alt={t("cases.motionSports.client")}
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"

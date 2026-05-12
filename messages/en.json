@@ -53,7 +53,7 @@
       "headlineAfter": ".",
       "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace (a coworking marketplace) and Rechnungs-API (an invoice automation API).",
       "p2": "Today I work as a freelance AI engineer. In parallel, I continue research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
-      "p3": "Outside of work, I build things for fun: hardware like smart coffee roasters and robotic arms, things made with 3D printers, but also software projects like smart home solutions and my own machine learning and robotics framework written in Rust.",
+      "p3": "Outside of work, I build things for fun: hardware like a self-built smart coffee roaster (which turned into a hobby roasting brand, Marie Lou Coffee), robotic arms, 3D-printed contraptions, and on the software side smart home solutions and my own machine learning and robotics framework written in Rust.",
       "imageAlt": "Marcel Kück portrait"
     },
     "workedWith": {
@@ -121,7 +121,7 @@
       },
       "coffeeRoaster": {
         "title": "Smart Coffee Roaster",
-        "description": "IoT-controlled coffee roaster with profile recording and replay. Closed-loop temperature control via Raspberry Pi, custom firmware, and a small web UI for managing roasts.",
+        "description": "IoT-controlled coffee roaster with profile recording and replay. Closed-loop temperature control via Raspberry Pi, custom firmware, and a small web UI for managing roasts. Also the origin of Marie Lou Coffee (marieloucoffee.com).",
         "tags": ["IoT", "Hardware", "Python", "Side Project"],
         "ctaLabel": "View on GitHub →"
       },

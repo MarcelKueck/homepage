@@ -46,7 +46,11 @@ function BuildLogContent() {
   const t = useTranslations("buildLog");
   return (
     <>
-      <Section ariaLabelledBy="buildlog-headline">
+      <Section
+        ariaLabelledBy="buildlog-headline"
+        snap={false}
+        className="md:min-h-[calc(100vh-5rem)] md:flex md:flex-col md:justify-center"
+      >
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 rounded-[24px] border border-border bg-bg-secondary p-10 text-center sm:p-14">
           <Headline
             as="h1"

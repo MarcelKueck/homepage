@@ -27,22 +27,14 @@ const WORKED_WITH: Array<{ name: string; domain: string }> = [
 ];
 
 const PHOTOS = [
-  // TODO: Replace with real photo
-  "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=400&fit=crop",
-  // TODO: Replace with real photo
-  "https://images.unsplash.com/photo-1555680202-c86f0e12f086?w=400&h=400&fit=crop",
-  // TODO: Replace with real photo
-  "https://images.unsplash.com/photo-1527430253228-e93688616381?w=400&h=400&fit=crop",
-  // TODO: Replace with real photo
-  "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=400&fit=crop",
-  // TODO: Replace with real photo
-  "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=400&h=400&fit=crop",
-  // TODO: Replace with real photo
-  "https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?w=400&h=400&fit=crop",
-  // TODO: Replace with real photo
-  "https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=400&fit=crop",
-  // TODO: Replace with real photo
-  "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&h=400&fit=crop",
+  "/photos/circuit-board.jpg",
+  "/photos/3d-printer.jpg",
+  "/photos/robot-arm.jpg",
+  "/photos/code-on-screen.jpg",
+  "/photos/workshop-tools.jpg",
+  "/photos/lab-research.jpg",
+  "/photos/team-collaboration.jpg",
+  "/photos/whiteboard-planning.jpg",
 ];
 
 type Params = { locale: (typeof routing.locales)[number] };
@@ -122,10 +114,9 @@ function HomeContent() {
             </div>
           </div>
           <div className="order-1 md:order-2">
-            {/* TODO: Replace with real photo (Motion Sports screenshot) */}
             <div className="relative mx-auto aspect-[4/3] w-full max-w-[600px] overflow-hidden rounded-[24px] bg-bg-tertiary">
               <Image
-                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+                src="/projects/motion-sports.jpg"
                 alt={t("featured.imageAlt")}
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"
