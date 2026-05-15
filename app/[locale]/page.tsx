@@ -27,14 +27,10 @@ const WORKED_WITH: Array<{ name: string; domain: string }> = [
 ];
 
 const PHOTOS = [
-  "/photos/circuit-board.jpg",
-  "/photos/3d-printer.jpg",
-  "/photos/robot-arm.jpg",
-  "/photos/code-on-screen.jpg",
-  "/photos/workshop-tools.jpg",
   "/photos/lab-research.jpg",
-  "/photos/team-collaboration.jpg",
-  "/photos/whiteboard-planning.jpg",
+  "/photos/robot-arm.jpg",
+  "/photos/3d-printer.jpg",
+  "/photos/code-on-screen.jpg",
 ];
 
 type Params = { locale: (typeof routing.locales)[number] };
@@ -194,7 +190,7 @@ function HomeContent() {
         <h2 id="photo-grid-label" className="sr-only">
           Life in photos
         </h2>
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-5">
+        <div className="grid grid-cols-2 gap-4 md:gap-5">
           {PHOTOS.map((src, i) => (
             <PhotoGridItem key={src} src={src} alt={captions[i] ?? ""} />
           ))}

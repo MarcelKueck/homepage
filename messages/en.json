@@ -62,14 +62,10 @@
     },
     "photoGrid": {
       "captions": [
-        "Circuit board",
-        "3D printer hardware",
-        "Robot arm",
-        "Code on screen",
-        "Workshop tools",
         "Lab and research",
-        "Team collaboration",
-        "Whiteboard planning"
+        "Robot arm",
+        "3D printer hardware",
+        "Code on screen"
       ]
     },
     "social": {
