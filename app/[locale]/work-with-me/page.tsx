@@ -146,7 +146,7 @@ function WorkContent() {
           <article className="overflow-hidden rounded-[24px] border border-border bg-bg-primary">
             <div className="relative aspect-16/7 w-full overflow-hidden">
               <Image
-                src="/projects/motion-sports.jpg"
+                src="/projects/motion-sports-16-7.jpg"
                 alt={t("cases.motionSports.client")}
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"

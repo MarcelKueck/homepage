@@ -60,7 +60,7 @@ function HomeContent() {
           <div className="md:col-span-5">
             <div className="mx-auto w-full max-w-[360px] rounded-[24px] overflow-hidden md:max-w-[440px]">
               <Image
-                src="/hero2_colour.jpg"
+                src="/photos/profile1.jpg"
                 alt={t("hero.imageAlt")}
                 width={440}
                 height={660}
@@ -116,7 +116,7 @@ function HomeContent() {
           <div className="order-1 md:order-2">
             <div className="relative mx-auto aspect-[4/3] w-full max-w-[600px] overflow-hidden rounded-[24px] bg-bg-tertiary">
               <Image
-                src="/projects/motion-sports.jpg"
+                src="/projects/motion-sports-4-3.jpg"
                 alt={t("featured.imageAlt")}
                 fill
                 sizes="(min-width: 768px) 50vw, 100vw"
@@ -133,7 +133,7 @@ function HomeContent() {
           <div>
             <div className="mx-auto w-full max-w-[420px] overflow-hidden rounded-[24px]">
               <Image
-                src="/hero_colour.jpg"
+                src="/photos/profile2.jpg"
                 alt={t("about.imageAlt")}
                 width={420}
                 height={560}

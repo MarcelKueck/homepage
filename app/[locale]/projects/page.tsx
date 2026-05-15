@@ -51,7 +51,7 @@ const PROJECT_KEYS = [
 ] as const;
 
 const IMAGES: Record<(typeof PROJECT_KEYS)[number], string> = {
-  motionSports: "/projects/motion-sports.jpg",
+  motionSports: "/projects/motion-sports-16-10.jpg",
   rechnungsApi: "/projects/rechnungs-api.jpg",
   shareYourSpace: "/projects/share-your-space.jpg",
   openArm: "/projects/open-arm.jpg",

@@ -74,8 +74,8 @@ export async function generateMetadata({
       images: [`/api/og?locale=${locale}`],
     },
     icons: {
-      icon: "/icon.svg",
-      shortcut: "/icon.svg",
+      icon: "/icons/icon.svg",
+      shortcut: "/icons/icon.svg",
     },
     robots: { index: true, follow: true },
   };
