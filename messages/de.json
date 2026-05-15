@@ -146,7 +146,7 @@
         "ctaLabel": "Auf GitHub ansehen →"
       },
       "laMarcello": {
-        "title": "LaMarcello",
+        "title": "La Marcello",
         "description": "Retrofit-Controller, der klassische Espressomaschinen in smarte, app-gesteuerte Geräte verwandelt. PID-Temperaturregelung und Fluss-Profiling über einen eigenen Firmware-Stack.",
         "tags": ["Hardware", "IoT", "Firmware", "Side Project"],
         "ctaLabel": "Auf GitHub ansehen →"
