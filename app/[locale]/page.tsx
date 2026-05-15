@@ -28,9 +28,9 @@ const WORKED_WITH: Array<{ name: string; domain: string }> = [
 
 const PHOTOS = [
   "/photos/lab-research.jpg",
-  "/photos/robot-arm.jpg",
-  "/photos/3d-printer.jpg",
   "/photos/code-on-screen.jpg",
+  "/photos/3d-printer.jpg",
+  "/photos/robot.jpg",
 ];
 
 type Params = { locale: (typeof routing.locales)[number] };
