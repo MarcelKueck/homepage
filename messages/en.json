@@ -33,8 +33,8 @@
     "hero": {
       "label": "AI ENGINEER · RESEARCHER · ENTREPRENEUR",
       "headlineBefore": "AI & automation, engineered for ",
-      "headlineAccent": "your business",
-      "headlineAfter": ".",
+      "headlineAccent": "your business.",
+      "headlineAfter": "",
       "body": "I work with mid market businesses across Germany and internationally to build production grade AI agents, workflow automation, and custom integrations. Background: Computer Science at TU Munich, Software Engineering at Siemens, two founded SaaS companies, and active research at Devanthro and the University of Oxford.",
       "imageAlt": "Marcel Kück, AI engineer based in Munich"
     },
@@ -49,8 +49,8 @@
     "about": {
       "label": "ABOUT MARCEL",
       "headlineBefore": "The ",
-      "headlineAccent": "short version",
-      "headlineAfter": ".",
+      "headlineAccent": "short version.",
+      "headlineAfter": "",
       "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace (a coworking marketplace, acquired by Pixida GmbH in 2026) and Rechnungs-API (an invoice automation API).",
       "p2": "Today I work as a freelance AI engineer. In parallel, I continue research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
       "p3": "Outside of work, I build things for fun: hardware like a self-built smart coffee roaster (which turned into a hobby roasting brand, Marie Lou Coffee), robotic arms, 3D-printed contraptions, and on the software side smart home solutions and my own machine learning and robotics framework written in Rust.",

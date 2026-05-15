@@ -34,7 +34,7 @@
       "label": "KI ENTWICKLER · FORSCHER · UNTERNEHMER",
       "headlineBefore": "KI & Automatisierung, entwickelt für ",
       "headlineAccent": "Ihr Unternehmen",
-      "headlineAfter": ".",
+      "headlineAfter": "",
       "body": "Ich arbeite mit mittelständischen Unternehmen in Deutschland und international an produktionsreifen KI-Agenten, Workflow-Automatisierungen und individuellen Integrationen. Hintergrund: Informatik an der TU München, Software Entwicklung bei Siemens, zwei gegründete SaaS-Unternehmen, sowie aktive Forschung bei Devanthro und der University of Oxford.",
       "imageAlt": "Marcel Kück"
     },
@@ -49,8 +49,8 @@
     "about": {
       "label": "ÜBER MARCEL",
       "headlineBefore": "Die ",
-      "headlineAccent": "Kurzfassung",
-      "headlineAfter": ".",
+      "headlineAccent": "Kurzfassung.",
+      "headlineAfter": "",
       "p1": "Ich habe Informatik an der TU München studiert und parallel zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Nach dem Studium folgten zwei Jahre bei Devanthro zu Embodied AI und Robotik-Steuerung, zunächst als Research Engineer, dann als Founders Associate. Anschließend habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace (ein Coworking-Marktplatz, 2026 an Pixida GmbH verkauft) und Rechnungs-API (eine API für Rechnungsautomatisierung).",
       "p2": "Heute arbeite ich als freiberuflicher AI Engineer. Parallel forsche ich weiterhin bei Devanthro an der OpenArm-Plattform und an der University of Oxford bei Prof. Pierre Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
       "p3": "Außerhalb der Arbeit bastle ich aus Spaß: Hardware wie ein selbst gebauter smarter Kaffeeröster (aus dem auch eine Hobby-Röstmarke wurde, Marie Lou Coffee), Roboterarme, 3D-gedruckte Konstruktionen, und auf der Software-Seite Smart-Home-Lösungen sowie ein eigenes Machine-Learning- und Robotik-Framework, das ich in Rust entwickle.",
