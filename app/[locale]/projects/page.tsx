@@ -41,32 +41,47 @@ export default async function ProjectsPage({
 }
 
 const PROJECT_KEYS = [
+  "oxfordBioreactor",
   "motionSports",
   "rechnungsApi",
   "shareYourSpace",
   "openArm",
-  "coffeeRoaster",
   "leRobot",
+  "rustyRobots",
+  "rustML",
+  "laMarcello",
+  "murph",
+  "coffeeRoaster",
   "svEsting",
 ] as const;
 
 const IMAGES: Record<(typeof PROJECT_KEYS)[number], string> = {
+  oxfordBioreactor: "/projects/oxford-bioreactor.jpg",
   motionSports: "/projects/motion-sports-16-10.jpg",
   rechnungsApi: "/projects/rechnungs-api.jpg",
   shareYourSpace: "/projects/share-your-space.jpg",
   openArm: "/projects/open-arm.jpg",
-  coffeeRoaster: "/projects/coffee-roaster.jpg",
   leRobot: "/projects/le-robot.jpg",
+  rustyRobots: "/projects/rusty-robots.jpg",
+  rustML: "/projects/rust-ml.jpg",
+  laMarcello: "/projects/la-marcello.jpg",
+  murph: "/projects/murph.jpg",
+  coffeeRoaster: "/projects/coffee-roaster.jpg",
   svEsting: "/projects/sv-esting.jpg",
 };
 
 const CTA_HREFS: Record<(typeof PROJECT_KEYS)[number], string | undefined> = {
+  oxfordBioreactor: undefined,
   motionSports: undefined,
   rechnungsApi: PROJECT_LINKS.rechnungsApi,
   shareYourSpace: PROJECT_LINKS.shareYourSpace,
   openArm: PROJECT_LINKS.openArm,
-  coffeeRoaster: PROJECT_LINKS.coffeeRoaster,
   leRobot: PROJECT_LINKS.leRobot,
+  rustyRobots: PROJECT_LINKS.rustyRobots,
+  rustML: PROJECT_LINKS.rustML,
+  laMarcello: PROJECT_LINKS.laMarcello,
+  murph: PROJECT_LINKS.murph,
+  coffeeRoaster: PROJECT_LINKS.coffeeRoaster,
   svEsting: PROJECT_LINKS.svEsting,
 };
 

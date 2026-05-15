@@ -51,7 +51,7 @@
       "headlineBefore": "The ",
       "headlineAccent": "short version",
       "headlineAfter": ".",
-      "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace (a coworking marketplace) and Rechnungs-API (an invoice automation API).",
+      "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace (a coworking marketplace, acquired by Pixida GmbH in 2026) and Rechnungs-API (an invoice automation API).",
       "p2": "Today I work as a freelance AI engineer. In parallel, I continue research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
       "p3": "Outside of work, I build things for fun: hardware like a self-built smart coffee roaster (which turned into a hobby roasting brand, Marie Lou Coffee), robotic arms, 3D-printed contraptions, and on the software side smart home solutions and my own machine learning and robotics framework written in Rust.",
       "imageAlt": "Marcel Kück portrait"
@@ -91,6 +91,12 @@
     "intro": "A selection of projects I've built across AI, automation, robotics, and hardware. A mix of client work, founded products, research, and side projects. Open source where possible.",
     "freelanceLink": "Looking for freelance work? Work with me →",
     "items": {
+      "oxfordBioreactor": {
+        "title": "Soft Bioreactor · University of Oxford",
+        "description": "Designing a soft, flexible bioreactor chamber for skeletal muscle tissue engineering at the Department of Materials, hosted by Prof. Pierre-Alexis Mouthuy. Supports dual perfusion and mechanical stimulation via electrospun hollow fibre scaffolds. Chamber design in Fusion 360, SLA 3D printing. Extending the brief with integrated sensing and exploratory ML.",
+        "tags": ["Research", "Bioreactor", "CAD", "University of Oxford"],
+        "ctaLabel": "Research project · NDA"
+      },
       "motionSports": {
         "title": "Motion Sports AI Agent",
         "description": "Integrated AI assistant for a German online retailer, handling consultation, orders, returns, and after-sales inside their shop. Connected to inventory, order data, and customer history.",
@@ -105,7 +111,7 @@
       },
       "shareYourSpace": {
         "title": "ShareYourSpace",
-        "description": "Marketplace platform connecting companies with flexible coworking and meeting spaces. Co-founded and led product engineering.",
+        "description": "Marketplace platform connecting companies with flexible coworking and meeting spaces. Co-founded and led product engineering. Sold to Pixida GmbH in 2026.",
         "tags": ["Marketplace", "Full Stack", "Founded"],
         "ctaLabel": "Visit site →"
       },
@@ -122,9 +128,33 @@
         "ctaLabel": "View on GitHub →"
       },
       "leRobot": {
-        "title": "LE Robot + 3D Printing Rig",
-        "description": "Hardware sandbox combining a low-cost robotic arm with a custom 3D printing setup. Used for experimenting with imitation learning, RL, and hardware integration.",
-        "tags": ["Robotics", "Hardware", "RL", "Side Project"],
+        "title": "SO-101 Manipulator · LeRobot",
+        "description": "End-to-end vision-language-action policy training and on-hardware deployment on the SO-101 arm using the LeRobot framework. Used for experiments in imitation learning and bimanual manipulation.",
+        "tags": ["Robotics", "Imitation Learning", "Hardware", "Side Project"],
+        "ctaLabel": "View on GitHub →"
+      },
+      "rustyRobots": {
+        "title": "RustyRobots",
+        "description": "Open-source robotics framework for embodied AI written in Rust. Modular crates for perception, control, and simulation integration.",
+        "tags": ["Robotics", "Rust", "Open Source", "Side Project"],
+        "ctaLabel": "View on GitHub →"
+      },
+      "rustML": {
+        "title": "RustML",
+        "description": "Open-source machine learning framework written in Rust. Implements tensor operations, automatic differentiation, and inference.",
+        "tags": ["Machine Learning", "Rust", "Open Source", "Side Project"],
+        "ctaLabel": "View on GitHub →"
+      },
+      "laMarcello": {
+        "title": "LaMarcello",
+        "description": "Retrofit controller converting classic espresso machines into smart, app-connected appliances. PID temperature control and flow profiling over a custom firmware stack.",
+        "tags": ["Hardware", "IoT", "Firmware", "Side Project"],
+        "ctaLabel": "View on GitHub →"
+      },
+      "murph": {
+        "title": "Murph",
+        "description": "Online medical consultation platform pairing medical students with elderly users for accessible primary health advice. Full-stack web application.",
+        "tags": ["Full Stack", "Health Tech", "Side Project"],
         "ctaLabel": "View on GitHub →"
       },
       "svEsting": {
