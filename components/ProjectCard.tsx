@@ -1,9 +1,10 @@
 import Image from "next/image";
+import type { ReactNode } from "react";
 import { TagPill } from "./TagPill";
 
 export type ProjectCardProps = {
   title: string;
-  description: string;
+  description: ReactNode;
   tags: string[];
   image: { src: string; alt: string };
   cta: { label: string; href?: string; disabled?: boolean };

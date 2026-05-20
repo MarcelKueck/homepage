@@ -43,8 +43,10 @@ export default async function ProjectsPage({
 const PROJECT_KEYS = [
   "oxfordBioreactor",
   "motionSports",
+  "mdkEngineeringBot",
   "rechnungsApi",
   "shareYourSpace",
+  "marieLouCoffee",
   "openArm",
   "leRobot",
   "rustyRobots",
@@ -58,8 +60,10 @@ const PROJECT_KEYS = [
 const IMAGES: Record<(typeof PROJECT_KEYS)[number], string> = {
   oxfordBioreactor: "/projects/oxford-bioreactor.jpg",
   motionSports: "/projects/motion-sports-16-10.jpg",
+  mdkEngineeringBot: "/projects/mdk-engineering-bot-4-3.jpg",
   rechnungsApi: "/projects/rechnungs-api.jpg",
   shareYourSpace: "/projects/share-your-space.jpg",
+  marieLouCoffee: "/projects/marie-lou-coffee-4-3.jpg",
   openArm: "/projects/open-arm.jpg",
   leRobot: "/projects/le-robot.jpg",
   rustyRobots: "/projects/rusty-robots.jpg",
@@ -73,8 +77,10 @@ const IMAGES: Record<(typeof PROJECT_KEYS)[number], string> = {
 const CTA_HREFS: Record<(typeof PROJECT_KEYS)[number], string | undefined> = {
   oxfordBioreactor: undefined,
   motionSports: undefined,
+  mdkEngineeringBot: PROJECT_LINKS.mdkEngineeringBot,
   rechnungsApi: PROJECT_LINKS.rechnungsApi,
   shareYourSpace: PROJECT_LINKS.shareYourSpace,
+  marieLouCoffee: PROJECT_LINKS.marieLouCoffee,
   openArm: PROJECT_LINKS.openArm,
   leRobot: PROJECT_LINKS.leRobot,
   rustyRobots: PROJECT_LINKS.rustyRobots,
@@ -94,7 +100,18 @@ function ProjectsContent() {
         <div className="grid gap-6 sm:gap-8 md:grid-cols-2">
           {PROJECT_KEYS.map((key) => {
             const title = t(`items.${key}.title`);
-            const desc = t(`items.${key}.description`);
+            const desc = t.rich(`items.${key}.description`, {
+              marieLou: (chunks) => (
+                <a
+                  href={PROJECT_LINKS.marieLouCoffee}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-text-tertiary underline-offset-2 hover:decoration-text-primary"
+                >
+                  {chunks}
+                </a>
+              ),
+            });
             const tags = t.raw(`items.${key}.tags`) as string[];
             const ctaLabel = t(`items.${key}.ctaLabel`);
             const href = CTA_HREFS[key];
