@@ -52,8 +52,8 @@
       "headlineAccent": "short version.",
       "headlineAfter": "",
       "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace (a coworking marketplace, acquired by Pixida GmbH in 2026) and Rechnungs-API (an invoice automation API).",
-      "p2": "Today I work as a freelance AI engineer. In parallel, I continue research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
-      "p3": "Outside of work, I build things for fun: hardware like a self-built smart coffee roaster (which turned into a hobby roasting brand, Marie Lou Coffee), robotic arms, 3D-printed contraptions, and on the software side smart home solutions and my own machine learning and robotics framework written in Rust.",
+      "p2": "Today I work as a freelance AI engineer. Alongside that, I continue my research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
+      "p3": "Outside of work, I like building my own projects. On the hardware side, things like a self-built smart coffee roaster that quietly turned into a small roasting brand (Marie Lou Coffee). I also experiment with robotic arms and 3D printing. On the software side, I tinker with smart home setups and my own machine learning and robotics framework written in Rust.",
       "imageAlt": "Marcel Kück portrait"
     },
     "workedWith": {

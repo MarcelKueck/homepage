@@ -51,9 +51,9 @@
       "headlineBefore": "Die ",
       "headlineAccent": "Kurzfassung.",
       "headlineAfter": "",
-      "p1": "Ich habe Informatik an der TU München studiert und parallel zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Nach dem Studium folgten zwei Jahre bei Devanthro zu Embodied AI und Robotik-Steuerung, zunächst als Research Engineer, dann als Founders Associate. Anschließend habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace (ein Coworking-Marktplatz, 2026 an Pixida GmbH verkauft) und Rechnungs-API (eine API für Rechnungsautomatisierung).",
-      "p2": "Heute arbeite ich als freiberuflicher AI Engineer. Parallel forsche ich weiterhin bei Devanthro an der OpenArm-Plattform und an der University of Oxford bei Prof. Pierre Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
-      "p3": "Außerhalb der Arbeit bastle ich aus Spaß: Hardware wie ein selbst gebauter smarter Kaffeeröster (aus dem auch eine Hobby-Röstmarke wurde, Marie Lou Coffee), Roboterarme, 3D-gedruckte Konstruktionen, und auf der Software-Seite Smart-Home-Lösungen sowie ein eigenes Machine-Learning- und Robotik-Framework, das ich in Rust entwickle.",
+      "p1": "Ich habe an der TU München Informatik studiert und parallel dazu zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Nach dem Abschluss war ich zwei Jahre bei Devanthro im Bereich Embodied AI und Robotersteuerung tätig, erst als Research Engineer, später als Founders Associate. Danach habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace, einen Marktplatz für Coworking-Flächen (2026 von der Pixida GmbH übernommen), und Rechnungs-API, eine API zur automatisierten Rechnungsstellung.",
+      "p2": "Heute bin ich als freiberuflicher AI Engineer tätig. Daneben forsche ich weiterhin bei Devanthro an der OpenArm-Plattform sowie an der University of Oxford bei Prof. Pierre Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
+      "p3": "Neben der Arbeit baue ich gerne an eigenen Projekten. Auf der Hardwareseite zum Beispiel ein selbstgebauter smarter Kaffeeröster, aus dem ganz nebenbei eine kleine Röstmarke entstanden ist (Marie Lou Coffee). Außerdem experimentiere ich mit Roboterarmen und 3D-Druck. Auf der Softwareseite tüftle ich an Smart-Home-Lösungen und an einem eigenen Machine-Learning- und Robotik-Framework in Rust.",
       "imageAlt": "Marcel Kück Porträt"
     },
     "workedWith": {
