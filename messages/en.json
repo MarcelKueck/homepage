@@ -53,7 +53,7 @@
       "headlineAfter": "",
       "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace (a coworking marketplace, acquired by Pixida GmbH in 2026) and Rechnungs-API (an invoice automation API).",
       "p2": "Today I work as a freelance AI engineer. Alongside that, I continue my research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
-      "p3": "Outside of work, I like building my own projects. On the hardware side, things like a self-built smart coffee roaster that quietly turned into a small roasting brand (Marie Lou Coffee). I also tinker with robots, embodied AI, sensors, and 3D printing in general. On the software side, I tinker with smart home setups and my own machine learning and robotics framework written in Rust.",
+      "p3": "Outside of work, I like building my own projects. On the hardware side, things like a self-built smart coffee roaster that quietly turned into a small roasting brand (<marieLou>Marie Lou Coffee</marieLou>). I also tinker with robots, embodied AI, sensors, and 3D printing in general. On the software side, I tinker with smart home setups and my own machine learning and robotics framework written in Rust.",
       "imageAlt": "Marcel Kück portrait"
     },
     "workedWith": {
@@ -103,6 +103,12 @@
         "tags": ["AI Agents", "E-commerce", "Python", "LangGraph"],
         "ctaLabel": "Case study coming soon"
       },
+      "mdkEngineeringBot": {
+        "title": "MDK Engineering Bot",
+        "description": "A personal Telegram-based automation agent I built to run the repetitive parts of my freelance business: bookkeeping, tax prep, invoice tracking, and finance reporting. Pulls from my accounts, classifies transactions, and answers questions in chat. Dogfooding the same kind of agent I build for clients.",
+        "tags": ["AI Agents", "Automation", "Telegram Bot", "Side Project"],
+        "ctaLabel": "View on GitHub →"
+      },
       "rechnungsApi": {
         "title": "Rechnungs-API",
         "description": "A SaaS API for automating invoice generation, validation, and ZUGFeRD/XRechnung compliance. Built and operated as a founder.",
@@ -115,6 +121,12 @@
         "tags": ["Marketplace", "Full Stack", "Founded"],
         "ctaLabel": "Visit site →"
       },
+      "marieLouCoffee": {
+        "title": "Marie Lou Coffee",
+        "description": "A small specialty coffee roasting brand that grew out of my smart coffee roaster side project. From a one-off hardware build to a real product: branding, packaging, web shop, and roasting workflow. The non-software counterpart to everything else on this page.",
+        "tags": ["Brand", "E-commerce", "Founded", "Side Project"],
+        "ctaLabel": "Visit site →"
+      },
       "openArm": {
         "title": "OpenArm Platform",
         "description": "Open robotics platform for embodied AI research. Currently working on motion control and integration with foundation models at Devanthro.",
@@ -123,7 +135,7 @@
       },
       "coffeeRoaster": {
         "title": "Smart Coffee Roaster",
-        "description": "IoT-controlled coffee roaster with profile recording and replay. Closed-loop temperature control via Raspberry Pi, custom firmware, and a small web UI for managing roasts. Also the origin of Marie Lou Coffee (marieloucoffee.com).",
+        "description": "IoT-controlled coffee roaster with profile recording and replay. Closed-loop temperature control via Raspberry Pi, custom firmware, and a small web UI for managing roasts. Also the origin of <marieLou>Marie Lou Coffee</marieLou>.",
         "tags": ["IoT", "Hardware", "Python", "Side Project"],
         "ctaLabel": "View on GitHub →"
       },

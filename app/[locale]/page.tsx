@@ -11,7 +11,7 @@ import { Button } from "@/components/Button";
 import { CopyEmailButton } from "@/components/CopyEmailButton";
 import { PhotoGridItem } from "@/components/PhotoGridItem";
 import { SocialCard } from "@/components/SocialCard";
-import { CALENDAR_URL, SOCIAL_LINKS, SITE_URL } from "@/lib/links";
+import { CALENDAR_URL, PROJECT_LINKS, SOCIAL_LINKS, SITE_URL } from "@/lib/links";
 
 // Freelance clients only. TUM / Siemens / Oxford were employers or
 // universities, so they belong in the about-section prose, not in a
@@ -148,7 +148,20 @@ function HomeContent() {
             />
             <p className="max-w-prose text-text-secondary">{t("about.p1")}</p>
             <p className="max-w-prose text-text-secondary">{t("about.p2")}</p>
-            <p className="max-w-prose text-text-secondary">{t("about.p3")}</p>
+            <p className="max-w-prose text-text-secondary">
+              {t.rich("about.p3", {
+                marieLou: (chunks) => (
+                  <a
+                    href={PROJECT_LINKS.marieLouCoffee}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-text-tertiary underline-offset-2 hover:decoration-text-primary"
+                  >
+                    {chunks}
+                  </a>
+                ),
+              })}
+            </p>
             <div className="pt-2">
               <Button as="link" href="/work-with-me" variant="primary">
                 {tc("workWithMe")}
