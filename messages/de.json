@@ -9,7 +9,7 @@
     "skipToContent": "Zum Inhalt springen"
   },
   "footer": {
-    "tagline": "Marcel Kück · Freelance KI-Entwickler · München · © 2026",
+    "tagline": "Marcel Kück · AI Engineer · München · © 2026",
     "impressum": "Impressum",
     "privacy": "Datenschutz",
     "github": "GitHub",
@@ -53,7 +53,7 @@
       "headlineAfter": "",
       "p1": "Ich habe an der TU München Informatik studiert und parallel dazu zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Nach dem Abschluss war ich zwei Jahre bei Devanthro im Bereich Embodied AI und Robotersteuerung tätig, erst als Research Engineer, später als Founders Associate. Danach habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace, einen Marktplatz für Coworking-Flächen (2026 von der Pixida GmbH übernommen), und Rechnungs-API, eine API zur automatisierten Rechnungsstellung.",
       "p2": "Heute bin ich als freiberuflicher AI Engineer tätig. Daneben forsche ich weiterhin bei Devanthro an der OpenArm-Plattform sowie an der University of Oxford bei Prof. Pierre Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
-      "p3": "Neben der Arbeit baue ich gerne an eigenen Projekten. Auf der Hardwareseite zum Beispiel ein selbstgebauter smarter Kaffeeröster, aus dem ganz nebenbei eine kleine Röstmarke entstanden ist (Marie Lou Coffee). Außerdem experimentiere ich mit Roboterarmen und 3D-Druck. Auf der Softwareseite tüftle ich an Smart-Home-Lösungen und an einem eigenen Machine-Learning- und Robotik-Framework in Rust.",
+      "p3": "Neben der Arbeit baue ich gerne an eigenen Projekten. Auf der Hardwareseite zum Beispiel ein selbstgebauter smarter Kaffeeröster, aus dem ganz nebenbei eine kleine Röstmarke entstanden ist (Marie Lou Coffee). Daneben experimentiere ich allgemein mit Robotern, Embodied AI, Sensorik und 3D-Druck. Auf der Softwareseite tüftle ich an Smart-Home-Lösungen und an einem eigenen Machine-Learning- und Robotik-Framework in Rust.",
       "imageAlt": "Marcel Kück Porträt"
     },
     "workedWith": {
