@@ -13,6 +13,7 @@ export const SOCIAL_LINKS = {
 export const PROJECT_LINKS = {
   rechnungsApi: "https://rechnungs-api.de",
   shareYourSpace: "https://shareyourspace.com",
+  marieLouCoffee: "https://www.marieloucoffee.com",
   openArm: "https://github.com/enactic/openarm",
   coffeeRoaster: "https://github.com/MarcelKueck/la_marcello",
   leRobot: "https://github.com/huggingface/lerobot",
@@ -21,6 +22,7 @@ export const PROJECT_LINKS = {
   rustML: "https://github.com/MarcelKueck/RustML",
   laMarcello: "https://github.com/MarcelKueck/la_marcello",
   murph: "https://github.com/MarcelKueck/murph-app",
+  mdkEngineeringBot: "https://github.com/MarcelKueck/mdk_engineering_bot",
 };
 
 export const EMAIL = "hello@marcelkueck.dev";
