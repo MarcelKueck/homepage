@@ -105,7 +105,7 @@
       },
       "mdkEngineeringBot": {
         "title": "MDK Engineering Bot",
-        "description": "A personal Telegram-based automation agent I built to run the repetitive parts of my freelance business: bookkeeping, tax prep, invoice tracking, and finance reporting. Pulls from my accounts, classifies transactions, and answers questions in chat. Dogfooding the same kind of agent I build for clients.",
+        "description": "Personal Telegram-based automation agent for the repetitive parts of running a freelance practice: bookkeeping, tax prep, invoice tracking, and finance reporting. Pulls from connected accounts, classifies transactions, and answers questions in chat. Dogfooded version of the same kind of agent built for clients.",
         "tags": ["AI Agents", "Automation", "Telegram Bot", "Side Project"],
         "ctaLabel": "View on GitHub →"
       },
@@ -123,7 +123,7 @@
       },
       "marieLouCoffee": {
         "title": "Marie Lou Coffee",
-        "description": "A small specialty coffee roasting brand that grew out of my smart coffee roaster side project. From a one-off hardware build to a real product: branding, packaging, web shop, and roasting workflow. The non-software counterpart to everything else on this page.",
+        "description": "Small specialty coffee roasting brand that grew out of the smart coffee roaster side project. From a one-off hardware build to a real product: branding, packaging, web shop, and roasting workflow. The non-software counterpart to everything else on this page.",
         "tags": ["Brand", "E-commerce", "Founded", "Side Project"],
         "ctaLabel": "Visit site →"
       },

@@ -33,7 +33,7 @@
     "hero": {
       "label": "KI ENTWICKLER · FORSCHER · UNTERNEHMER",
       "headlineBefore": "KI & Automatisierung, entwickelt für ",
-      "headlineAccent": "Ihr Unternehmen",
+      "headlineAccent": "dein Unternehmen",
       "headlineAfter": "",
       "body": "Ich arbeite mit mittelständischen Unternehmen in Deutschland und international an produktionsreifen KI-Agenten, Workflow-Automatisierungen und individuellen Integrationen.\n\nMein Hintergrund: Informatik an der TU München, Software Entwicklung bei Siemens, zwei gegründete SaaS-Unternehmen, sowie aktive Forschung bei Devanthro und der University of Oxford.",
       "imageAlt": "Marcel Kück"
@@ -105,7 +105,7 @@
       },
       "mdkEngineeringBot": {
         "title": "MDK Engineering Bot",
-        "description": "Ein persönlicher Telegram-Automatisierungs-Agent, den ich gebaut habe, um die wiederkehrenden Teile meines Freelance-Geschäfts zu erledigen: Buchhaltung, Steuervorbereitung, Rechnungs-Tracking und Finanz-Reporting. Greift auf meine Konten zu, klassifiziert Transaktionen und beantwortet Fragen direkt im Chat. Dogfooding derselben Art von Agenten, die ich für Kunden baue.",
+        "description": "Persönlicher Telegram-Automatisierungs-Agent für die wiederkehrenden Teile der Freelance-Praxis: Buchhaltung, Steuervorbereitung, Rechnungs-Tracking und Finanz-Reporting. Greift auf angebundene Konten zu, klassifiziert Transaktionen und beantwortet Fragen direkt im Chat. Dogfooding-Variante derselben Art von Agenten, die für Kunden gebaut werden.",
         "tags": ["KI-Agenten", "Automatisierung", "Telegram Bot", "Side Project"],
         "ctaLabel": "Auf GitHub ansehen →"
       },
@@ -123,7 +123,7 @@
       },
       "marieLouCoffee": {
         "title": "Marie Lou Coffee",
-        "description": "Eine kleine Specialty-Coffee-Röstmarke, entstanden aus meinem smarten Kaffeeröster-Projekt. Vom einmaligen Hardware-Build zum echten Produkt: Branding, Verpackung, Web-Shop und Röstprozess. Das nicht-Software-Gegenstück zu allem anderen auf dieser Seite.",
+        "description": "Kleine Specialty-Coffee-Röstmarke, entstanden aus dem smarten Kaffeeröster-Projekt. Vom einmaligen Hardware-Build zum echten Produkt: Branding, Verpackung, Web-Shop und Röstprozess. Das nicht-Software-Gegenstück zu allem anderen auf dieser Seite.",
         "tags": ["Marke", "E-Commerce", "Gegründet", "Side Project"],
         "ctaLabel": "Zur Website →"
       },
@@ -179,7 +179,7 @@
   },
   "work": {
     "metaTitle": "Zusammenarbeit — Marcel Kück",
-    "metaDescription": "Freiberufliche KI- und Automatisierungs-Engagements: Audits, KI-Agenten-Implementierung, Workflow-Automatisierung, individuelle KI-Integrationen. Entwickelt für Ihr Unternehmen.",
+    "metaDescription": "Freiberufliche KI- und Automatisierungs-Engagements: Audits, KI-Agenten-Implementierung, Workflow-Automatisierung, individuelle KI-Integrationen. Entwickelt für dein Unternehmen.",
     "hero": {
       "label": "ZUSAMMENARBEIT",
       "headlineBefore": "Automatisierung, die ",
@@ -193,7 +193,7 @@
       "items": {
         "audit": {
           "title": "KI-Automatisierungs-Audit",
-          "body": "1–2 Tage tiefer Einblick in Ihre Abläufe mit einer schriftlichen Roadmap der Automatisierungspotenziale, priorisiert nach ROI.",
+          "body": "1–2 Tage tiefer Einblick in deine Abläufe mit einer schriftlichen Roadmap der Automatisierungspotenziale, priorisiert nach ROI.",
           "pricing": "Festpreis · 1–2 Tage"
         },
         "agent": {
@@ -208,7 +208,7 @@
         },
         "integration": {
           "title": "Individuelle KI-Integration",
-          "body": "Maßgeschneiderte Integrationen zwischen Ihren Geschäftssystemen und KI-Modellen: RAG, interne Suche, individuelle Analytics.",
+          "body": "Maßgeschneiderte Integrationen zwischen deinen Geschäftssystemen und KI-Modellen: RAG, interne Suche, individuelle Analytics.",
           "pricing": "Projektbezogen · individuell skopiert"
         }
       }
@@ -219,10 +219,10 @@
       "headlineAccent": "laufenden System.",
       "headlineAfter": "",
       "steps": [
-        { "title": "Erstgespräch", "body": "30 Minuten, kostenlos. Wir besprechen, was Sie erreichen möchten." },
-        { "title": "Audit", "body": "1–2 Tage bezahlter Deep Dive. Sie erhalten eine schriftliche Roadmap." },
-        { "title": "Umsetzung", "body": "Iterative Umsetzung mit wöchentlichen Demos. Sie sehen jede Woche Fortschritt." },
-        { "title": "Übergabe", "body": "Dokumentiert, überwacht, im Besitz Ihres Teams. Optionaler Wartungsvertrag für laufenden Support." }
+        { "title": "Erstgespräch", "body": "30 Minuten, kostenlos. Wir besprechen, was du erreichen möchtest." },
+        { "title": "Audit", "body": "1–2 Tage bezahlter Deep Dive. Du erhältst eine schriftliche Roadmap." },
+        { "title": "Umsetzung", "body": "Iterative Umsetzung mit wöchentlichen Demos. Du siehst jede Woche Fortschritt." },
+        { "title": "Übergabe", "body": "Dokumentiert, überwacht, im Besitz deines Teams. Optionaler Wartungsvertrag für laufenden Support." }
       ]
     },
     "cases": {
@@ -234,7 +234,7 @@
         "description": "Aufbau eines integrierten KI-Assistenten für Beratung, Bestellsupport, Retouren und After-Sales direkt im bestehenden Online-Shop."
       },
       "placeholder": {
-        "title": "Weitere Case Studies folgen. Könnte Ihre die nächste sein?"
+        "title": "Weitere Case Studies folgen. Könnte deine die nächste sein?"
       }
     }
   },
@@ -267,7 +267,7 @@
   },
   "privacy": {
     "metaTitle": "Datenschutz — Marcel Kück",
-    "metaDescription": "Wie marcelkueck.dev mit personenbezogenen Daten, Cookies, Analytics und Ihren DSGVO-Rechten umgeht.",
+    "metaDescription": "Wie marcelkueck.dev mit personenbezogenen Daten, Cookies, Analytics und deinen DSGVO-Rechten umgeht.",
     "title": "Datenschutzerklärung",
     "lastUpdated": "Letzte Aktualisierung: 2026"
   }
