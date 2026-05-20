@@ -77,7 +77,7 @@ function HomeContent() {
               accent={t("hero.headlineAccent")}
               after={t("hero.headlineAfter")}
             />
-            <p className="max-w-prose text-text-secondary">{t("hero.body")}</p>
+            <p className="max-w-prose whitespace-pre-line text-text-secondary">{t("hero.body")}</p>
             <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:flex-wrap sm:items-center">
               <Button as="link" href="/work-with-me" variant="primary" className="w-full sm:w-auto">
                 {tc("workWithMe")}

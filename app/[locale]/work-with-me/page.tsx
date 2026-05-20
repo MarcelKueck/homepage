@@ -69,7 +69,7 @@ function WorkContent() {
             accent={t("hero.headlineAccent")}
             after={t("hero.headlineAfter")}
           />
-          <p className="text-text-secondary">{t("hero.body")}</p>
+          <p className="whitespace-pre-line text-text-secondary">{t("hero.body")}</p>
           <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:flex-wrap sm:items-center">
             <CopyEmailButton className="w-full sm:w-auto" />
             <Button
