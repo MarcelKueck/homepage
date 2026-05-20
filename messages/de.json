@@ -220,7 +220,7 @@
       "headlineAfter": "",
       "steps": [
         { "title": "Erstgespräch", "body": "30 Minuten, kostenlos. Wir besprechen, was du erreichen möchtest." },
-        { "title": "Audit", "body": "1–2 Tage bezahlter Deep Dive. Du erhältst eine schriftliche Roadmap." },
+        { "title": "Audit", "body": "1–2 Tage Deep Dive. Du erhältst eine schriftliche Roadmap." },
         { "title": "Umsetzung", "body": "Iterative Umsetzung mit wöchentlichen Demos. Du siehst jede Woche Fortschritt." },
         { "title": "Übergabe", "body": "Dokumentiert, überwacht, im Besitz deines Teams. Optionaler Wartungsvertrag für laufenden Support." }
       ]

@@ -220,7 +220,7 @@
       "headlineAfter": "",
       "steps": [
         { "title": "Discovery call", "body": "30 minutes, free. We talk through what you're trying to achieve." },
-        { "title": "Audit", "body": "1–2 day paid deep dive. You get a written roadmap." },
+        { "title": "Audit", "body": "1–2 day deep dive. You get a written roadmap." },
         { "title": "Build", "body": "Iterative implementation with weekly demos. You see progress every week." },
         { "title": "Handover", "body": "Documented, monitored, owned by your team. Optional retainer for ongoing support." }
       ]
