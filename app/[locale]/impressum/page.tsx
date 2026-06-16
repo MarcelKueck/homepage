@@ -105,6 +105,7 @@ export default async function ImpressumPage({
               alt={t("insuranceSealAlt")}
               width={65}
               height={65}
+              unoptimized
             />
           </a>
         </div>
