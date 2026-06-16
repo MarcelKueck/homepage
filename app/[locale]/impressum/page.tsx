@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { routing } from "@/i18n/routing";
@@ -72,6 +73,41 @@ export default async function ImpressumPage({
 
         <h2>{t("designationHeading")}</h2>
         <p>{t("designationText")}</p>
+
+        <h2>{t("insuranceHeading")}</h2>
+        <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between sm:gap-8">
+          <div>
+            <p>
+              {t("insuranceInsurerLabel")}:
+              <br />
+              Markel Insurance SE
+              <br />
+              Sophienstraße 26
+              <br />
+              80333 München
+              <br />
+              Germany
+            </p>
+            <p>
+              {t("insuranceScopeLabel")}: {t("insuranceScopeText")}
+            </p>
+          </div>
+          <a
+            href="https://www.exali.de/siegel/MarcelKueck"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            title={t("insuranceSealTitle")}
+            className="shrink-0 self-start no-underline"
+            style={{ textDecoration: "none" }}
+          >
+            <Image
+              src="https://www.exali.de/siegel/siegel_de-1_5bcc8e8feed18eca26aaae6d80505173.png"
+              alt={t("insuranceSealAlt")}
+              width={65}
+              height={65}
+            />
+          </a>
+        </div>
 
         <h2>{t("disputeHeading")}</h2>
         <p>
