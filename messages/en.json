@@ -261,6 +261,12 @@
     "responsibleText": "Marcel Kück (address as above)",
     "designationHeading": "Professional designation",
     "designationText": "Freelancer pursuant to § 18 EStG (independent activity in the field of software engineering)",
+    "insuranceHeading": "Professional liability insurance",
+    "insuranceInsurerLabel": "Insurer",
+    "insuranceScopeLabel": "Geographic scope of coverage",
+    "insuranceScopeText": "Worldwide",
+    "insuranceSealAlt": "exali seal: IT liability insurance of Marcel Kück",
+    "insuranceSealTitle": "View Marcel Kück's IT liability insurance at exali",
     "disputeHeading": "Dispute resolution",
     "disputeText1": "The European Commission provides an online dispute resolution (ODR) platform:",
     "disputeText2": "I am not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."

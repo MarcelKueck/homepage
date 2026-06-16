@@ -261,6 +261,12 @@
     "responsibleText": "Marcel Kück (Adresse wie oben)",
     "designationHeading": "Berufsbezeichnung",
     "designationText": "Freiberufler nach § 18 EStG (Selbstständige Tätigkeit im Bereich Software-Engineering)",
+    "insuranceHeading": "Berufshaftpflichtversicherung",
+    "insuranceInsurerLabel": "Versicherer",
+    "insuranceScopeLabel": "Räumlicher Geltungsbereich der Versicherung",
+    "insuranceScopeText": "Weltweit",
+    "insuranceSealAlt": "exali-Siegel: IT-Haftpflicht von Marcel Kück",
+    "insuranceSealTitle": "Zur IT-Haftpflicht von Marcel Kück bei exali",
     "disputeHeading": "Streitschlichtung",
     "disputeText1": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:",
     "disputeText2": "Ich bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
