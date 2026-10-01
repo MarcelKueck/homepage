@@ -111,17 +111,6 @@ export default async function ImpressumPage({
         </div>
 
         <h2>{t("disputeHeading")}</h2>
-        <p>
-          {t("disputeText1")}{" "}
-          <a
-            href="https://ec.europa.eu/consumers/odr"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://ec.europa.eu/consumers/odr
-          </a>
-          .
-        </p>
         <p>{t("disputeText2")}</p>
       </article>
     </Section>

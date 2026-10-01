@@ -77,7 +77,7 @@
       "headlineBefore": "Mechanics, electronics, software, AI. ",
       "headlineAccent": "One workbench.",
       "headlineAfter": "",
-      "body": "Prototypes rarely fail inside a single discipline. They fail where disciplines meet: the sensor that doesn't fit the housing, the firmware that can't keep up with the motor, the model that runs on a laptop but not on the device. I work across all four, so those interfaces get solved by one person instead of being passed between three teams.",
+      "body": "Prototypes rarely fail inside a single discipline. They fail where disciplines meet: the sensor that doesn't fit the housing, the firmware that can't keep up with the motor, the model that runs on a laptop but not on the device. I work across all four, so the problems at those interfaces get solved by one person instead of being passed between teams.",
       "items": {
         "mechanics": {
           "title": "Mechanics & fabrication",
@@ -86,7 +86,7 @@
         },
         "electronics": {
           "title": "Electronics & firmware",
-          "body": "Electronics that sense, control and drive hardware, and the firmware that runs on it.",
+          "body": "Electronics that sense, control and drive hardware, and the firmware that runs on them.",
           "points": ["Sensor integration", "Microcontrollers & Raspberry Pi", "Closed-loop control", "Motors & actuators"]
         },
         "software": {
@@ -96,7 +96,7 @@
         },
         "ai": {
           "title": "AI & robotics",
-          "body": "Learning systems on real hardware, and AI that does real work inside a business.",
+          "body": "Robot learning on physical hardware, and AI agents that take over work inside a business.",
           "points": ["Robot learning & VLA policies", "Motion control", "AI agents & LLM integration", "Workflow automation"]
         }
       }
@@ -133,7 +133,7 @@
       "headlineBefore": "The ",
       "headlineAccent": "short version.",
       "headlineAfter": "",
-      "p1": "I studied computer science at TU Munich and worked as a backend engineer at Siemens for two years alongside my studies. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as a research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace, a coworking marketplace acquired by Pixida GmbH in 2026, and Rechnungs-API, an API for invoice automation.",
+      "p1": "I studied computer science at TU Munich and worked as a backend engineer at Siemens for two years alongside my studies. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as a research engineer, then as founder's associate. I then co-founded two SaaS companies: ShareYourSpace, a coworking marketplace acquired by Pixida GmbH in 2026, and Rechnungs-API, an API for invoice automation.",
       "p2": "Today I work as an independent R&D engineer. Alongside client projects, I continue my research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre-Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
       "p3": "And I keep building things for myself. A smart coffee roaster I built quietly turned into a small roasting brand, <marieLou>Marie Lou Coffee</marieLou>. I retrofit espresso machines, train robot arms, run more smart home experiments than strictly necessary and write my own machine learning and robotics frameworks in Rust.",
       "imageAltLab": "Marcel Kück at a workbench with a robot arm and electronics",
@@ -149,7 +149,7 @@
   },
   "projects": {
     "metaTitle": "Projects",
-    "metaDescription": "Research hardware, robots, connected devices, AI systems and founded companies: a selection of projects by Marcel Kück, independent R&D engineer in Munich.",
+    "metaDescription": "Research hardware, robots, connected devices, AI systems and co-founded companies: a selection of projects by Marcel Kück, independent R&D engineer in Munich.",
     "label": "Projects",
     "headlineBefore": "Things I've ",
     "headlineAccent": "built.",
@@ -187,8 +187,8 @@
       },
       "leRobot": {
         "title": "SO-101 Manipulator · LeRobot",
-        "summary": "Vision-language-action policies trained end to end and deployed on a real SO-101 robot arm, for experiments in imitation learning and bimanual manipulation.",
-        "description": "End-to-end training of vision-language-action policies and deployment on the SO-101 arm with Hugging Face's LeRobot framework. Used for experiments in imitation learning and bimanual manipulation.",
+        "summary": "Vision-language-action policies trained end to end and deployed on SO-101 robot hardware, for experiments in imitation learning and bimanual manipulation.",
+        "description": "End-to-end training of vision-language-action policies and deployment on SO-101 hardware with Hugging Face's LeRobot framework. Used for experiments in imitation learning and bimanual manipulation.",
         "tags": ["Robotics", "Imitation learning", "VLA", "Hardware"],
         "ctaLabel": "View on GitHub"
       },
@@ -206,14 +206,14 @@
       },
       "motionSports": {
         "title": "Motion Sports AI Agent",
-        "summary": "An AI assistant inside a German online shop that handles consultation, orders, returns and after-sales, connected to inventory, order data and customer history.",
-        "description": "Integrated AI assistant for a German online retailer. Handles consultation, orders, returns and after-sales directly in the shop, connected to inventory, order data and customer history, with handover to a human when needed.",
+        "summary": "An AI assistant inside a German online shop that handles product advice, orders, returns and after-sales support, connected to inventory, order data and customer history.",
+        "description": "Integrated AI assistant for a German online retailer. Handles product advice, orders, returns and after-sales support directly in the shop, connected to inventory, order data and customer history, with handover to a human when needed.",
         "tags": ["AI agents", "E-commerce", "Python", "LangGraph"],
         "ctaLabel": "Case study coming soon"
       },
       "mdkEngineeringBot": {
         "title": "MDK Engineering Bot",
-        "description": "Telegram-based automation agent for the repetitive parts of running a freelance practice: bookkeeping, tax preparation, invoice tracking and financial reporting. Pulls from connected accounts, classifies transactions and answers questions in chat. The same kind of agent built for clients, used on my own business first.",
+        "description": "Telegram-based automation agent for the repetitive parts of running a freelance practice: bookkeeping, tax preparation, invoice tracking and financial reporting. Pulls from connected accounts, classifies transactions and answers questions in chat. The same kind of agent I build for clients, tested on my own business first.",
         "tags": ["AI agents", "Automation", "Telegram bot"],
         "ctaLabel": "View on GitHub"
       },
@@ -231,7 +231,7 @@
       },
       "marieLouCoffee": {
         "title": "Marie Lou Coffee",
-        "description": "Small specialty coffee roasting brand that grew out of the smart coffee roaster. From a one-off hardware build to a real product: branding, packaging, web shop and roasting workflow.",
+        "description": "Small specialty coffee roasting brand that grew out of the smart coffee roaster. From a one-off hardware build to a real product: branding, packaging, online store and roasting workflow.",
         "tags": ["Brand", "E-commerce", "Coffee"],
         "ctaLabel": "Visit site"
       },
@@ -249,7 +249,7 @@
       },
       "murph": {
         "title": "Murph",
-        "description": "Online platform pairing medical students with older people for accessible, plain-language health advice. Full-stack web application.",
+        "description": "Online platform pairing medical students with older people for plain-language explanations of health questions. Full-stack web application.",
         "tags": ["Full stack", "Health tech"],
         "ctaLabel": "View on GitHub"
       },
@@ -328,7 +328,7 @@
       "steps": [
         { "title": "Discovery call", "body": "30 minutes, free. You explain what you want to build, I ask a lot of questions." },
         { "title": "Feasibility", "body": "One to two days of research and concept work. You get a written plan covering approach, risks and effort." },
-        { "title": "Build & iterate", "body": "Development in short cycles with regular demos. You see real progress, not status reports." },
+        { "title": "Build & iterate", "body": "Development in short cycles with regular demos. You see working results, not status reports." },
         { "title": "Handover", "body": "Documentation, CAD files, source code and bill of materials. Everything your team needs to carry on, with optional ongoing support." }
       ]
     },
@@ -359,7 +359,7 @@
       "motionSports": {
         "title": "Motion Sports",
         "badge": "Client project",
-        "body": "An AI assistant inside a German online shop that handles consultation, order support, returns and after-sales, connected to inventory, order data and customer history."
+        "body": "An AI assistant inside a German online shop that handles product advice, order support, returns and after-sales support, connected to inventory, order data and customer history."
       }
     },
     "cta": {
@@ -386,15 +386,15 @@
   },
   "impressum": {
     "metaTitle": "Impressum",
-    "metaDescription": "Legal notice and contact information according to § 5 TMG.",
+    "metaDescription": "Legal notice and contact information according to § 5 DDG.",
     "title": "Impressum",
-    "addressHeading": "Information according to § 5 TMG",
+    "addressHeading": "Information according to § 5 DDG",
     "contactHeading": "Contact",
     "contactEmailLabel": "Email",
     "contactPhoneLabel": "Phone",
     "vatHeading": "VAT ID (Umsatzsteuer-Identifikationsnummer)",
     "vatText": "VAT identification number pursuant to § 27a UStG: DE462191226",
-    "responsibleHeading": "Responsible for content (§ 55 Abs. 2 RStV)",
+    "responsibleHeading": "Responsible for content (§ 18 Abs. 2 MStV)",
     "responsibleText": "Marcel Kück (address as above)",
     "designationHeading": "Professional designation",
     "designationText": "Freelancer pursuant to § 18 EStG (independent activity in the field of software engineering)",
@@ -405,12 +405,11 @@
     "insuranceSealAlt": "exali seal: IT liability insurance of Marcel Kück",
     "insuranceSealTitle": "View Marcel Kück's IT liability insurance at exali",
     "disputeHeading": "Dispute resolution",
-    "disputeText1": "The European Commission provides an online dispute resolution (ODR) platform:",
-    "disputeText2": "I am not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
+    "disputeText2": "I am neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board."
   },
   "privacy": {
     "metaTitle": "Privacy",
-    "metaDescription": "How marcelkueck.dev handles personal data, cookies, analytics, and your GDPR rights.",
+    "metaDescription": "How marcelkueck.dev handles personal data, cookies, analytics and your GDPR rights.",
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: 2026"
   }

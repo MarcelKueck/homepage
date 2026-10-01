@@ -43,8 +43,8 @@
       "headlineBefore": "Von der Idee zum ",
       "headlineAccent": "funktionierenden Prototyp.",
       "headlineAfter": "",
-      "intro": "Ich bin Marcel, freiberuflicher R&D Engineer. Ich entwickle neue Produkte und Prototypen über Mechanik, Elektronik, Software und KI hinweg und baue sie in meiner eigenen Werkstatt, mit FDM- und Resin-3D-Druckern, einer CNC-Maschine und einem gut ausgestatteten Elektronik-Arbeitsplatz.",
-      "background": "Mein Hintergrund: Informatik an der TU München, Software-Entwicklung bei Siemens, zwei mitgegründete SaaS-Unternehmen sowie Forschung in der Robotik bei Devanthro und im Tissue Engineering an der University of Oxford.",
+      "intro": "Ich bin Marcel, freiberuflicher R&D Engineer. Ich entwickle neue Produkte und Prototypen, von der Mechanik über die Elektronik bis zu Software und KI, und baue sie in meiner eigenen Werkstatt, mit FDM- und Resin-3D-Druckern, einer CNC-Maschine und einem gut ausgestatteten Elektronik-Arbeitsplatz.",
+      "background": "Mein Hintergrund: Informatik an der TU München, Softwareentwicklung bei Siemens, zwei mitgegründete SaaS-Unternehmen sowie Forschung in der Robotik bei Devanthro und im Tissue Engineering an der University of Oxford.",
       "figure": "Abb. 01",
       "imageAlt": "Marcel Kück, freiberuflicher R&D Engineer in München",
       "titleBlock": {
@@ -77,11 +77,11 @@
       "headlineBefore": "Mechanik, Elektronik, Software, KI. ",
       "headlineAccent": "Eine Werkbank.",
       "headlineAfter": "",
-      "body": "Prototypen scheitern selten innerhalb einer einzelnen Disziplin. Sie scheitern dort, wo Disziplinen aufeinandertreffen: am Sensor, der nicht ins Gehäuse passt, an der Firmware, die mit dem Motor nicht mithält, am Modell, das auf dem Laptop läuft, aber nicht auf dem Gerät. Ich arbeite in allen vier Bereichen, damit diese Schnittstellen von einer Person gelöst werden, statt zwischen drei Teams hin- und hergereicht zu werden.",
+      "body": "Prototypen scheitern selten innerhalb einer einzelnen Disziplin. Sie scheitern dort, wo Disziplinen aufeinandertreffen: am Sensor, der nicht ins Gehäuse passt, an der Firmware, die mit dem Motor nicht mithält, am Modell, das auf dem Laptop läuft, aber nicht auf dem Gerät. Ich arbeite in allen vier Bereichen, damit die Probleme an diesen Schnittstellen von einer Person gelöst werden, statt zwischen mehreren Teams hin- und hergereicht zu werden.",
       "items": {
         "mechanics": {
           "title": "Mechanik & Fertigung",
-          "body": "Bauteile, in CAD konstruiert und selbst gefertigt, vom ersten Druck bis zum CNC-gefertigten Teil.",
+          "body": "Bauteile, in CAD konstruiert und selbst gefertigt: vom ersten Druck bis zum Teil aus der CNC-Maschine.",
           "points": ["CAD in Fusion 360", "FDM- & Resin-3D-Druck", "CNC-Bearbeitung", "Gehäuse, Vorrichtungen, Mechanismen"]
         },
         "electronics": {
@@ -96,7 +96,7 @@
         },
         "ai": {
           "title": "KI & Robotik",
-          "body": "Lernende Systeme auf echter Hardware und KI, die in Unternehmen echte Arbeit übernimmt.",
+          "body": "Robot Learning auf physischer Hardware und KI-Agenten, die in Unternehmen Arbeit übernehmen.",
           "points": ["Robot Learning & VLA-Policies", "Bewegungssteuerung", "KI-Agenten & LLM-Integration", "Workflow-Automatisierung"]
         }
       }
@@ -106,7 +106,7 @@
       "headlineBefore": "Gebaut in meiner ",
       "headlineAccent": "eigenen Werkstatt.",
       "headlineAfter": "",
-      "body": "Das meiste, was ich entwickle, entsteht direkt hier. Über Nacht drucken, morgens testen, mittags das CAD anpassen. Genau wegen dieser Schleife habe ich eine eigene Werkstatt: kein Warten auf einen Zulieferer bei jeder Revision und nichts, was zwischen Zeichnung und Bauteil verloren geht.",
+      "body": "Das meiste, was ich entwickle, entsteht direkt hier. Über Nacht drucken, morgens testen, mittags das CAD anpassen. Genau wegen dieser kurzen Iterationsschleifen habe ich eine eigene Werkstatt: kein Warten auf einen Zulieferer bei jeder Revision und nichts, was zwischen Zeichnung und Bauteil verloren geht.",
       "overviewAlt": "Marcel Kücks Werkstatt",
       "overviewCaption": "Eigene Fertigung",
       "items": {
@@ -116,7 +116,7 @@
         "electronics": { "title": "Elektronik-Arbeitsplatz", "body": "Bauteile, Sensoren und Mikrocontroller auf Lager, dazu das Werkzeug zum Löten, Messen und Debuggen." }
       },
       "loop": {
-        "title": "Die Schleife",
+        "title": "Die Iterationsschleife",
         "body": "Entwerfen, bauen, testen, wiederholen. Weil alles unter einem Dach passiert, kann ein Prototyp mehrere Revisionen durchlaufen, während ein extern gefertigtes Teil noch unterwegs wäre.",
         "steps": ["Entwerfen", "Bauen", "Testen", "Anpassen"]
       }
@@ -133,8 +133,8 @@
       "headlineBefore": "Die ",
       "headlineAccent": "Kurzfassung.",
       "headlineAfter": "",
-      "p1": "Ich habe an der TU München Informatik studiert und parallel dazu zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Nach dem Abschluss war ich zwei Jahre bei Devanthro im Bereich Embodied AI und Robotersteuerung tätig, erst als Research Engineer, später als Founders Associate. Danach habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace, einen Marktplatz für Coworking-Flächen (2026 von der Pixida GmbH übernommen), und Rechnungs-API, eine API zur automatisierten Rechnungsstellung.",
-      "p2": "Heute arbeite ich als freiberuflicher R&D Engineer. Neben Kundenprojekten forsche ich weiter bei Devanthro an der OpenArm-Plattform und an der University of Oxford bei Prof. Pierre-Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
+      "p1": "Ich habe an der TU München Informatik studiert und parallel dazu zwei Jahre als Backend-Engineer bei Siemens gearbeitet. Nach dem Abschluss war ich zwei Jahre bei Devanthro im Bereich Embodied AI und Robotersteuerung tätig, erst als Research Engineer, später als Founder's Associate. Danach habe ich zwei SaaS-Unternehmen mitgegründet: ShareYourSpace, einen Marktplatz für Coworking-Flächen (2026 von der Pixida GmbH übernommen), und Rechnungs-API, eine API zur automatisierten Rechnungsstellung.",
+      "p2": "Heute arbeite ich als freiberuflicher R&D Engineer. Neben Kundenprojekten forsche ich weiter: bei Devanthro an der OpenArm-Plattform und an der University of Oxford bei Prof. Pierre-Alexis Mouthuy zu sensorintegrierten Bioreaktoren für künstliche Muskeln.",
       "p3": "Und ich baue weiter Dinge für mich selbst. Aus einem smarten Kaffeeröster, den ich gebaut habe, ist ganz nebenbei eine kleine Röstmarke geworden: <marieLou>Marie Lou Coffee</marieLou>. Ich rüste Espressomaschinen nach, trainiere Roboterarme, betreibe mehr Smart-Home-Experimente als unbedingt nötig und schreibe eigene Machine-Learning- und Robotik-Frameworks in Rust.",
       "imageAltLab": "Marcel Kück an einer Werkbank mit Roboterarm und Elektronik",
       "imageAltRobot": "Marcel Kück neben einem humanoiden Roboter in einem Robotiklabor"
@@ -149,7 +149,7 @@
   },
   "projects": {
     "metaTitle": "Projekte",
-    "metaDescription": "Forschungshardware, Roboter, vernetzte Geräte, KI-Systeme und gegründete Unternehmen: eine Auswahl von Projekten von Marcel Kück, freiberuflicher R&D Engineer in München.",
+    "metaDescription": "Forschungshardware, Roboter, vernetzte Geräte, KI-Systeme und mitgegründete Unternehmen: eine Auswahl von Projekten von Marcel Kück, freiberuflicher R&D Engineer in München.",
     "label": "Projekte",
     "headlineBefore": "Was ich ",
     "headlineAccent": "gebaut habe.",
@@ -180,20 +180,20 @@
       },
       "coffeeRoaster": {
         "title": "Smart Coffee Roaster",
-        "summary": "Ein vernetzter Röster mit geregelter Temperatur und Röstprofilen, die sich aufzeichnen und wiedergeben lassen. Als Side Project gestartet, am Ende eine Kaffeemarke.",
+        "summary": "Ein vernetzter Röster mit geregelter Temperatur und Röstprofilen, die sich aufzeichnen und wiedergeben lassen. Als Nebenprojekt gestartet, am Ende eine Kaffeemarke.",
         "description": "Vernetzter Kaffeeröster mit Aufzeichnung und Wiedergabe von Röstprofilen. Closed-Loop-Temperaturregelung auf einem Raspberry Pi, eigene Firmware und ein kleines Web-UI zur Verwaltung der Röstungen. Auch der Ursprung von <marieLou>Marie Lou Coffee</marieLou>.",
         "tags": ["IoT", "Raspberry Pi", "Regelkreis", "Python"],
         "ctaLabel": "Auf GitHub ansehen"
       },
       "leRobot": {
         "title": "SO-101 Manipulator · LeRobot",
-        "summary": "Vision-Language-Action-Policies, end-to-end trainiert und auf einem echten SO-101-Roboterarm eingesetzt, für Experimente mit Imitation Learning und bimanueller Manipulation.",
-        "description": "End-to-End-Training von Vision-Language-Action-Policies und Deployment auf dem SO-101-Arm mit dem LeRobot-Framework von Hugging Face. Experimente mit Imitation Learning und bimanueller Manipulation.",
+        "summary": "Vision-Language-Action-Policies, end-to-end trainiert und auf SO-101-Roboterhardware eingesetzt, für Experimente mit Imitation Learning und bimanueller Manipulation.",
+        "description": "End-to-End-Training von Vision-Language-Action-Policies und Deployment auf SO-101-Hardware mit dem LeRobot-Framework von Hugging Face. Experimente mit Imitation Learning und bimanueller Manipulation.",
         "tags": ["Robotik", "Imitation Learning", "VLA", "Hardware"],
         "ctaLabel": "Auf GitHub ansehen"
       },
       "openArm": {
-        "title": "OpenArm Platform",
+        "title": "OpenArm-Plattform",
         "description": "Offene Robotik-Plattform für Embodied-AI-Forschung. Aktuelle Arbeit bei Devanthro: Bewegungssteuerung und Integration mit Foundation Models.",
         "tags": ["Robotik", "Embodied AI", "Bewegungssteuerung", "Forschung"],
         "ctaLabel": "Auf GitHub ansehen"
@@ -205,27 +205,27 @@
         "ctaLabel": "Auf GitHub ansehen"
       },
       "motionSports": {
-        "title": "Motion Sports KI-Agent",
-        "summary": "Ein KI-Assistent im Online-Shop eines deutschen Händlers, der Beratung, Bestellungen, Retouren und After-Sales übernimmt, angebunden an Warenwirtschaft, Bestelldaten und Kundenhistorie.",
+        "title": "KI-Agent für Motion Sports",
+        "summary": "Ein KI-Assistent, der im Online-Shop eines deutschen Händlers Beratung, Bestellungen, Retouren und After-Sales übernimmt, angebunden an Warenwirtschaft, Bestelldaten und Kundenhistorie.",
         "description": "Integrierter KI-Assistent für einen deutschen Online-Händler. Übernimmt Beratung, Bestellungen, Retouren und After-Sales direkt im Shop, angebunden an Warenwirtschaft, Bestelldaten und Kundenhistorie, mit Übergabe an einen Menschen, wenn nötig.",
         "tags": ["KI-Agenten", "E-Commerce", "Python", "LangGraph"],
         "ctaLabel": "Case Study folgt"
       },
       "mdkEngineeringBot": {
         "title": "MDK Engineering Bot",
-        "description": "Telegram-basierter Automatisierungs-Agent für die wiederkehrenden Aufgaben einer Freelance-Praxis: Buchhaltung, Steuervorbereitung, Rechnungs-Tracking und Finanz-Reporting. Greift auf angebundene Konten zu, klassifiziert Transaktionen und beantwortet Fragen direkt im Chat. Dieselbe Art von Agent, die ich für Kunden baue, zuerst im eigenen Unternehmen im Einsatz.",
+        "description": "Telegram-basierter Automatisierungs-Agent für die wiederkehrenden Aufgaben meiner Selbstständigkeit: Buchhaltung, Steuervorbereitung, Rechnungs-Tracking und Finanz-Reporting. Greift auf angebundene Konten zu, klassifiziert Transaktionen und beantwortet Fragen direkt im Chat. Dieselbe Art von Agent, die ich für Kunden baue, zuerst im eigenen Betrieb getestet.",
         "tags": ["KI-Agenten", "Automatisierung", "Telegram-Bot"],
         "ctaLabel": "Auf GitHub ansehen"
       },
       "rustyRobots": {
         "title": "RustyRobots",
-        "description": "Open-Source-Robotik-Framework für Embodied AI in Rust. Modulare Crates für Wahrnehmung, Steuerung und Simulations-Integration.",
+        "description": "Open-Source-Robotik-Framework für Embodied AI in Rust. Modulare Crates für Wahrnehmung, Steuerung und Simulationsintegration.",
         "tags": ["Robotik", "Rust", "Open Source"],
         "ctaLabel": "Auf GitHub ansehen"
       },
       "rustML": {
         "title": "RustML",
-        "description": "Open-Source-Machine-Learning-Framework in Rust. Implementiert Tensor-Operationen, automatische Differenzierung und Inferenz.",
+        "description": "Open-Source-Machine-Learning-Framework in Rust. Implementiert Tensoroperationen, automatische Differenzierung und Inferenz.",
         "tags": ["Machine Learning", "Rust", "Open Source"],
         "ctaLabel": "Auf GitHub ansehen"
       },
@@ -243,18 +243,18 @@
       },
       "shareYourSpace": {
         "title": "ShareYourSpace",
-        "description": "Marktplatz, der Unternehmen mit flexiblen Coworking- und Meeting-Räumen verbindet. Mitgegründet und Produktentwicklung verantwortet. 2026 von der Pixida GmbH übernommen.",
+        "description": "Marktplatz, der Unternehmen mit flexiblen Coworking- und Meeting-Räumen verbindet. Mitgegründet und die Produktentwicklung verantwortet. 2026 von der Pixida GmbH übernommen.",
         "tags": ["Marktplatz", "Full Stack", "Übernommen"],
         "ctaLabel": "Zu Pixida"
       },
       "murph": {
         "title": "Murph",
-        "description": "Online-Plattform, die Medizinstudierende mit älteren Menschen zusammenbringt, für verständliche und niedrigschwellige Gesundheitsberatung. Full-Stack-Webanwendung.",
+        "description": "Online-Plattform, die Medizinstudierende mit älteren Menschen zusammenbringt, für verständliche Erklärungen zu Gesundheitsfragen. Full-Stack-Webanwendung.",
         "tags": ["Full Stack", "Health Tech"],
         "ctaLabel": "Auf GitHub ansehen"
       },
       "svEsting": {
-        "title": "SV Esting · Turnen-App",
+        "title": "SV Esting · Turn-App",
         "description": "Full-Stack-Webanwendung für die Turnabteilung des SV Esting. Verwaltet Gruppenorganisation, Trainingsplanung und Mitgliederkommunikation für rund 200 aktive Nutzer.",
         "tags": ["Full Stack", "Web-App", "Sport", "Kundenprojekt"],
         "ctaLabel": "Auf GitHub ansehen"
@@ -269,7 +269,7 @@
       "headlineBefore": "Deine Idee, ",
       "headlineAccent": "gebaut und getestet.",
       "headlineAfter": "",
-      "body": "Ich arbeite mit Startups, Industrieunternehmen und Forschungsteams, die etwas brauchen, das es so noch nicht gibt: einen Prototyp, einen Prüfstand, ein Laborgerät, einen Roboter, der eine Aufgabe lernen soll, oder die Software und KI, die alles zusammenbringt. Die Zusammenarbeit reicht von einer kurzen Machbarkeitsstudie bis zu mehreren Monaten Entwicklung."
+      "body": "Ich arbeite mit Startups, Industrieunternehmen und Forschungsteams, die etwas brauchen, das es so noch nicht gibt: einen Prototyp, einen Prüfstand, ein Laborgerät, einen Roboter, der eine Aufgabe lernen soll, oder die Software und KI, die alles zusammenbringen. Die Zusammenarbeit reicht von einer kurzen Machbarkeitsstudie bis zu mehreren Monaten Entwicklung."
     },
     "audiences": {
       "label": "Für wen ich arbeite",
@@ -328,7 +328,7 @@
       "steps": [
         { "title": "Erstgespräch", "body": "30 Minuten, kostenlos. Du erzählst, was du bauen möchtest, ich stelle viele Fragen." },
         { "title": "Machbarkeit", "body": "Ein bis zwei Tage Recherche und Konzeptarbeit. Du bekommst einen schriftlichen Plan mit Ansatz, Risiken und Aufwand." },
-        { "title": "Bauen & iterieren", "body": "Entwicklung in kurzen Zyklen mit regelmäßigen Demos. Du siehst echten Fortschritt statt Statusberichten." },
+        { "title": "Bauen & iterieren", "body": "Entwicklung in kurzen Zyklen mit regelmäßigen Demos. Du siehst funktionierende Ergebnisse statt Statusberichten." },
         { "title": "Übergabe", "body": "Dokumentation, CAD-Dateien, Quellcode und Stückliste. Alles, was dein Team zum Weitermachen braucht, auf Wunsch mit laufendem Support." }
       ]
     },
@@ -359,7 +359,7 @@
       "motionSports": {
         "title": "Motion Sports",
         "badge": "Kundenprojekt",
-        "body": "Ein KI-Assistent im Online-Shop eines deutschen Händlers, der Beratung, Bestellsupport, Retouren und After-Sales übernimmt, angebunden an Warenwirtschaft, Bestelldaten und Kundenhistorie."
+        "body": "Ein KI-Assistent, der im Online-Shop eines deutschen Händlers Beratung, Bestellsupport, Retouren und After-Sales übernimmt, angebunden an Warenwirtschaft, Bestelldaten und Kundenhistorie."
       }
     },
     "cta": {
@@ -386,18 +386,18 @@
   },
   "impressum": {
     "metaTitle": "Impressum",
-    "metaDescription": "Rechtliche Hinweise und Kontaktinformationen gemäß § 5 TMG.",
+    "metaDescription": "Rechtliche Hinweise und Kontaktinformationen gemäß § 5 DDG.",
     "title": "Impressum",
-    "addressHeading": "Angaben gemäß § 5 TMG",
+    "addressHeading": "Angaben gemäß § 5 DDG",
     "contactHeading": "Kontakt",
     "contactEmailLabel": "E-Mail",
     "contactPhoneLabel": "Telefon",
     "vatHeading": "Umsatzsteuer-Identifikationsnummer",
     "vatText": "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE462191226",
-    "responsibleHeading": "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+    "responsibleHeading": "Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV",
     "responsibleText": "Marcel Kück (Adresse wie oben)",
     "designationHeading": "Berufsbezeichnung",
-    "designationText": "Freiberufler nach § 18 EStG (Selbstständige Tätigkeit im Bereich Software-Engineering)",
+    "designationText": "Freiberufler nach § 18 EStG (selbstständige Tätigkeit im Bereich Software-Engineering)",
     "insuranceHeading": "Berufshaftpflichtversicherung",
     "insuranceInsurerLabel": "Versicherer",
     "insuranceScopeLabel": "Räumlicher Geltungsbereich der Versicherung",
@@ -405,7 +405,6 @@
     "insuranceSealAlt": "exali-Siegel: IT-Haftpflicht von Marcel Kück",
     "insuranceSealTitle": "Zur IT-Haftpflicht von Marcel Kück bei exali",
     "disputeHeading": "Streitschlichtung",
-    "disputeText1": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:",
     "disputeText2": "Ich bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
   },
   "privacy": {
