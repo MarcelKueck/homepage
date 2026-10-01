@@ -3,10 +3,15 @@
 import { useState } from "react";
 import { Check, Copy } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { EMAIL } from "@/lib/links";
 
-const EMAIL = "hello@marcelkueck.dev";
-
-export function CopyEmailButton({ className = "" }: { className?: string }) {
+export function CopyEmailButton({
+  className = "",
+  variant = "primary",
+}: {
+  className?: string;
+  variant?: "primary" | "secondary";
+}) {
   const t = useTranslations("common");
   const [copied, setCopied] = useState(false);
 
@@ -20,12 +25,17 @@ export function CopyEmailButton({ className = "" }: { className?: string }) {
     }
   }
 
+  const variantClasses =
+    variant === "primary"
+      ? "bg-button-bg text-button-text hover:bg-white"
+      : "border border-border-strong text-text-primary hover:border-text-primary hover:bg-text-primary hover:text-button-text";
+
   return (
     <button
       type="button"
       onClick={handleCopy}
-      aria-label={`Copy email address ${EMAIL}`}
-      className={`inline-flex items-center justify-center gap-2 rounded-full bg-button-bg px-6 py-3 text-sm font-semibold text-button-text transition-colors hover:bg-text-secondary ${className}`}
+      aria-label={t("copyEmailLabel", { email: EMAIL })}
+      className={`inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold tracking-tight transition-colors duration-200 ${variantClasses} ${className}`}
     >
       {copied ? (
         <>
@@ -38,6 +48,9 @@ export function CopyEmailButton({ className = "" }: { className?: string }) {
           <span>{EMAIL}</span>
         </>
       )}
+      <span className="sr-only" aria-live="polite">
+        {copied ? t("copied") : ""}
+      </span>
     </button>
   );
 }

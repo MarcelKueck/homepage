@@ -6,10 +6,6 @@ const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
-      { protocol: "https", hostname: "images.unsplash.com" },
-      // Google's favicon service — used as a placeholder logo source for the
-      // "Worked with" strip. TODO: replace with high-resolution SVG logos.
-      { protocol: "https", hostname: "www.google.com" },
       // exali professional-liability insurance verification seal shown on the
       // Impressum page.
       { protocol: "https", hostname: "www.exali.de" },

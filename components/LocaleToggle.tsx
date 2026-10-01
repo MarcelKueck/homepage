@@ -1,12 +1,13 @@
 "use client";
 
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useParams, usePathname, useRouter } from "next/navigation";
 import { useTransition } from "react";
 import { routing } from "@/i18n/routing";
 
 export function LocaleToggle({ className = "" }: { className?: string }) {
   const locale = useLocale();
+  const t = useTranslations("nav");
   const router = useRouter();
   const pathname = usePathname();
   const params = useParams();
@@ -51,8 +52,8 @@ export function LocaleToggle({ className = "" }: { className?: string }) {
   return (
     <div
       role="group"
-      aria-label="Language"
-      className={`inline-flex items-center gap-1 rounded-full border border-border bg-bg-secondary p-1 text-xs font-semibold ${className}`}
+      aria-label={t("language")}
+      className={`inline-flex items-center gap-0.5 rounded-full border border-border-strong p-0.5 font-mono text-[0.6875rem] font-medium ${className}`}
     >
       {routing.locales.map((l) => {
         const active = l === locale;
@@ -63,7 +64,7 @@ export function LocaleToggle({ className = "" }: { className?: string }) {
             disabled={isPending}
             onClick={() => switchTo(l)}
             aria-pressed={active}
-            className={`rounded-full px-2.5 py-1 uppercase tracking-wider transition-colors ${
+            className={`rounded-full px-2.5 py-1 uppercase tracking-[0.08em] transition-colors ${
               active
                 ? "bg-text-primary text-button-text"
                 : "text-text-secondary hover:text-text-primary"

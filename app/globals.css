@@ -2,22 +2,26 @@
 
 @theme {
   --color-bg-primary: #0a0e1a;
-  --color-bg-secondary: #11162a;
-  --color-bg-tertiary: #1a2138;
-  --color-text-primary: #ffffff;
-  --color-text-secondary: #9ca3af;
-  --color-text-tertiary: #6b7280;
+  --color-bg-secondary: #0e1322;
+  --color-bg-tertiary: #151b2e;
+  --color-bg-elevated: #1a2137;
+  --color-text-primary: #f4f5f7;
+  --color-text-secondary: #a4acbb;
+  --color-text-tertiary: #7d8597;
   --color-accent: #ff3b3b;
-  --color-accent-hover: #e62e2e;
-  --color-border: #1f2937;
-  --color-button-bg: #ffffff;
+  --color-accent-hover: #ff5a5a;
+  --color-border: #1d2436;
+  --color-border-strong: #2a3349;
+  --color-blueprint: #5b7bd5;
+  --color-button-bg: #f4f5f7;
   --color-button-text: #0a0e1a;
 
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+  --font-serif: var(--font-instrument-serif), ui-serif, Georgia, serif;
 
   --radius-card: 16px;
-  --radius-image: 24px;
+  --radius-image: 20px;
 }
 
 @layer base {
@@ -33,13 +37,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem; /* sticky nav clearance */
-  }
-
-  @media (min-width: 768px) {
-    html {
-      scroll-snap-type: y proximity;
-    }
+    /* Sections carry enough top padding to clear the sticky nav; this only
+       adds a little breathing room when jumping to an anchor. */
+    scroll-padding-top: 1rem;
   }
 
   body {
@@ -50,6 +50,7 @@
     line-height: 1.65;
     margin: 0;
     min-height: 100vh;
+    overflow-x: clip;
   }
 
   ::selection {
@@ -59,7 +60,7 @@
 
   :focus-visible {
     outline: 2px solid var(--color-text-primary);
-    outline-offset: 2px;
+    outline-offset: 3px;
     border-radius: 4px;
   }
 
@@ -75,9 +76,9 @@
   h5,
   h6 {
     color: var(--color-text-primary);
-    font-weight: 700;
-    line-height: 1.15;
-    letter-spacing: -0.02em;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -0.025em;
     margin: 0;
   }
 
@@ -88,98 +89,115 @@
 
 @layer components {
   .display-headline {
-    font-size: clamp(1.9rem, 4.8vw, 4rem);
-    font-weight: 700;
-    line-height: 1.05;
-    letter-spacing: -0.02em;
+    font-size: clamp(2.5rem, 6.4vw, 5.25rem);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.035em;
   }
 
   .section-headline {
-    font-size: clamp(1.875rem, 4.5vw, 3.5rem);
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+    font-size: clamp(2rem, 4.4vw, 3.5rem);
+    font-weight: 600;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+  }
+
+  /* The red accent words in headlines: a serif italic, like a redline
+     annotation on a technical drawing. Slightly larger so it optically
+     matches the cap height of the sans around it. */
+  .accent-serif {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.08em;
+    letter-spacing: -0.01em;
+    color: var(--color-accent);
   }
 
   .section-padding {
-    padding-top: clamp(3rem, 8vw, 7rem);
-    padding-bottom: clamp(3rem, 8vw, 7rem);
+    padding-top: clamp(4.5rem, 10vw, 8.5rem);
+    padding-bottom: clamp(4.5rem, 10vw, 8.5rem);
   }
 
-  /* Section snap behaviour — desktop only. Mobile uses natural flow
-     because stacked sections often exceed viewport height. The min-height
-     calc accounts for the 5rem sticky nav (matches scroll-padding-top),
-     so each snapped section fits exactly within the visible area. */
-  @media (min-width: 768px) {
-    .snap-section {
-      min-height: calc(100vh - 5rem);
-      scroll-snap-align: start;
-      scroll-snap-stop: always;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      position: relative;
-      /* Remove section-padding interaction: padding is already applied via
-         .section-padding, so we reset it here to avoid double-spacing that
-         pushes content out of the snapped viewport. The snap container should
-         only center via flex, not re-add padding on top. */
+  .mono-label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* Blueprint grid used behind the hero and in empty workshop tiles. */
+  .blueprint-grid {
+    background-image:
+      linear-gradient(to right, color-mix(in srgb, var(--color-blueprint) 9%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in srgb, var(--color-blueprint) 9%, transparent) 1px, transparent 1px);
+    background-size: 44px 44px;
+  }
+
+  .blueprint-fade {
+    -webkit-mask-image: radial-gradient(ellipse 80% 70% at 65% 35%, #000 25%, transparent 75%);
+    mask-image: radial-gradient(ellipse 80% 70% at 65% 35%, #000 25%, transparent 75%);
+  }
+
+  .blueprint-fine {
+    background-image:
+      linear-gradient(to right, color-mix(in srgb, var(--color-blueprint) 8%, transparent) 1px, transparent 1px),
+      linear-gradient(to bottom, color-mix(in srgb, var(--color-blueprint) 8%, transparent) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  /* Capability ticker under the hero. The list is rendered twice and
+     shifted by exactly one copy, so the loop is seamless. */
+  .ticker-track {
+    display: flex;
+    width: max-content;
+    animation: ticker 60s linear infinite;
+  }
+  .ticker:hover .ticker-track {
+    animation-play-state: paused;
+  }
+  .ticker {
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  }
+  @keyframes ticker {
+    from {
+      transform: translateX(0);
     }
-    /* The hero section should not have section-padding because the
-       sticky nav already provides visual separation, and flex-center
-       combined with padding pushes content & the scroll arrow below the
-       visible viewport on initial page load. */
-    .snap-section-hero {
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-    /* Reserve room for the footer (~7rem) so the last snapped section
-       and the footer are co-visible in a single viewport. */
-    .snap-section--with-footer {
-      min-height: calc(100vh - 5rem - 7rem);
-    }
-    .snap-section-inner {
-      width: 100%;
+    to {
+      transform: translateX(-50%);
     }
   }
 
-  .scroll-indicator {
-    position: absolute;
-    left: 50%;
-    bottom: 1.5rem;
-    transform: translateX(-50%);
-    display: none;
-    color: var(--color-text-tertiary);
-    transition: color 0.2s ease;
+  /* Staggered entrance for the hero on first load. */
+  .rise {
+    animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+    animation-delay: calc(var(--rise-step, 0) * 90ms);
   }
-  .scroll-indicator:hover {
-    color: var(--color-text-primary);
-  }
-  @media (min-width: 768px) {
-    .scroll-indicator {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.5rem;
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
     }
-  }
-  @keyframes scroll-bounce {
-    0%, 100% {
-      transform: translateY(0);
-      opacity: 0.6;
-    }
-    50% {
-      transform: translateY(6px);
+    to {
       opacity: 1;
+      transform: none;
     }
-  }
-  .scroll-indicator-icon {
-    animation: scroll-bounce 1.8s ease-in-out infinite;
   }
 
   .prose-page {
     color: var(--color-text-secondary);
     font-size: 1.0625rem;
     line-height: 1.75;
+    overflow-wrap: break-word;
+  }
+
+  /* Legal headings contain long German compounds
+     ("Berufshaftpflichtversicherung") that don't fit narrow phones. */
+  .prose-page h1,
+  .prose-page h2 {
+    hyphens: auto;
   }
 
   .prose-page h2 {
@@ -219,6 +237,17 @@
     margin-bottom: 0.5rem;
   }
 
+  .text-link {
+    text-decoration: underline;
+    text-decoration-color: var(--color-text-tertiary);
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.2s ease, color 0.2s ease;
+  }
+  .text-link:hover {
+    color: var(--color-text-primary);
+    text-decoration-color: var(--color-accent);
+  }
+
   .skip-link {
     position: absolute;
     left: 1rem;
@@ -238,6 +267,39 @@
   }
 }
 
+/* Project filter: the client component sets data-filter on the grid and
+   cards without the active category are hidden. Kept outside @layer so it
+   beats the cards' own display utility. */
+[data-filter="hardware"] > [data-categories]:not([data-categories~="hardware"]),
+[data-filter="robotics"] > [data-categories]:not([data-categories~="robotics"]),
+[data-filter="research"] > [data-categories]:not([data-categories~="research"]),
+[data-filter="software"] > [data-categories]:not([data-categories~="software"]),
+[data-filter="ventures"] > [data-categories]:not([data-categories~="ventures"]) {
+  display: none;
+}
+
+/* Scroll-linked reveal. Browsers without scroll-driven animations simply
+   show the content; nothing depends on it. */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+  }
+}
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -246,5 +308,8 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+  .ticker-track {
+    animation: none !important;
   }
 }

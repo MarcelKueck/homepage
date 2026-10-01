@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { routing } from "@/i18n/routing";
+import { Container } from "@/components/Container";
 import { Section } from "@/components/Section";
+import { SectionLabel } from "@/components/SectionLabel";
+import { Headline } from "@/components/Headline";
+import { Button } from "@/components/Button";
+import { CopyEmailButton } from "@/components/CopyEmailButton";
 import { ProjectCard } from "@/components/ProjectCard";
+import { ProjectFilter } from "@/components/ProjectFilter";
 import { PROJECT_LINKS, SITE_URL } from "@/lib/links";
+import { PROJECT_CATEGORIES, PROJECT_KEYS, PROJECTS } from "@/lib/projects";
 
 type Params = { locale: (typeof routing.locales)[number] };
 
@@ -40,96 +48,88 @@ export default async function ProjectsPage({
   return <ProjectsContent />;
 }
 
-const PROJECT_KEYS = [
-  "oxfordBioreactor",
-  "motionSports",
-  "mdkEngineeringBot",
-  "rechnungsApi",
-  "shareYourSpace",
-  "marieLouCoffee",
-  "openArm",
-  "leRobot",
-  "rustyRobots",
-  "rustML",
-  "laMarcello",
-  "murph",
-  "coffeeRoaster",
-  "svEsting",
-] as const;
-
-const IMAGES: Record<(typeof PROJECT_KEYS)[number], string> = {
-  oxfordBioreactor: "/projects/oxford-bioreactor.jpg",
-  motionSports: "/projects/motion-sports-16-10.jpg",
-  mdkEngineeringBot: "/projects/mdk-engineering-bot-4-3.jpg",
-  rechnungsApi: "/projects/rechnungs-api.jpg",
-  shareYourSpace: "/projects/share-your-space.jpg",
-  marieLouCoffee: "/projects/marie-lou-coffee-4-3.jpg",
-  openArm: "/projects/open-arm.jpg",
-  leRobot: "/projects/le-robot.jpg",
-  rustyRobots: "/projects/rusty-robots.jpg",
-  rustML: "/projects/rust-ml.jpg",
-  laMarcello: "/projects/la-marcello.jpg",
-  murph: "/projects/murph.jpg",
-  coffeeRoaster: "/projects/coffee-roaster.jpg",
-  svEsting: "/projects/sv-esting.jpg",
-};
-
-const CTA_HREFS: Record<(typeof PROJECT_KEYS)[number], string | undefined> = {
-  oxfordBioreactor: undefined,
-  motionSports: undefined,
-  mdkEngineeringBot: PROJECT_LINKS.mdkEngineeringBot,
-  rechnungsApi: PROJECT_LINKS.rechnungsApi,
-  shareYourSpace: PROJECT_LINKS.shareYourSpace,
-  marieLouCoffee: PROJECT_LINKS.marieLouCoffee,
-  openArm: PROJECT_LINKS.openArm,
-  leRobot: PROJECT_LINKS.leRobot,
-  rustyRobots: PROJECT_LINKS.rustyRobots,
-  rustML: PROJECT_LINKS.rustML,
-  laMarcello: PROJECT_LINKS.laMarcello,
-  murph: PROJECT_LINKS.murph,
-  coffeeRoaster: PROJECT_LINKS.coffeeRoaster,
-  svEsting: PROJECT_LINKS.svEsting,
-};
-
 function ProjectsContent() {
   const t = useTranslations("projects");
+  const tc = useTranslations("common");
+
+  const marieLouLink = (chunks: ReactNode) => (
+    <a
+      href={PROJECT_LINKS.marieLouCoffee}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-link text-text-primary"
+    >
+      {chunks}
+    </a>
+  );
+
+  const filters = [
+    { key: "all", label: t("filters.all"), count: PROJECT_KEYS.length },
+    ...PROJECT_CATEGORIES.map((c) => ({
+      key: c,
+      label: t(`filters.${c}`),
+      count: PROJECT_KEYS.filter((k) => PROJECTS[k].categories.includes(c)).length,
+    })),
+  ];
 
   return (
     <>
-      <Section snap={false}>
-        <div className="grid gap-6 sm:gap-8 md:grid-cols-2">
-          {PROJECT_KEYS.map((key) => {
+      <section aria-labelledby="projects-headline" className="relative overflow-hidden">
+        <div aria-hidden="true" className="blueprint-grid blueprint-fade pointer-events-none absolute inset-0" />
+        <Container className="relative pb-12 pt-10 md:pb-16 md:pt-16">
+          <div className="flex max-w-3xl flex-col gap-6">
+            <SectionLabel>{t("label")}</SectionLabel>
+            <Headline
+              as="h1"
+              id="projects-headline"
+              className="display-headline text-balance"
+              before={t("headlineBefore")}
+              accent={t("headlineAccent")}
+              after={t("headlineAfter")}
+            />
+            <p className="max-w-2xl text-lg leading-relaxed text-text-secondary">{t("intro")}</p>
+          </div>
+        </Container>
+      </section>
+
+      <Section className="pt-0">
+        <ProjectFilter filters={filters} groupLabel={t("filterLabel")}>
+          {PROJECT_KEYS.map((key, i) => {
+            const project = PROJECTS[key];
             const title = t(`items.${key}.title`);
-            const desc = t.rich(`items.${key}.description`, {
-              marieLou: (chunks) => (
-                <a
-                  href={PROJECT_LINKS.marieLouCoffee}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline decoration-text-tertiary underline-offset-2 hover:decoration-text-primary"
-                >
-                  {chunks}
-                </a>
-              ),
-            });
-            const tags = t.raw(`items.${key}.tags`) as string[];
-            const ctaLabel = t(`items.${key}.ctaLabel`);
-            const href = CTA_HREFS[key];
             return (
               <ProjectCard
                 key={key}
+                index={i + 1}
                 title={title}
-                description={desc}
-                tags={tags}
-                image={{ src: IMAGES[key], alt: title }}
-                cta={{
-                  label: ctaLabel,
-                  href,
-                  disabled: !href,
-                }}
+                description={t.rich(`items.${key}.description`, { marieLou: marieLouLink })}
+                tags={t.raw(`items.${key}.tags`) as string[]}
+                categories={project.categories}
+                categoryLabels={project.categories.map((c) => t(`filters.${c}`))}
+                image={{ src: project.image, alt: title }}
+                cta={{ label: t(`items.${key}.ctaLabel`), href: project.href }}
               />
             );
           })}
+        </ProjectFilter>
+      </Section>
+
+      <Section divider ariaLabelledBy="projects-cta-headline">
+        <div className="mx-auto flex max-w-2xl flex-col items-center gap-6 text-center">
+          <Headline
+            id="projects-cta-headline"
+            className="section-headline text-balance"
+            before={t("cta.headlineBefore")}
+            accent={t("cta.headlineAccent")}
+            after={t("cta.headlineAfter")}
+          />
+          <p className="text-lg text-text-secondary">{t("cta.body")}</p>
+          <div className="flex w-full flex-col items-stretch justify-center gap-3 pt-2 sm:w-auto sm:flex-row sm:items-center">
+            <CopyEmailButton className="w-full sm:w-auto" />
+            <Button as="link" href="/work-with-me" variant="secondary" arrow="internal" className="w-full sm:w-auto">
+              {tc("workWithMe")}
+            </Button>
+          </div>
         </div>
       </Section>
     </>

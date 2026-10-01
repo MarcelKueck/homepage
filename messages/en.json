@@ -1,254 +1,391 @@
 {
   "nav": {
     "home": "Home",
+    "homeLabel": "Marcel Kück, home",
     "projects": "Projects",
+    "workshop": "Workshop",
+    "about": "About",
     "buildLog": "Build Log",
     "workWithMe": "Work with me",
     "menu": "Menu",
     "close": "Close menu",
-    "skipToContent": "Skip to content"
+    "skipToContent": "Skip to content",
+    "language": "Language"
   },
   "footer": {
-    "tagline": "Marcel Kück · AI Engineer · Munich, Germany · © 2026",
+    "label": "Site footer",
+    "tagline": "Independent R&D engineer in Munich. Prototypes, electronics, robotics and AI, built in my own workshop.",
+    "pagesHeading": "Pages",
+    "elsewhereHeading": "Elsewhere",
+    "legalHeading": "Legal",
     "impressum": "Impressum",
-    "privacy": "Datenschutz",
+    "privacy": "Privacy",
     "github": "GitHub",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "x": "X",
+    "substack": "Substack",
+    "location": "Munich, Germany"
   },
   "common": {
-    "copyEmail": "hello@marcelkueck.dev",
     "copied": "Copied!",
+    "copyEmailLabel": "Copy email address {email}",
     "bookCall": "Book a call",
-    "bookDiscoveryCall": "📅 Book a discovery call →",
     "workWithMe": "Work with me",
+    "startProject": "Start a project",
     "seeProjects": "See projects",
-    "caseStudyComingSoon": "Case study coming soon",
-    "viewOnGithub": "View on GitHub →",
-    "visitSite": "Visit site →",
-    "getInTouch": "Get in touch →"
+    "allProjects": "See all projects"
   },
   "home": {
-    "metaTitle": "Marcel Kück — AI Engineer · Munich",
-    "metaDescription": "AI agents, workflow automation, and custom integrations for mid-market businesses across Germany and internationally. Built for production.",
+    "metaTitle": "Marcel Kück — Independent R&D Engineer · Munich",
+    "metaDescription": "Independent R&D engineer in Munich. I design and build prototypes, electronics, robotic systems and AI software, from first concept to working hardware, in my own workshop.",
     "hero": {
-      "label": "AI ENGINEER · RESEARCHER · ENTREPRENEUR",
-      "headlineBefore": "AI & automation, engineered for ",
-      "headlineAccent": "your business.",
+      "label": "Independent R&D Engineer · Munich",
+      "headlineBefore": "From idea to ",
+      "headlineAccent": "working prototype.",
       "headlineAfter": "",
-      "body": "I work with mid market businesses across Germany and internationally to build production grade AI agents, workflow automation, and custom integrations.\n\nMy background: Computer Science at TU Munich, Software Engineering at Siemens, two founded SaaS companies, and active research at Devanthro and the University of Oxford.",
-      "imageAlt": "Marcel Kück, AI engineer based in Munich"
+      "intro": "I'm Marcel, an independent R&D engineer. I develop new products and prototypes across mechanics, electronics, software and AI, and I build them in my own workshop, with FDM and resin 3D printers, a CNC machine and a well-stocked electronics bench.",
+      "background": "My background: computer science at TU Munich, software engineering at Siemens, two co-founded SaaS companies, and research in robotics at Devanthro and in tissue engineering at the University of Oxford.",
+      "figure": "Fig. 01",
+      "imageAlt": "Marcel Kück, independent R&D engineer in Munich",
+      "titleBlock": {
+        "name": "Name",
+        "role": "Role",
+        "roleValue": "R&D Engineer",
+        "base": "Base",
+        "baseValue": "Munich, DE"
+      }
     },
-    "featured": {
-      "label": "FEATURED PROJECT",
-      "headlineBefore": "An AI agent for the ",
-      "headlineAccent": "full customer lifecycle.",
+    "tickerLabel": "Capabilities",
+    "ticker": [
+      "Mechanical design",
+      "Fusion 360",
+      "FDM 3D printing",
+      "Resin 3D printing",
+      "CNC machining",
+      "Sensor integration",
+      "Embedded firmware",
+      "Closed-loop control",
+      "Robot learning",
+      "Motion control",
+      "Machine learning",
+      "AI agents",
+      "Workflow automation",
+      "Full-stack software"
+    ],
+    "disciplines": {
+      "label": "What I do",
+      "headlineBefore": "Mechanics, electronics, software, AI. ",
+      "headlineAccent": "One workbench.",
       "headlineAfter": "",
-      "body": "For Motion Sports, a German online retailer, I'm building an integrated AI assistant that handles consultation, order support, returns, and after-sales, all inside their existing online shop. The agent connects to inventory, order data, and customer history, and escalates to humans when it should. Goal: turn customer service from a cost center into a revenue driver.",
-      "imageAlt": "Motion Sports AI agent dashboard"
+      "body": "Prototypes rarely fail inside a single discipline. They fail where disciplines meet: the sensor that doesn't fit the housing, the firmware that can't keep up with the motor, the model that runs on a laptop but not on the device. I work across all four, so those interfaces get solved by one person instead of being passed between three teams.",
+      "items": {
+        "mechanics": {
+          "title": "Mechanics & fabrication",
+          "body": "Parts designed in CAD and made in-house, from the first print to the CNC-machined component.",
+          "points": ["CAD in Fusion 360", "FDM & resin 3D printing", "CNC machining", "Housings, fixtures, mechanisms"]
+        },
+        "electronics": {
+          "title": "Electronics & firmware",
+          "body": "Electronics that sense, control and drive hardware, and the firmware that runs on it.",
+          "points": ["Sensor integration", "Microcontrollers & Raspberry Pi", "Closed-loop control", "Motors & actuators"]
+        },
+        "software": {
+          "title": "Software & systems",
+          "body": "The software around the hardware, and software products in their own right.",
+          "points": ["Python, Rust, TypeScript", "Backends, APIs & web apps", "Data acquisition & dashboards", "Deployment & operation"]
+        },
+        "ai": {
+          "title": "AI & robotics",
+          "body": "Learning systems on real hardware, and AI that does real work inside a business.",
+          "points": ["Robot learning & VLA policies", "Motion control", "AI agents & LLM integration", "Workflow automation"]
+        }
+      }
+    },
+    "workshop": {
+      "label": "The workshop",
+      "headlineBefore": "Built in my ",
+      "headlineAccent": "own workshop.",
+      "headlineAfter": "",
+      "body": "Most of what I design gets made right here. Print overnight, test in the morning, change the CAD by noon. That loop is the reason I keep my own workshop: no waiting on a supplier for every revision, and nothing gets lost between the drawing and the part.",
+      "overviewAlt": "Marcel Kück's workshop",
+      "overviewCaption": "In-house fabrication",
+      "items": {
+        "fdm": { "title": "FDM 3D printing", "body": "Functional parts, housings, brackets and jigs. Fast and cheap enough to print three variants and keep the best one." },
+        "resin": { "title": "Resin 3D printing", "body": "Fine detail and smooth surfaces for small mechanisms, fluid chambers and parts that need to look finished." },
+        "cnc": { "title": "CNC machining", "body": "For parts that need to be stiffer, more precise or more durable than a print." },
+        "electronics": { "title": "Electronics bench", "body": "Components, sensors and microcontrollers in stock, plus the tools to solder, measure and debug them." }
+      },
+      "loop": {
+        "title": "The loop",
+        "body": "Design, build, test, repeat. With everything under one roof, a prototype can go through several revisions in the time it takes an outsourced part to arrive.",
+        "steps": ["Design", "Build", "Test", "Revise"]
+      }
+    },
+    "work": {
+      "label": "Selected work",
+      "headlineBefore": "A few things ",
+      "headlineAccent": "I've built.",
+      "headlineAfter": "",
+      "body": "Research hardware, robots, connected devices and AI systems. Some for clients, some for research, some because I wanted them to exist."
     },
     "about": {
-      "label": "ABOUT MARCEL",
+      "label": "About",
       "headlineBefore": "The ",
       "headlineAccent": "short version.",
       "headlineAfter": "",
-      "p1": "I studied computer science at TU Munich and worked two years in parallel as a backend engineer at Siemens. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace (a coworking marketplace, acquired by Pixida GmbH in 2026) and Rechnungs-API (an invoice automation API).",
-      "p2": "Today I work as a freelance AI engineer. Alongside that, I continue my research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
-      "p3": "Outside of work, I like building my own projects. On the hardware side, things like a self-built smart coffee roaster that quietly turned into a small roasting brand (<marieLou>Marie Lou Coffee</marieLou>). I also tinker with robots, embodied AI, sensors, and 3D printing in general. On the software side, I tinker with smart home setups and my own machine learning and robotics framework written in Rust.",
-      "imageAlt": "Marcel Kück portrait"
+      "p1": "I studied computer science at TU Munich and worked as a backend engineer at Siemens for two years alongside my studies. After graduating, I spent two years at Devanthro on embodied AI and robotics control, first as a research engineer, then as founders associate. I then co-founded two SaaS companies: ShareYourSpace, a coworking marketplace acquired by Pixida GmbH in 2026, and Rechnungs-API, an API for invoice automation.",
+      "p2": "Today I work as an independent R&D engineer. Alongside client projects, I continue my research at Devanthro on the OpenArm platform and at the University of Oxford with Prof. Pierre-Alexis Mouthuy on sensor-integrated bioreactors for artificial muscles.",
+      "p3": "And I keep building things for myself. A smart coffee roaster I built quietly turned into a small roasting brand, <marieLou>Marie Lou Coffee</marieLou>. I retrofit espresso machines, train robot arms, run more smart home experiments than strictly necessary and write my own machine learning and robotics frameworks in Rust.",
+      "imageAltLab": "Marcel Kück at a workbench with a robot arm and electronics",
+      "imageAltRobot": "Marcel Kück next to a humanoid robot in a robotics lab"
     },
-    "workedWith": {
-      "label": "WORKED WITH",
-      "items": ["TU Munich", "Siemens", "Devanthro", "University of Oxford", "Motion Sports"]
-    },
-    "photoGrid": {
-      "captions": [
-        "Lab and research",
-        "Robot arm",
-        "3D printer hardware",
-        "Code on screen"
-      ]
-    },
-    "social": {
-      "label": "STAY CONNECTED",
-      "headlineBefore": "Connect on ",
-      "headlineAccent": "social media.",
-      "headlineAfter": ""
-    },
-    "finalCta": {
-      "headlineBefore": "Ready to build something ",
-      "headlineAccent": "real?",
+    "contact": {
+      "label": "Contact",
+      "headlineBefore": "What should we ",
+      "headlineAccent": "build?",
       "headlineAfter": "",
-      "body": "Reach out directly and let's talk through what you want to build."
+      "body": "Tell me about the problem, the idea or the half-finished prototype on your desk. A few sentences are enough to start, and if I'm not the right person for it, I'll say so."
     }
   },
   "projects": {
-    "metaTitle": "Projects — Marcel Kück",
-    "metaDescription": "A selection of AI, automation, robotics, and hardware projects: client work, founded SaaS products, research, and side projects.",
-    "label": "PROGRAMMING PROJECTS",
+    "metaTitle": "Projects",
+    "metaDescription": "Research hardware, robots, connected devices, AI systems and founded companies: a selection of projects by Marcel Kück, independent R&D engineer in Munich.",
+    "label": "Projects",
     "headlineBefore": "Things I've ",
     "headlineAccent": "built.",
     "headlineAfter": "",
-    "intro": "A selection of projects I've built across AI, automation, robotics, and hardware. A mix of client work, founded products, research, and side projects. Open source where possible.",
-    "freelanceLink": "Looking for freelance work? Work with me →",
+    "intro": "Research hardware, robots, connected devices, AI systems and a few companies. A mix of client work, research and personal projects, open source where possible.",
+    "filterLabel": "Filter projects by category",
+    "filters": {
+      "all": "All",
+      "hardware": "Hardware",
+      "robotics": "Robotics",
+      "research": "Research",
+      "software": "AI & Software",
+      "ventures": "Ventures"
+    },
+    "cta": {
+      "headlineBefore": "Have a project like this ",
+      "headlineAccent": "in mind?",
+      "headlineAfter": "",
+      "body": "Tell me what you're working on. A few sentences are enough to start."
+    },
     "items": {
       "oxfordBioreactor": {
         "title": "Soft Bioreactor · University of Oxford",
-        "description": "Designing a soft, flexible bioreactor chamber for skeletal muscle tissue engineering at the Department of Materials, hosted by Prof. Pierre-Alexis Mouthuy. Supports dual perfusion and mechanical stimulation via electrospun hollow fibre scaffolds. Chamber design in Fusion 360, SLA 3D printing. Extending the brief with integrated sensing and exploratory ML.",
-        "tags": ["Research", "Bioreactor", "CAD", "University of Oxford"],
+        "summary": "A soft, flexible bioreactor chamber for growing skeletal muscle tissue, with perfusion and mechanical stimulation. Designed in Fusion 360, SLA-printed and extended with integrated sensing.",
+        "description": "Soft, flexible bioreactor chamber for skeletal muscle tissue engineering at the Department of Materials, hosted by Prof. Pierre-Alexis Mouthuy. Supports dual perfusion and mechanical stimulation through electrospun hollow fiber scaffolds. Chamber designed in Fusion 360 and produced by SLA 3D printing. The brief was extended with integrated sensing and exploratory machine learning.",
+        "tags": ["Bioreactor", "Fusion 360", "SLA printing", "Sensing"],
         "ctaLabel": "Research project · NDA"
+      },
+      "coffeeRoaster": {
+        "title": "Smart Coffee Roaster",
+        "summary": "A connected roaster with closed-loop temperature control and roast profiles that can be recorded and replayed. Started as a side project, ended up as a coffee brand.",
+        "description": "Connected coffee roaster with roast profile recording and replay. Closed-loop temperature control on a Raspberry Pi, custom firmware and a small web UI for managing roasts. Also the origin of <marieLou>Marie Lou Coffee</marieLou>.",
+        "tags": ["IoT", "Raspberry Pi", "Control loop", "Python"],
+        "ctaLabel": "View on GitHub"
+      },
+      "leRobot": {
+        "title": "SO-101 Manipulator · LeRobot",
+        "summary": "Vision-language-action policies trained end to end and deployed on a real SO-101 robot arm, for experiments in imitation learning and bimanual manipulation.",
+        "description": "End-to-end training of vision-language-action policies and deployment on the SO-101 arm with Hugging Face's LeRobot framework. Used for experiments in imitation learning and bimanual manipulation.",
+        "tags": ["Robotics", "Imitation learning", "VLA", "Hardware"],
+        "ctaLabel": "View on GitHub"
+      },
+      "openArm": {
+        "title": "OpenArm Platform",
+        "description": "Open robotics platform for embodied AI research. Current work at Devanthro: motion control and integration with foundation models.",
+        "tags": ["Robotics", "Embodied AI", "Motion control", "Research"],
+        "ctaLabel": "View on GitHub"
+      },
+      "laMarcello": {
+        "title": "La Marcello",
+        "description": "Retrofit controller that turns classic espresso machines into smart, connected appliances. PID temperature control and flow profiling on a custom firmware stack.",
+        "tags": ["Hardware", "Firmware", "PID control", "IoT"],
+        "ctaLabel": "View on GitHub"
       },
       "motionSports": {
         "title": "Motion Sports AI Agent",
-        "description": "Integrated AI assistant for a German online retailer, handling consultation, orders, returns, and after-sales inside their shop. Connected to inventory, order data, and customer history.",
-        "tags": ["AI Agents", "E-commerce", "Python", "LangGraph"],
+        "summary": "An AI assistant inside a German online shop that handles consultation, orders, returns and after-sales, connected to inventory, order data and customer history.",
+        "description": "Integrated AI assistant for a German online retailer. Handles consultation, orders, returns and after-sales directly in the shop, connected to inventory, order data and customer history, with handover to a human when needed.",
+        "tags": ["AI agents", "E-commerce", "Python", "LangGraph"],
         "ctaLabel": "Case study coming soon"
       },
       "mdkEngineeringBot": {
         "title": "MDK Engineering Bot",
-        "description": "Personal Telegram-based automation agent for the repetitive parts of running a freelance practice: bookkeeping, tax prep, invoice tracking, and finance reporting. Pulls from connected accounts, classifies transactions, and answers questions in chat. Dogfooded version of the same kind of agent built for clients.",
-        "tags": ["AI Agents", "Automation", "Telegram Bot", "Side Project"],
-        "ctaLabel": "View on GitHub →"
-      },
-      "rechnungsApi": {
-        "title": "Rechnungs-API",
-        "description": "A SaaS API for automating invoice generation, validation, and ZUGFeRD/XRechnung compliance. Built and operated as a founder.",
-        "tags": ["SaaS", "API", "Invoicing", "Founded"],
-        "ctaLabel": "Visit site →"
-      },
-      "shareYourSpace": {
-        "title": "ShareYourSpace",
-        "description": "Marketplace platform connecting companies with flexible coworking and meeting spaces. Co-founded and led product engineering. Sold to Pixida GmbH in 2026.",
-        "tags": ["Marketplace", "Full Stack", "Founded"],
-        "ctaLabel": "Visit site →"
-      },
-      "marieLouCoffee": {
-        "title": "Marie Lou Coffee",
-        "description": "Small specialty coffee roasting brand that grew out of the smart coffee roaster side project. From a one-off hardware build to a real product: branding, packaging, web shop, and roasting workflow. The non-software counterpart to everything else on this page.",
-        "tags": ["Brand", "E-commerce", "Founded", "Side Project"],
-        "ctaLabel": "Visit site →"
-      },
-      "openArm": {
-        "title": "OpenArm Platform",
-        "description": "Open robotics platform for embodied AI research. Currently working on motion control and integration with foundation models at Devanthro.",
-        "tags": ["Robotics", "Embodied AI", "Research"],
-        "ctaLabel": "View on GitHub →"
-      },
-      "coffeeRoaster": {
-        "title": "Smart Coffee Roaster",
-        "description": "IoT-controlled coffee roaster with profile recording and replay. Closed-loop temperature control via Raspberry Pi, custom firmware, and a small web UI for managing roasts. Also the origin of <marieLou>Marie Lou Coffee</marieLou>.",
-        "tags": ["IoT", "Hardware", "Python", "Side Project"],
-        "ctaLabel": "View on GitHub →"
-      },
-      "leRobot": {
-        "title": "SO-101 Manipulator · LeRobot",
-        "description": "End-to-end vision-language-action policy training and on-hardware deployment on the SO-101 arm using the LeRobot framework. Used for experiments in imitation learning and bimanual manipulation.",
-        "tags": ["Robotics", "Imitation Learning", "Hardware", "Side Project"],
-        "ctaLabel": "View on GitHub →"
+        "description": "Telegram-based automation agent for the repetitive parts of running a freelance practice: bookkeeping, tax preparation, invoice tracking and financial reporting. Pulls from connected accounts, classifies transactions and answers questions in chat. The same kind of agent built for clients, used on my own business first.",
+        "tags": ["AI agents", "Automation", "Telegram bot"],
+        "ctaLabel": "View on GitHub"
       },
       "rustyRobots": {
         "title": "RustyRobots",
-        "description": "Open-source robotics framework for embodied AI written in Rust. Modular crates for perception, control, and simulation integration.",
-        "tags": ["Robotics", "Rust", "Open Source", "Side Project"],
-        "ctaLabel": "View on GitHub →"
+        "description": "Open-source robotics framework for embodied AI, written in Rust. Modular crates for perception, control and simulation integration.",
+        "tags": ["Robotics", "Rust", "Open source"],
+        "ctaLabel": "View on GitHub"
       },
       "rustML": {
         "title": "RustML",
-        "description": "Open-source machine learning framework written in Rust. Implements tensor operations, automatic differentiation, and inference.",
-        "tags": ["Machine Learning", "Rust", "Open Source", "Side Project"],
-        "ctaLabel": "View on GitHub →"
+        "description": "Open-source machine learning framework written in Rust. Implements tensor operations, automatic differentiation and inference.",
+        "tags": ["Machine learning", "Rust", "Open source"],
+        "ctaLabel": "View on GitHub"
       },
-      "laMarcello": {
-        "title": "La Marcello",
-        "description": "Retrofit controller converting classic espresso machines into smart, app-connected appliances. PID temperature control and flow profiling over a custom firmware stack.",
-        "tags": ["Hardware", "IoT", "Firmware", "Side Project"],
-        "ctaLabel": "View on GitHub →"
+      "marieLouCoffee": {
+        "title": "Marie Lou Coffee",
+        "description": "Small specialty coffee roasting brand that grew out of the smart coffee roaster. From a one-off hardware build to a real product: branding, packaging, web shop and roasting workflow.",
+        "tags": ["Brand", "E-commerce", "Coffee"],
+        "ctaLabel": "Visit site"
+      },
+      "rechnungsApi": {
+        "title": "Rechnungs-API",
+        "description": "SaaS API for automated invoice generation, validation and ZUGFeRD/XRechnung compliance. Built and operated as a co-founder.",
+        "tags": ["SaaS", "API", "E-invoicing"],
+        "ctaLabel": "Visit site"
+      },
+      "shareYourSpace": {
+        "title": "ShareYourSpace",
+        "description": "Marketplace connecting companies with flexible coworking and meeting spaces. Co-founded and led product engineering. Acquired by Pixida GmbH in 2026.",
+        "tags": ["Marketplace", "Full stack", "Acquired"],
+        "ctaLabel": "Visit Pixida"
       },
       "murph": {
         "title": "Murph",
-        "description": "Online medical consultation platform pairing medical students with elderly users for accessible primary health advice. Full-stack web application.",
-        "tags": ["Full Stack", "Health Tech", "Side Project"],
-        "ctaLabel": "View on GitHub →"
+        "description": "Online platform pairing medical students with older people for accessible, plain-language health advice. Full-stack web application.",
+        "tags": ["Full stack", "Health tech"],
+        "ctaLabel": "View on GitHub"
       },
       "svEsting": {
-        "title": "SV Esting — Turnen App",
-        "description": "Full-stack web app for the gymnastics department of SV Esting. Handles group organisation, training management, and member communication for ~200 active users.",
-        "tags": ["Full Stack", "Web App", "Sports", "Client Work"],
-        "ctaLabel": "View on GitHub →"
+        "title": "SV Esting · Gymnastics App",
+        "description": "Full-stack web app for the gymnastics department of SV Esting. Handles group organization, training management and member communication for around 200 active users.",
+        "tags": ["Full stack", "Web app", "Sports", "Client work"],
+        "ctaLabel": "View on GitHub"
       }
     }
   },
   "work": {
-    "metaTitle": "Work with me — Marcel Kück",
-    "metaDescription": "Freelance AI and automation engagements: audits, AI agent implementation, workflow automation, custom AI integrations. Engineered for your business.",
+    "metaTitle": "Work with me",
+    "metaDescription": "R&D engineering for startups, industrial companies and research teams: feasibility studies, prototype development, electronics and firmware, robotics, lab equipment and AI automation.",
     "hero": {
-      "label": "WORK WITH MARCEL",
-      "headlineBefore": "Automation that ",
-      "headlineAccent": "works.",
+      "label": "Work with me",
+      "headlineBefore": "Your idea, ",
+      "headlineAccent": "built and tested.",
       "headlineAfter": "",
-      "body": "I work with mid-market businesses, agencies, and ambitious teams who want to deploy AI and automation that actually moves the needle. Not slide decks. Engagements run from short audits to multi-month builds."
+      "body": "I work with startups, industrial companies and research teams that need something built that doesn't exist yet: a prototype, a test rig, a piece of lab equipment, a robot that has to learn a task, or the software and AI that tie it all together. Engagements range from a short feasibility study to several months of development."
+    },
+    "audiences": {
+      "label": "Who I work with",
+      "items": {
+        "startups": { "title": "Startups", "body": "A first functional prototype to test with users, show to investors or take into a pilot." },
+        "industry": {
+          "title": "Industry & mid-sized companies",
+          "body": "Extra R&D capacity for a new product or test setup, or for bringing AI and automation into existing processes, without building a team for it."
+        },
+        "research": { "title": "Research teams", "body": "Custom lab equipment, sensor setups and data pipelines, designed around your experiment." }
+      }
     },
     "services": {
-      "label": "SERVICES",
-      "headline": "What I build",
+      "label": "Services",
+      "headlineBefore": "What I ",
+      "headlineAccent": "take on.",
+      "headlineAfter": "",
       "items": {
-        "audit": {
-          "title": "AI Automation Audit",
-          "body": "A focused 1–2 day deep dive that delivers a written roadmap of automation opportunities, prioritized by ROI.",
-          "pricing": "Fixed price · 1–2 days"
+        "feasibility": {
+          "title": "Feasibility study",
+          "body": "One to two days on your problem. You get a written assessment: what's technically possible, where the risks are, which approach I'd take and what the effort looks like.",
+          "meta": "Fixed price · 1–2 days"
         },
-        "agent": {
-          "title": "AI Agent Implementation",
-          "body": "Production-grade AI agents for customer support, sales qualification, internal copilots, or operations.",
-          "pricing": "Project-based · typically 4–10 weeks"
+        "prototype": {
+          "title": "Prototype development",
+          "body": "From concept to a working prototype: CAD, printed and machined parts, electronics, firmware and the software around it, built and tested in my workshop.",
+          "meta": "Prototype · CAD files · BOM · source code"
         },
-        "workflow": {
-          "title": "Workflow Automation",
-          "body": "End-to-end process automation using Make, Zapier, n8n, and custom code. Connected and running.",
-          "pricing": "Project-based · typically 2–6 weeks"
+        "electronics": {
+          "title": "Electronics & firmware",
+          "body": "Sensor integration, microcontroller firmware, closed-loop control and data acquisition. For new devices, or to make existing equipment measurable and controllable.",
+          "meta": "Firmware · wiring docs · test data"
         },
-        "integration": {
-          "title": "Custom AI Integration",
-          "body": "Bespoke integrations between your business systems and AI models: RAG, internal search, custom analytics.",
-          "pricing": "Project-based · scoped per engagement"
+        "robotics": {
+          "title": "Robotics & embodied AI",
+          "body": "Manipulators, motion control and robot learning, from imitation learning to vision-language-action policies, tested on real hardware.",
+          "meta": "Control software · trained policies · evaluation"
+        },
+        "lab": {
+          "title": "Lab equipment & test rigs",
+          "body": "Custom devices for research groups and R&D teams: bioreactors, test benches, fixtures and measurement setups, built around the experiment.",
+          "meta": "Device · CAD files · documentation"
+        },
+        "ai": {
+          "title": "AI agents & automation",
+          "body": "Production-ready AI agents, workflow automation and integrations for business processes, from customer support assistants to internal tools.",
+          "meta": "Running system · monitoring · handover"
         }
       }
     },
     "process": {
-      "label": "HOW WE WORK",
-      "headlineBefore": "From idea to ",
-      "headlineAccent": "running system.",
+      "label": "How it works",
+      "headlineBefore": "From first call to ",
+      "headlineAccent": "working system.",
       "headlineAfter": "",
       "steps": [
-        { "title": "Discovery call", "body": "30 minutes, free. We talk through what you're trying to achieve." },
-        { "title": "Audit", "body": "1–2 day deep dive. You get a written roadmap." },
-        { "title": "Build", "body": "Iterative implementation with weekly demos. You see progress every week." },
-        { "title": "Handover", "body": "Documented, monitored, owned by your team. Optional retainer for ongoing support." }
+        { "title": "Discovery call", "body": "30 minutes, free. You explain what you want to build, I ask a lot of questions." },
+        { "title": "Feasibility", "body": "One to two days of research and concept work. You get a written plan covering approach, risks and effort." },
+        { "title": "Build & iterate", "body": "Development in short cycles with regular demos. You see real progress, not status reports." },
+        { "title": "Handover", "body": "Documentation, CAD files, source code and bill of materials. Everything your team needs to carry on, with optional ongoing support." }
+      ]
+    },
+    "toolbox": {
+      "label": "Tools & methods",
+      "headlineBefore": "The ",
+      "headlineAccent": "toolbox.",
+      "headlineAfter": "",
+      "groups": [
+        { "title": "Design", "items": ["Fusion 360", "Parametric CAD", "Technical drawings", "Design for 3D printing"] },
+        { "title": "Fabrication", "items": ["FDM 3D printing", "Resin 3D printing", "CNC machining", "Soldering & assembly"] },
+        { "title": "Electronics", "items": ["Raspberry Pi", "Microcontrollers", "Sensors & data acquisition", "PID control"] },
+        { "title": "Software", "items": ["Python", "Rust", "TypeScript", "Next.js"] },
+        { "title": "AI & robotics", "items": ["PyTorch", "LeRobot", "LangGraph", "Imitation learning"] },
+        { "title": "Automation", "items": ["n8n", "Make", "Zapier", "REST APIs"] }
       ]
     },
     "cases": {
-      "label": "CASE STUDIES",
-      "headline": "Selected client work",
-      "motionSports": {
-        "client": "Motion Sports",
-        "badge": "In progress",
-        "description": "Building an integrated AI assistant for consultation, order support, returns, and after-sales inside their existing online shop."
+      "label": "Recent work",
+      "headlineBefore": "Recent ",
+      "headlineAccent": "engagements.",
+      "headlineAfter": "",
+      "oxford": {
+        "title": "University of Oxford",
+        "badge": "Research",
+        "body": "A soft bioreactor chamber for skeletal muscle tissue engineering, with dual perfusion and mechanical stimulation. Designed in Fusion 360, SLA-printed and extended with integrated sensing."
       },
-      "placeholder": {
-        "title": "More case studies coming soon. Could yours be next?"
+      "motionSports": {
+        "title": "Motion Sports",
+        "badge": "Client project",
+        "body": "An AI assistant inside a German online shop that handles consultation, order support, returns and after-sales, connected to inventory, order data and customer history."
       }
+    },
+    "cta": {
+      "headlineBefore": "Let's talk about ",
+      "headlineAccent": "your project.",
+      "headlineAfter": "",
+      "body": "A short message is enough to start. Tell me what you want to build and where you're stuck."
     }
   },
   "buildLog": {
-    "metaTitle": "Build Log — Marcel Kück",
-    "metaDescription": "Notes from the workshop: AI automation projects, research from Oxford, hardware experiments, lessons from client work.",
+    "metaTitle": "Build Log",
+    "metaDescription": "Notes from the workshop: prototypes, research from Oxford, robotics experiments and lessons from client work.",
+    "label": "Build Log",
     "headlineBefore": "The ",
     "headlineAccent": "Build Log.",
     "headlineAfter": "",
-    "body": "The Build Log is where I document what I'm building and learning: AI automation projects, research notes from Oxford, hardware experiments, lessons from client work. Monthly cadence.",
-    "cta": "Read on Substack →"
+    "body": "The Build Log is where I write down what I'm building and learning: prototypes from the workshop, research notes from Oxford, robotics experiments and lessons from client work. Roughly once a month.",
+    "cta": "Read on Substack"
+  },
+  "notFound": {
+    "title": "Page not found.",
+    "body": "This page doesn't exist, or it moved.",
+    "cta": "Back to home"
   },
   "impressum": {
-    "metaTitle": "Impressum — Marcel Kück",
+    "metaTitle": "Impressum",
     "metaDescription": "Legal notice and contact information according to § 5 TMG.",
     "title": "Impressum",
     "addressHeading": "Information according to § 5 TMG",
@@ -272,7 +409,7 @@
     "disputeText2": "I am not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board."
   },
   "privacy": {
-    "metaTitle": "Privacy — Marcel Kück",
+    "metaTitle": "Privacy",
     "metaDescription": "How marcelkueck.dev handles personal data, cookies, analytics, and your GDPR rights.",
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: 2026"

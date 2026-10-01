@@ -1,28 +1,39 @@
 import type { ReactNode } from "react";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/react";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 import { routing } from "@/i18n/routing";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
+import { SITE_URL } from "@/lib/links";
 
 const geistSans = Geist({
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   variable: "--font-geist-sans",
   display: "swap",
 });
 
 const geistMono = Geist_Mono({
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   variable: "--font-geist-mono",
   display: "swap",
 });
 
-const SITE_URL = "https://marcelkueck.dev";
+const instrumentSerif = Instrument_Serif({
+  subsets: ["latin", "latin-ext"],
+  weight: "400",
+  style: "italic",
+  variable: "--font-instrument-serif",
+  display: "swap",
+});
+
+export const viewport: Viewport = {
+  themeColor: "#0a0e1a",
+};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -63,7 +74,7 @@ export async function generateMetadata({
           url: `/api/og?locale=${locale}`,
           width: 1200,
           height: 630,
-          alt: "Marcel Kück — Automation & AI Engineer",
+          alt: t("metaTitle"),
         },
       ],
     },
@@ -73,9 +84,14 @@ export async function generateMetadata({
       description: t("metaDescription"),
       images: [`/api/og?locale=${locale}`],
     },
+    // Served from /public: an app/icon.png would be swallowed by the
+    // [locale] segment and answer with a 404.
     icons: {
-      icon: "/icons/icon.svg",
-      shortcut: "/icons/icon.svg",
+      icon: [
+        { url: "/favicon.ico", sizes: "48x48" },
+        { url: "/favicon.png", type: "image/png", sizes: "256x256" },
+      ],
+      apple: "/apple-touch-icon.png",
     },
     robots: { index: true, follow: true },
   };
@@ -97,7 +113,10 @@ export default async function LocaleLayout({
   const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html
+      lang={locale}
+      className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable}`}
+    >
       <body className="bg-bg-primary text-text-primary antialiased">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <a href="#main" className="skip-link">

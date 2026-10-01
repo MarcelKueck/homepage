@@ -6,7 +6,7 @@ export default function RootNotFound() {
     <html lang="en">
       <body className="bg-bg-primary text-text-primary antialiased">
         <main className="flex min-h-screen flex-col items-center justify-center gap-6 px-6 text-center">
-          <p className="text-accent text-sm font-semibold uppercase tracking-[0.08em]">404</p>
+          <p className="mono-label text-accent">Error 404</p>
           <h1 className="display-headline text-balance">Page not found.</h1>
           <Link
             href="/en"

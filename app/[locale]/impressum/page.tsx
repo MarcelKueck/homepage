@@ -40,9 +40,9 @@ export default async function ImpressumPage({
   const t = await getTranslations({ locale, namespace: "impressum" });
 
   return (
-    <Section snap={false}>
+    <Section>
       <article className="prose-page mx-auto max-w-[700px]">
-        <h1 className="!text-4xl !font-bold !text-text-primary !tracking-tight !leading-tight">
+        <h1 className="section-headline">
           {t("title")}
         </h1>
 

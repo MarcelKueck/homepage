@@ -43,9 +43,9 @@ export default async function PrivacyPage({
 
 function PrivacyEn() {
   return (
-    <Section snap={false}>
+    <Section>
       <article className="prose-page mx-auto max-w-[700px]">
-        <h1 className="!text-4xl !font-bold !text-text-primary !tracking-tight !leading-tight">
+        <h1 className="section-headline">
           Privacy Policy
         </h1>
         <p className="text-text-tertiary">Last updated: 2026</p>
@@ -85,7 +85,7 @@ function PrivacyEn() {
 
         <h2>5. Google Calendar scheduler</h2>
         <p>
-          When you click the &ldquo;Book a discovery call&rdquo; link, you are
+          When you click the &ldquo;Book a call&rdquo; link, you are
           taken to a Google Calendar booking page hosted by Google Ireland
           Ltd. Google receives the personal data you submit through that
           page. Google&rsquo;s privacy policy applies. The booking page is
@@ -128,9 +128,9 @@ function PrivacyEn() {
 
 function PrivacyDe() {
   return (
-    <Section snap={false}>
+    <Section>
       <article className="prose-page mx-auto max-w-[700px]">
-        <h1 className="!text-4xl !font-bold !text-text-primary !tracking-tight !leading-tight">
+        <h1 className="section-headline">
           Datenschutzerklärung
         </h1>
         <p className="text-text-tertiary">Letzte Aktualisierung: 2026</p>
@@ -173,7 +173,7 @@ function PrivacyDe() {
 
         <h2>5. Google Calendar Scheduler</h2>
         <p>
-          Wenn Sie auf &bdquo;Erstgespräch buchen&ldquo; klicken, werden Sie
+          Wenn Sie auf &bdquo;Termin buchen&ldquo; klicken, werden Sie
           zu einer Google-Calendar-Buchungsseite weitergeleitet, die von
           Google Ireland Ltd. bereitgestellt wird. Google erhält die Daten,
           die Sie auf dieser Seite eingeben. Es gilt die Datenschutz-
